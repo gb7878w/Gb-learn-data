@@ -20,14 +20,26 @@ const HARAKAT = /[\u064B-\u065F\u0670\u0640]/g;
 
 const tmp = mkdtempSync(join(tmpdir(), 'lingualibre-'));
 
-async function api(params) {
-  const url = `${API}?${new URLSearchParams({ format: 'json', formatversion: '2', ...params })}`;
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+/**
+ * Requête polie envers Wikimedia : une à la fois, espacées, et en cas de 429 on
+ * attend le délai demandé (Retry-After) avant de réessayer.
+ */
+async function get(url) {
   for (let attempt = 0; ; attempt++) {
+    await sleep(attempt === 0 ? 300 : 0);
     const res = await fetch(url, { headers: HEADERS });
-    if (res.ok) return res.json();
-    if (attempt === 3) throw new Error(`${res.status} ${url}`);
-    await new Promise((r) => setTimeout(r, 2000 * (attempt + 1)));
+    if (res.ok) return res;
+    if (attempt === 5 || (res.status !== 429 && res.status < 500)) throw new Error(`${res.status} ${url}`);
+    const retryAfter = Number(res.headers.get('retry-after'));
+    await sleep((Number.isFinite(retryAfter) && retryAfter > 0 ? retryAfter : 5 * 2 ** attempt) * 1000);
   }
+}
+
+async function api(params) {
+  const res = await get(`${API}?${new URLSearchParams({ format: 'json', formatversion: '2', ...params })}`);
+  return res.json();
 }
 
 /** Forme comparable d'un mot : minuscules, sans harakat ni ponctuation. */
@@ -80,8 +92,7 @@ async function findRecording(iso3, word) {
 
 /** WAV → MP3 mono, silences de début et de fin retirés, volume normalisé. */
 async function toMp3(url) {
-  const res = await fetch(url, { headers: HEADERS });
-  if (!res.ok) throw new Error(`${res.status} ${url}`);
+  const res = await get(url);
   const input = join(tmp, 'in');
   const output = join(tmp, 'out.mp3');
   writeFileSync(input, Buffer.from(await res.arrayBuffer()));
