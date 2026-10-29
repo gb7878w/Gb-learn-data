@@ -1,0 +1,132 @@
+{
+  "id": "ar",
+  "version": 1,
+  "language": "ar",
+  "sourceLanguage": "fr",
+  "title": "Arabe",
+  "nativeTitle": "العربية",
+  "flag": "🇸🇦",
+  "script": "Arab",
+  "direction": "rtl",
+  "romanization": { "name": "translittération", "showByDefault": true },
+  "ttsLang": "ar-SA",
+  "description": "L'alphabet arabe, l'écriture de droite à gauche et les premières phrases en arabe standard moderne.",
+  "units": [
+    {
+      "id": "ar-u1",
+      "title": "L'alphabet arabe",
+      "level": "A0",
+      "description": "L'arabe s'écrit et se lit de droite à gauche. Les voyelles courtes sont notées par de petits signes (harakat).",
+      "lessons": [
+        {
+          "id": "ar-u1-l1",
+          "title": "Premières lettres",
+          "emoji": "🔤",
+          "tip": "ب, ت, ث et ن ont la même forme de base : seuls les points les distinguent.",
+          "items": [
+            { "id": "ar-letter-alif", "kind": "letter", "text": "ا", "romanization": "alif", "translation": "a long (ā)", "accept": ["a", "alif"] },
+            { "id": "ar-letter-ba", "kind": "letter", "text": "ب", "romanization": "bāʾ", "translation": "b", "accept": ["b", "ba"] },
+            { "id": "ar-letter-ta", "kind": "letter", "text": "ت", "romanization": "tāʾ", "translation": "t", "accept": ["t", "ta"] },
+            { "id": "ar-letter-tha", "kind": "letter", "text": "ث", "romanization": "thāʾ", "translation": "th (comme l'anglais « think »)", "accept": ["th", "tha"] },
+            { "id": "ar-letter-nun", "kind": "letter", "text": "ن", "romanization": "nūn", "translation": "n", "accept": ["n", "nun"] },
+            { "id": "ar-letter-ya", "kind": "letter", "text": "ي", "romanization": "yāʾ", "translation": "y ou i long (ī)", "accept": ["y", "i", "ya"] }
+          ]
+        },
+        {
+          "id": "ar-u1-l2",
+          "title": "Lettres qui ne se lient pas",
+          "emoji": "✍️",
+          "tip": "ا, د, ذ, ر, ز et و ne se lient jamais à la lettre qui les suit (à leur gauche).",
+          "items": [
+            { "id": "ar-letter-dal", "kind": "letter", "text": "د", "romanization": "dāl", "translation": "d", "accept": ["d", "dal"] },
+            { "id": "ar-letter-dhal", "kind": "letter", "text": "ذ", "romanization": "dhāl", "translation": "dh (comme l'anglais « this »)", "accept": ["dh", "dhal"] },
+            { "id": "ar-letter-ra", "kind": "letter", "text": "ر", "romanization": "rāʾ", "translation": "r (roulé)", "accept": ["r", "ra"] },
+            { "id": "ar-letter-zay", "kind": "letter", "text": "ز", "romanization": "zāy", "translation": "z", "accept": ["z", "zay"] },
+            { "id": "ar-letter-waw", "kind": "letter", "text": "و", "romanization": "wāw", "translation": "w ou ou long (ū)", "accept": ["w", "ou", "u", "waw"] },
+            { "id": "ar-letter-mim", "kind": "letter", "text": "م", "romanization": "mīm", "translation": "m", "accept": ["m", "mim"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ar-u2",
+      "title": "Premiers pas",
+      "level": "A0",
+      "lessons": [
+        {
+          "id": "ar-u2-l1",
+          "title": "Salutations",
+          "emoji": "👋",
+          "tip": "À « السَّلامُ عَلَيْكُم » on répond « وَعَلَيْكُمُ السَّلام ».",
+          "items": [
+            { "id": "ar-marhaban", "kind": "word", "text": "مَرْحَبًا", "romanization": "marḥaban", "translation": "bonjour", "accept": ["salut"], "emoji": "👋" },
+            { "id": "ar-salam-alaykum", "kind": "phrase", "text": "السَّلامُ عَلَيْكُم", "romanization": "as-salāmu ʿalaykum", "translation": "bonjour (la paix soit sur vous)", "accept": ["bonjour", "la paix soit sur vous"], "emoji": "🕊️" },
+            { "id": "ar-wa-alaykum-salam", "kind": "phrase", "text": "وَعَلَيْكُمُ السَّلام", "romanization": "wa-ʿalaykumu s-salām", "translation": "et sur vous la paix (réponse)", "accept": ["et sur vous la paix"], "emoji": "🤝" },
+            { "id": "ar-sabah-al-khayr", "kind": "phrase", "text": "صَباحُ الخَيْر", "romanization": "ṣabāḥu l-khayr", "translation": "bonjour (le matin)", "accept": ["bonjour"], "emoji": "🌅" },
+            { "id": "ar-masa-al-khayr", "kind": "phrase", "text": "مَساءُ الخَيْر", "romanization": "masāʾu l-khayr", "translation": "bonsoir", "emoji": "🌇" },
+            { "id": "ar-maa-salama", "kind": "phrase", "text": "مَعَ السَّلامَة", "romanization": "maʿa s-salāma", "translation": "au revoir", "emoji": "🚪" }
+          ]
+        },
+        {
+          "id": "ar-u2-l2",
+          "title": "Politesse",
+          "emoji": "🙏",
+          "items": [
+            { "id": "ar-shukran", "kind": "word", "text": "شُكْرًا", "romanization": "shukran", "translation": "merci", "emoji": "💐" },
+            { "id": "ar-afwan", "kind": "word", "text": "عَفْوًا", "romanization": "ʿafwan", "translation": "de rien", "accept": ["pardon", "je vous en prie"], "emoji": "😊" },
+            { "id": "ar-min-fadlik", "kind": "phrase", "text": "مِنْ فَضْلِك", "romanization": "min faḍlik", "translation": "s'il te plaît", "accept": ["s'il vous plaît"], "emoji": "🙏" },
+            { "id": "ar-naam", "kind": "word", "text": "نَعَم", "romanization": "naʿam", "translation": "oui", "emoji": "✅" },
+            { "id": "ar-la", "kind": "word", "text": "لا", "romanization": "lā", "translation": "non", "emoji": "❌" },
+            { "id": "ar-asif", "kind": "word", "text": "آسِف", "romanization": "āsif", "translation": "désolé", "accept": ["pardon"], "emoji": "😔", "note": "Au féminin : آسِفة (āsifa)." }
+          ]
+        },
+        {
+          "id": "ar-u2-l3",
+          "title": "Se présenter",
+          "emoji": "🧑",
+          "tip": "« Tu » change selon qu'on parle à un homme (أَنْتَ anta) ou à une femme (أَنْتِ anti).",
+          "items": [
+            { "id": "ar-ana", "kind": "word", "text": "أَنا", "romanization": "anā", "translation": "je", "accept": ["moi"], "emoji": "🧑" },
+            { "id": "ar-anta", "kind": "word", "text": "أَنْتَ", "romanization": "anta", "translation": "tu (à un homme)", "accept": ["tu", "toi"], "emoji": "👨" },
+            { "id": "ar-anti", "kind": "word", "text": "أَنْتِ", "romanization": "anti", "translation": "tu (à une femme)", "accept": ["tu", "toi"], "emoji": "👩" },
+            { "id": "ar-ismi", "kind": "phrase", "text": "اِسْمي…", "romanization": "ismī…", "translation": "je m'appelle…", "accept": ["mon nom est…"], "emoji": "📛" },
+            { "id": "ar-ma-ismuka", "kind": "sentence", "text": "ما اسْمُكَ؟", "romanization": "mā smuka?", "translation": "comment t'appelles-tu ?", "accept": ["comment tu t'appelles ?", "quel est ton nom ?"], "emoji": "❓" },
+            { "id": "ar-ana-min-faransa", "kind": "sentence", "text": "أَنا مِنْ فَرَنْسا", "romanization": "anā min faransā", "translation": "je viens de France", "accept": ["je suis de france"], "emoji": "🇫🇷" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ar-u3",
+      "title": "Les nombres",
+      "level": "A0",
+      "lessons": [
+        {
+          "id": "ar-u3-l1",
+          "title": "De 1 à 5",
+          "emoji": "🔢",
+          "tip": "Au Moyen-Orient on écrit souvent les chiffres ainsi : ١ ٢ ٣ ٤ ٥. Les chiffres se lisent de gauche à droite, même dans un texte arabe.",
+          "items": [
+            { "id": "ar-wahid", "kind": "word", "text": "واحِد", "romanization": "wāḥid", "translation": "un", "accept": ["1"], "emoji": "1️⃣" },
+            { "id": "ar-ithnan", "kind": "word", "text": "اِثْنان", "romanization": "ithnān", "translation": "deux", "accept": ["2"], "emoji": "2️⃣" },
+            { "id": "ar-thalatha", "kind": "word", "text": "ثَلاثَة", "romanization": "thalātha", "translation": "trois", "accept": ["3"], "emoji": "3️⃣" },
+            { "id": "ar-arbaa", "kind": "word", "text": "أَرْبَعَة", "romanization": "arbaʿa", "translation": "quatre", "accept": ["4"], "emoji": "4️⃣" },
+            { "id": "ar-khamsa", "kind": "word", "text": "خَمْسَة", "romanization": "khamsa", "translation": "cinq", "accept": ["5"], "emoji": "5️⃣" }
+          ]
+        },
+        {
+          "id": "ar-u3-l2",
+          "title": "De 6 à 10",
+          "emoji": "🔟",
+          "items": [
+            { "id": "ar-sitta", "kind": "word", "text": "سِتَّة", "romanization": "sitta", "translation": "six", "accept": ["6"], "emoji": "6️⃣" },
+            { "id": "ar-sabaa", "kind": "word", "text": "سَبْعَة", "romanization": "sabʿa", "translation": "sept", "accept": ["7"], "emoji": "7️⃣" },
+            { "id": "ar-thamaniya", "kind": "word", "text": "ثَمانِيَة", "romanization": "thamāniya", "translation": "huit", "accept": ["8"], "emoji": "8️⃣" },
+            { "id": "ar-tisaa", "kind": "word", "text": "تِسْعَة", "romanization": "tisʿa", "translation": "neuf", "accept": ["9"], "emoji": "9️⃣" },
+            { "id": "ar-ashara", "kind": "word", "text": "عَشَرَة", "romanization": "ʿashara", "translation": "dix", "accept": ["10"], "emoji": "🔟" }
+          ]
+        }
+      ]
+    }
+  ]
+}

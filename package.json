@@ -1,0 +1,14 @@
+{
+  "name": "gb-learn-data",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Contenu pédagogique de GB Learn : cours d'anglais, de russe, de mandarin et d'arabe.",
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "stats": "node scripts/validate.mjs --stats"
+  },
+  "devDependencies": {
+    "ajv": "^8.17.1"
+  }
+}

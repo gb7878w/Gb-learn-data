@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/gb7878w/gb-learn-data/schema/course.schema.json",
+  "title": "Cours GB Learn",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "version", "language", "sourceLanguage", "title", "nativeTitle", "script", "direction", "ttsLang", "units"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z]{2,3}$" },
+    "version": { "type": "integer", "minimum": 1 },
+    "language": { "type": "string", "description": "Code BCP 47 de la langue apprise" },
+    "sourceLanguage": { "type": "string", "description": "Code BCP 47 de la langue de l'apprenant" },
+    "title": { "type": "string" },
+    "nativeTitle": { "type": "string" },
+    "flag": { "type": "string" },
+    "script": { "enum": ["Latn", "Cyrl", "Hans", "Arab"], "description": "Code ISO 15924 de l'écriture" },
+    "direction": { "enum": ["ltr", "rtl"] },
+    "romanization": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name"],
+      "properties": {
+        "name": { "type": "string", "description": "Nom du système, ex. pinyin, translittération" },
+        "showByDefault": { "type": "boolean" }
+      }
+    },
+    "ttsLang": { "type": "string", "description": "Code de voix pour la synthèse vocale, ex. ru-RU" },
+    "description": { "type": "string" },
+    "units": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/unit" }
+    }
+  },
+  "$defs": {
+    "unit": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "title", "lessons"],
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "description": { "type": "string" },
+        "level": { "enum": ["A0", "A1", "A2", "B1", "B2", "C1", "C2"] },
+        "lessons": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/lesson" } }
+      }
+    },
+    "lesson": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "title", "items"],
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "emoji": { "type": "string" },
+        "tip": { "type": "string", "description": "Conseil affiché avant la leçon (grammaire, prononciation, écriture)" },
+        "items": { "type": "array", "minItems": 4, "items": { "$ref": "#/$defs/item" } }
+      }
+    },
+    "item": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "kind", "text", "translation"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "kind": { "enum": ["letter", "character", "word", "phrase", "sentence"] },
+        "text": { "type": "string", "description": "Forme écrite dans la langue apprise" },
+        "romanization": { "type": "string", "description": "Pinyin avec tons, translittération, etc." },
+        "translation": { "type": "string", "description": "Traduction principale dans la langue de l'apprenant" },
+        "accept": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Autres traductions acceptées en saisie"
+        },
+        "emoji": { "type": "string" },
+        "note": { "type": "string" },
+        "audio": { "type": "string", "description": "Chemin relatif vers un fichier audio (optionnel, sinon synthèse vocale)" }
+      }
+    }
+  }
+}

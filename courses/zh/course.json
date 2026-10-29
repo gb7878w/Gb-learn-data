@@ -1,0 +1,129 @@
+{
+  "id": "zh",
+  "version": 1,
+  "language": "zh-Hans",
+  "sourceLanguage": "fr",
+  "title": "Mandarin",
+  "nativeTitle": "中文",
+  "flag": "🇨🇳",
+  "script": "Hans",
+  "direction": "ltr",
+  "romanization": { "name": "pinyin", "showByDefault": true },
+  "ttsLang": "zh-CN",
+  "description": "Les tons, les premiers caractères simplifiés et les phrases essentielles du mandarin.",
+  "units": [
+    {
+      "id": "zh-u1",
+      "title": "Premiers pas",
+      "level": "A0",
+      "lessons": [
+        {
+          "id": "zh-u1-l1",
+          "title": "Salutations",
+          "emoji": "👋",
+          "tip": "Le mandarin a quatre tons : ā (haut et plat), á (montant), ǎ (descendant puis montant), à (descendant). Le ton change le sens du mot.",
+          "items": [
+            { "id": "zh-nihao", "kind": "phrase", "text": "你好", "romanization": "nǐ hǎo", "translation": "bonjour", "accept": ["salut"], "emoji": "👋", "note": "Deux 3ᵉ tons de suite : le premier se prononce au 2ᵉ ton (« ní hǎo »)." },
+            { "id": "zh-ninhao", "kind": "phrase", "text": "您好", "romanization": "nín hǎo", "translation": "bonjour (poli)", "accept": ["bonjour"], "emoji": "🙇" },
+            { "id": "zh-zaijian", "kind": "phrase", "text": "再见", "romanization": "zài jiàn", "translation": "au revoir", "emoji": "🚪" },
+            { "id": "zh-zaoshang-hao", "kind": "phrase", "text": "早上好", "romanization": "zǎo shang hǎo", "translation": "bonjour (le matin)", "accept": ["bonjour"], "emoji": "🌅" },
+            { "id": "zh-wanan", "kind": "phrase", "text": "晚安", "romanization": "wǎn ān", "translation": "bonne nuit", "emoji": "🌙" },
+            { "id": "zh-ni-hao-ma", "kind": "sentence", "text": "你好吗？", "romanization": "nǐ hǎo ma?", "translation": "comment vas-tu ?", "accept": ["ça va ?", "comment ça va ?"], "emoji": "🤔", "note": "吗 (ma) transforme une affirmation en question." }
+          ]
+        },
+        {
+          "id": "zh-u1-l2",
+          "title": "Politesse",
+          "emoji": "🙏",
+          "items": [
+            { "id": "zh-xiexie", "kind": "word", "text": "谢谢", "romanization": "xiè xie", "translation": "merci", "emoji": "💐" },
+            { "id": "zh-bu-keqi", "kind": "phrase", "text": "不客气", "romanization": "bú kè qi", "translation": "de rien", "accept": ["je vous en prie"], "emoji": "😊" },
+            { "id": "zh-duibuqi", "kind": "phrase", "text": "对不起", "romanization": "duì bu qǐ", "translation": "pardon", "accept": ["désolé", "désolée"], "emoji": "😔" },
+            { "id": "zh-qing", "kind": "character", "text": "请", "romanization": "qǐng", "translation": "s'il vous plaît", "accept": ["s'il te plaît", "je vous prie"], "emoji": "🙏" },
+            { "id": "zh-shi", "kind": "character", "text": "是", "romanization": "shì", "translation": "oui (c'est ça)", "accept": ["oui", "être"], "emoji": "✅" },
+            { "id": "zh-bu", "kind": "character", "text": "不", "romanization": "bù", "translation": "non (ne… pas)", "accept": ["non", "ne pas"], "emoji": "❌", "note": "不 devient « bú » devant un 4ᵉ ton : 不客气 bú kè qi." }
+          ]
+        },
+        {
+          "id": "zh-u1-l3",
+          "title": "Se présenter",
+          "emoji": "🧑",
+          "tip": "Les pronoms ne changent jamais de forme ; on ajoute 们 (men) pour le pluriel : 我们 = nous.",
+          "items": [
+            { "id": "zh-wo", "kind": "character", "text": "我", "romanization": "wǒ", "translation": "je", "accept": ["moi"], "emoji": "🧑" },
+            { "id": "zh-ni", "kind": "character", "text": "你", "romanization": "nǐ", "translation": "tu", "accept": ["toi"], "emoji": "👉" },
+            { "id": "zh-ta", "kind": "character", "text": "他", "romanization": "tā", "translation": "il", "accept": ["lui"], "emoji": "👨" },
+            { "id": "zh-wo-jiao", "kind": "phrase", "text": "我叫…", "romanization": "wǒ jiào…", "translation": "je m'appelle…", "emoji": "📛" },
+            { "id": "zh-ni-jiao-shenme", "kind": "sentence", "text": "你叫什么名字？", "romanization": "nǐ jiào shén me míng zi?", "translation": "comment t'appelles-tu ?", "accept": ["comment tu t'appelles ?", "quel est ton nom ?"], "emoji": "❓" },
+            { "id": "zh-wo-shi-faguoren", "kind": "sentence", "text": "我是法国人", "romanization": "wǒ shì fǎ guó rén", "translation": "je suis français", "accept": ["je suis française"], "emoji": "🇫🇷" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-u2",
+      "title": "Les nombres",
+      "level": "A0",
+      "lessons": [
+        {
+          "id": "zh-u2-l1",
+          "title": "De 1 à 5",
+          "emoji": "🔢",
+          "tip": "Les caractères 一, 二, 三 se dessinent avec 1, 2 et 3 traits.",
+          "items": [
+            { "id": "zh-yi", "kind": "character", "text": "一", "romanization": "yī", "translation": "un", "accept": ["1"], "emoji": "1️⃣" },
+            { "id": "zh-er", "kind": "character", "text": "二", "romanization": "èr", "translation": "deux", "accept": ["2"], "emoji": "2️⃣" },
+            { "id": "zh-san", "kind": "character", "text": "三", "romanization": "sān", "translation": "trois", "accept": ["3"], "emoji": "3️⃣" },
+            { "id": "zh-si", "kind": "character", "text": "四", "romanization": "sì", "translation": "quatre", "accept": ["4"], "emoji": "4️⃣" },
+            { "id": "zh-wu", "kind": "character", "text": "五", "romanization": "wǔ", "translation": "cinq", "accept": ["5"], "emoji": "5️⃣" }
+          ]
+        },
+        {
+          "id": "zh-u2-l2",
+          "title": "De 6 à 10",
+          "emoji": "🔟",
+          "items": [
+            { "id": "zh-liu", "kind": "character", "text": "六", "romanization": "liù", "translation": "six", "accept": ["6"], "emoji": "6️⃣" },
+            { "id": "zh-qi", "kind": "character", "text": "七", "romanization": "qī", "translation": "sept", "accept": ["7"], "emoji": "7️⃣" },
+            { "id": "zh-ba", "kind": "character", "text": "八", "romanization": "bā", "translation": "huit", "accept": ["8"], "emoji": "8️⃣" },
+            { "id": "zh-jiu", "kind": "character", "text": "九", "romanization": "jiǔ", "translation": "neuf", "accept": ["9"], "emoji": "9️⃣" },
+            { "id": "zh-shi-ten", "kind": "character", "text": "十", "romanization": "shí", "translation": "dix", "accept": ["10"], "emoji": "🔟" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zh-u3",
+      "title": "Au restaurant",
+      "level": "A1",
+      "lessons": [
+        {
+          "id": "zh-u3-l1",
+          "title": "Boire et manger",
+          "emoji": "🍜",
+          "items": [
+            { "id": "zh-shui", "kind": "character", "text": "水", "romanization": "shuǐ", "translation": "eau", "accept": ["l'eau", "de l'eau"], "emoji": "💧" },
+            { "id": "zh-cha", "kind": "character", "text": "茶", "romanization": "chá", "translation": "thé", "accept": ["le thé", "du thé"], "emoji": "🍵" },
+            { "id": "zh-mifan", "kind": "word", "text": "米饭", "romanization": "mǐ fàn", "translation": "riz", "accept": ["riz cuit", "du riz"], "emoji": "🍚" },
+            { "id": "zh-miantiao", "kind": "word", "text": "面条", "romanization": "miàn tiáo", "translation": "nouilles", "accept": ["des nouilles"], "emoji": "🍜" },
+            { "id": "zh-chi", "kind": "character", "text": "吃", "romanization": "chī", "translation": "manger", "emoji": "🥢" },
+            { "id": "zh-he", "kind": "character", "text": "喝", "romanization": "hē", "translation": "boire", "emoji": "🥤" }
+          ]
+        },
+        {
+          "id": "zh-u3-l2",
+          "title": "Commander",
+          "emoji": "🧾",
+          "items": [
+            { "id": "zh-wo-yao", "kind": "phrase", "text": "我要…", "romanization": "wǒ yào…", "translation": "je voudrais…", "accept": ["je veux…"], "emoji": "🙋" },
+            { "id": "zh-duoshao-qian", "kind": "sentence", "text": "多少钱？", "romanization": "duō shao qián?", "translation": "combien ça coûte ?", "accept": ["c'est combien ?", "combien ?"], "emoji": "💴" },
+            { "id": "zh-maidan", "kind": "word", "text": "买单", "romanization": "mǎi dān", "translation": "l'addition", "accept": ["l'addition s'il vous plaît"], "emoji": "🧾" },
+            { "id": "zh-haochi", "kind": "word", "text": "好吃", "romanization": "hǎo chī", "translation": "délicieux", "accept": ["bon", "c'est bon"], "emoji": "😋" },
+            { "id": "zh-re", "kind": "character", "text": "热", "romanization": "rè", "translation": "chaud", "emoji": "🔥" },
+            { "id": "zh-leng", "kind": "character", "text": "冷", "romanization": "lěng", "translation": "froid", "emoji": "🧊" }
+          ]
+        }
+      ]
+    }
+  ]
+}

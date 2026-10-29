@@ -1,0 +1,145 @@
+{
+  "id": "ru",
+  "version": 1,
+  "language": "ru",
+  "sourceLanguage": "fr",
+  "title": "Russe",
+  "nativeTitle": "Русский",
+  "flag": "🇷🇺",
+  "script": "Cyrl",
+  "direction": "ltr",
+  "romanization": { "name": "translittération", "showByDefault": true },
+  "ttsLang": "ru-RU",
+  "description": "L'alphabet cyrillique puis les premiers mots et phrases du russe.",
+  "units": [
+    {
+      "id": "ru-u1",
+      "title": "L'alphabet cyrillique",
+      "level": "A0",
+      "description": "Les lettres faciles d'abord, puis les « faux amis ».",
+      "lessons": [
+        {
+          "id": "ru-u1-l1",
+          "title": "Lettres familières",
+          "emoji": "🔤",
+          "tip": "Ces lettres ressemblent aux nôtres et se prononcent presque pareil.",
+          "items": [
+            { "id": "ru-letter-a", "kind": "letter", "text": "А а", "romanization": "a", "translation": "a (comme dans « papa »)", "accept": ["a"] },
+            { "id": "ru-letter-k", "kind": "letter", "text": "К к", "romanization": "k", "translation": "k", "accept": ["k"] },
+            { "id": "ru-letter-m", "kind": "letter", "text": "М м", "romanization": "m", "translation": "m", "accept": ["m"] },
+            { "id": "ru-letter-o", "kind": "letter", "text": "О о", "romanization": "o", "translation": "o", "accept": ["o"] },
+            { "id": "ru-letter-t", "kind": "letter", "text": "Т т", "romanization": "t", "translation": "t", "accept": ["t"] },
+            { "id": "ru-letter-ye", "kind": "letter", "text": "Е е", "romanization": "ye", "translation": "ié (comme dans « hier »)", "accept": ["ye", "ie", "e"] }
+          ]
+        },
+        {
+          "id": "ru-u1-l2",
+          "title": "Les faux amis",
+          "emoji": "🎭",
+          "tip": "Attention : ces lettres ressemblent à des lettres latines mais se lisent autrement.",
+          "items": [
+            { "id": "ru-letter-v", "kind": "letter", "text": "В в", "romanization": "v", "translation": "v", "accept": ["v"] },
+            { "id": "ru-letter-n", "kind": "letter", "text": "Н н", "romanization": "n", "translation": "n", "accept": ["n"] },
+            { "id": "ru-letter-r", "kind": "letter", "text": "Р р", "romanization": "r", "translation": "r (roulé)", "accept": ["r"] },
+            { "id": "ru-letter-s", "kind": "letter", "text": "С с", "romanization": "s", "translation": "s", "accept": ["s"] },
+            { "id": "ru-letter-u", "kind": "letter", "text": "У у", "romanization": "u", "translation": "ou", "accept": ["u", "ou"] },
+            { "id": "ru-letter-kh", "kind": "letter", "text": "Х х", "romanization": "kh", "translation": "kh (comme la jota espagnole)", "accept": ["kh", "h"] }
+          ]
+        },
+        {
+          "id": "ru-u1-l3",
+          "title": "Premiers mots à lire",
+          "emoji": "📖",
+          "tip": "Avec les lettres déjà vues, tu peux lire ces mots.",
+          "items": [
+            { "id": "ru-mama", "kind": "word", "text": "мама", "romanization": "mama", "translation": "maman", "emoji": "👩" },
+            { "id": "ru-kot", "kind": "word", "text": "кот", "romanization": "kot", "translation": "chat", "accept": ["le chat", "un chat"], "emoji": "🐈" },
+            { "id": "ru-metro", "kind": "word", "text": "метро", "romanization": "metro", "translation": "métro", "accept": ["le métro"], "emoji": "🚇" },
+            { "id": "ru-restoran", "kind": "word", "text": "ресторан", "romanization": "restoran", "translation": "restaurant", "accept": ["le restaurant", "un restaurant"], "emoji": "🍽️" },
+            { "id": "ru-taksi", "kind": "word", "text": "такси", "romanization": "taksi", "translation": "taxi", "accept": ["le taxi", "un taxi"], "emoji": "🚕" },
+            { "id": "ru-kofe", "kind": "word", "text": "кофе", "romanization": "kofe", "translation": "café", "accept": ["le café", "un café"], "emoji": "☕" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ru-u2",
+      "title": "Premiers pas",
+      "level": "A0",
+      "lessons": [
+        {
+          "id": "ru-u2-l1",
+          "title": "Salutations",
+          "emoji": "👋",
+          "tip": "« Привет » est familier ; « Здравствуйте » est la forme polie.",
+          "items": [
+            { "id": "ru-privet", "kind": "word", "text": "привет", "romanization": "privet", "translation": "salut", "accept": ["coucou", "bonjour"], "emoji": "👋" },
+            { "id": "ru-zdravstvuyte", "kind": "word", "text": "здравствуйте", "romanization": "zdravstvuyte", "translation": "bonjour", "emoji": "🤝", "note": "Le premier « в » ne se prononce pas : « zdrastvouïtié »." },
+            { "id": "ru-poka", "kind": "word", "text": "пока", "romanization": "poka", "translation": "salut (au revoir)", "accept": ["à plus", "salut", "au revoir"], "emoji": "👋" },
+            { "id": "ru-do-svidaniya", "kind": "phrase", "text": "до свидания", "romanization": "do svidaniya", "translation": "au revoir", "emoji": "🚪" },
+            { "id": "ru-dobroye-utro", "kind": "phrase", "text": "доброе утро", "romanization": "dobroye utro", "translation": "bonjour (le matin)", "accept": ["bonjour"], "emoji": "🌅" },
+            { "id": "ru-kak-dela", "kind": "phrase", "text": "как дела?", "romanization": "kak dela?", "translation": "comment ça va ?", "accept": ["ça va ?", "comment vas-tu ?"], "emoji": "🤔" }
+          ]
+        },
+        {
+          "id": "ru-u2-l2",
+          "title": "Politesse",
+          "emoji": "🙏",
+          "items": [
+            { "id": "ru-spasibo", "kind": "word", "text": "спасибо", "romanization": "spasibo", "translation": "merci", "emoji": "💐" },
+            { "id": "ru-pozhaluysta", "kind": "word", "text": "пожалуйста", "romanization": "pozhaluysta", "translation": "s'il te plaît", "accept": ["s'il vous plaît", "je t'en prie", "de rien"], "emoji": "🙏" },
+            { "id": "ru-da", "kind": "word", "text": "да", "romanization": "da", "translation": "oui", "emoji": "✅" },
+            { "id": "ru-net", "kind": "word", "text": "нет", "romanization": "net", "translation": "non", "emoji": "❌" },
+            { "id": "ru-izvinite", "kind": "word", "text": "извините", "romanization": "izvinite", "translation": "excusez-moi", "accept": ["pardon", "désolé"], "emoji": "✋" },
+            { "id": "ru-khorosho", "kind": "word", "text": "хорошо", "romanization": "khorosho", "translation": "bien", "accept": ["d'accord", "bon"], "emoji": "👍" }
+          ]
+        },
+        {
+          "id": "ru-u2-l3",
+          "title": "Se présenter",
+          "emoji": "🧑",
+          "tip": "Le russe n'utilise pas le verbe « être » au présent : « я студент » = « je (suis) étudiant ».",
+          "items": [
+            { "id": "ru-ya", "kind": "word", "text": "я", "romanization": "ya", "translation": "je", "accept": ["moi"], "emoji": "🧑" },
+            { "id": "ru-ty", "kind": "word", "text": "ты", "romanization": "ty", "translation": "tu", "accept": ["toi"], "emoji": "👉" },
+            { "id": "ru-menya-zovut", "kind": "phrase", "text": "меня зовут…", "romanization": "menya zovut…", "translation": "je m'appelle…", "emoji": "📛" },
+            { "id": "ru-kak-tebya-zovut", "kind": "sentence", "text": "как тебя зовут?", "romanization": "kak tebya zovut?", "translation": "comment t'appelles-tu ?", "accept": ["comment tu t'appelles ?"], "emoji": "❓" },
+            { "id": "ru-ochen-priyatno", "kind": "phrase", "text": "очень приятно", "romanization": "ochen' priyatno", "translation": "enchanté", "accept": ["enchantée", "très agréable"], "emoji": "🤝" },
+            { "id": "ru-ya-iz-frantsii", "kind": "sentence", "text": "я из Франции", "romanization": "ya iz Frantsii", "translation": "je viens de France", "accept": ["je suis de france"], "emoji": "🇫🇷" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ru-u3",
+      "title": "Les nombres",
+      "level": "A0",
+      "lessons": [
+        {
+          "id": "ru-u3-l1",
+          "title": "De 1 à 6",
+          "emoji": "🔢",
+          "items": [
+            { "id": "ru-odin", "kind": "word", "text": "один", "romanization": "odin", "translation": "un", "accept": ["1"], "emoji": "1️⃣" },
+            { "id": "ru-dva", "kind": "word", "text": "два", "romanization": "dva", "translation": "deux", "accept": ["2"], "emoji": "2️⃣" },
+            { "id": "ru-tri", "kind": "word", "text": "три", "romanization": "tri", "translation": "trois", "accept": ["3"], "emoji": "3️⃣" },
+            { "id": "ru-chetyre", "kind": "word", "text": "четыре", "romanization": "chetyre", "translation": "quatre", "accept": ["4"], "emoji": "4️⃣" },
+            { "id": "ru-pyat", "kind": "word", "text": "пять", "romanization": "pyat'", "translation": "cinq", "accept": ["5"], "emoji": "5️⃣" },
+            { "id": "ru-shest", "kind": "word", "text": "шесть", "romanization": "shest'", "translation": "six", "accept": ["6"], "emoji": "6️⃣" }
+          ]
+        },
+        {
+          "id": "ru-u3-l2",
+          "title": "De 7 à 10",
+          "emoji": "🔟",
+          "items": [
+            { "id": "ru-sem", "kind": "word", "text": "семь", "romanization": "sem'", "translation": "sept", "accept": ["7"], "emoji": "7️⃣" },
+            { "id": "ru-vosem", "kind": "word", "text": "восемь", "romanization": "vosem'", "translation": "huit", "accept": ["8"], "emoji": "8️⃣" },
+            { "id": "ru-devyat", "kind": "word", "text": "девять", "romanization": "devyat'", "translation": "neuf", "accept": ["9"], "emoji": "9️⃣" },
+            { "id": "ru-desyat", "kind": "word", "text": "десять", "romanization": "desyat'", "translation": "dix", "accept": ["10"], "emoji": "🔟" }
+          ]
+        }
+      ]
+    }
+  ]
+}

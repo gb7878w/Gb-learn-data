@@ -1,0 +1,9 @@
+{
+  "formatVersion": 1,
+  "courses": [
+    { "id": "en", "path": "en/course.json" },
+    { "id": "ru", "path": "ru/course.json" },
+    { "id": "zh", "path": "zh/course.json" },
+    { "id": "ar", "path": "ar/course.json" }
+  ]
+}
