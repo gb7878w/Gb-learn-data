@@ -23,9 +23,9 @@
           "emoji": "👋",
           "tip": "« Hello » convient partout ; « Hi » est plus familier.",
           "items": [
-            { "id": "en-hello", "kind": "word", "text": "hello", "translation": "bonjour", "accept": ["salut"], "emoji": "👋" },
-            { "id": "en-hi", "kind": "word", "text": "hi", "translation": "salut", "accept": ["coucou"], "emoji": "🙂" },
-            { "id": "en-goodbye", "kind": "word", "text": "goodbye", "translation": "au revoir", "emoji": "👋" },
+            { "id": "en-hello", "audio": "audio/en-hello.mp3", "kind": "word", "text": "hello", "translation": "bonjour", "accept": ["salut"], "emoji": "👋" },
+            { "id": "en-hi", "audio": "audio/en-hi.mp3", "kind": "word", "text": "hi", "translation": "salut", "accept": ["coucou"], "emoji": "🙂" },
+            { "id": "en-goodbye", "audio": "audio/en-goodbye.mp3", "kind": "word", "text": "goodbye", "translation": "au revoir", "emoji": "👋" },
             { "id": "en-good-morning", "kind": "phrase", "text": "good morning", "translation": "bonjour (le matin)", "accept": ["bonjour"], "emoji": "🌅" },
             { "id": "en-good-night", "kind": "phrase", "text": "good night", "translation": "bonne nuit", "emoji": "🌙" },
             { "id": "en-how-are-you", "kind": "phrase", "text": "how are you?", "translation": "comment vas-tu ?", "accept": ["comment allez-vous ?", "comment ça va ?", "ça va ?"], "emoji": "🤔" }
@@ -36,12 +36,12 @@
           "title": "Politesse",
           "emoji": "🙏",
           "items": [
-            { "id": "en-please", "kind": "word", "text": "please", "translation": "s'il te plaît", "accept": ["s'il vous plaît"], "emoji": "🙏" },
+            { "id": "en-please", "audio": "audio/en-please.mp3", "kind": "word", "text": "please", "translation": "s'il te plaît", "accept": ["s'il vous plaît"], "emoji": "🙏" },
             { "id": "en-thank-you", "kind": "phrase", "text": "thank you", "translation": "merci", "emoji": "💐" },
-            { "id": "en-yes", "kind": "word", "text": "yes", "translation": "oui", "emoji": "✅" },
-            { "id": "en-no", "kind": "word", "text": "no", "translation": "non", "emoji": "❌" },
-            { "id": "en-sorry", "kind": "word", "text": "sorry", "translation": "pardon", "accept": ["désolé", "désolée"], "emoji": "😔" },
-            { "id": "en-excuse-me", "kind": "phrase", "text": "excuse me", "translation": "excusez-moi", "accept": ["excuse-moi"], "emoji": "✋" }
+            { "id": "en-yes", "audio": "audio/en-yes.mp3", "kind": "word", "text": "yes", "translation": "oui", "emoji": "✅" },
+            { "id": "en-no", "audio": "audio/en-no.mp3", "kind": "word", "text": "no", "translation": "non", "emoji": "❌" },
+            { "id": "en-sorry", "audio": "audio/en-sorry.mp3", "kind": "word", "text": "sorry", "translation": "pardon", "accept": ["désolé", "désolée"], "emoji": "😔" },
+            { "id": "en-excuse-me", "audio": "audio/en-excuse-me.mp3", "kind": "phrase", "text": "excuse me", "translation": "excusez-moi", "accept": ["excuse-moi"], "emoji": "✋" }
           ]
         },
         {
@@ -54,8 +54,8 @@
             { "id": "en-i-am", "kind": "phrase", "text": "I am", "translation": "je suis", "emoji": "🧑" },
             { "id": "en-you-are", "kind": "phrase", "text": "you are", "translation": "tu es", "accept": ["vous êtes"], "emoji": "👉" },
             { "id": "en-nice-to-meet-you", "kind": "sentence", "text": "nice to meet you", "translation": "enchanté", "accept": ["enchantée", "ravi de te rencontrer"], "emoji": "🤝" },
-            { "id": "en-friend", "kind": "word", "text": "friend", "translation": "ami", "accept": ["amie"], "emoji": "🫂" },
-            { "id": "en-french", "kind": "word", "text": "French", "translation": "français", "accept": ["française"], "emoji": "🇫🇷" }
+            { "id": "en-friend", "audio": "audio/en-friend.mp3", "kind": "word", "text": "friend", "translation": "ami", "accept": ["amie"], "emoji": "🫂" },
+            { "id": "en-french", "audio": "audio/en-french.mp3", "kind": "word", "text": "French", "translation": "français", "accept": ["française"], "emoji": "🇫🇷" }
           ]
         }
       ]
@@ -70,12 +70,12 @@
           "title": "De 1 à 6",
           "emoji": "🔢",
           "items": [
-            { "id": "en-one", "kind": "word", "text": "one", "translation": "un", "accept": ["1"], "emoji": "1️⃣" },
-            { "id": "en-two", "kind": "word", "text": "two", "translation": "deux", "accept": ["2"], "emoji": "2️⃣" },
-            { "id": "en-three", "kind": "word", "text": "three", "translation": "trois", "accept": ["3"], "emoji": "3️⃣" },
-            { "id": "en-four", "kind": "word", "text": "four", "translation": "quatre", "accept": ["4"], "emoji": "4️⃣" },
-            { "id": "en-five", "kind": "word", "text": "five", "translation": "cinq", "accept": ["5"], "emoji": "5️⃣" },
-            { "id": "en-six", "kind": "word", "text": "six", "translation": "six", "accept": ["6"], "emoji": "6️⃣" }
+            { "id": "en-one", "audio": "audio/en-one.mp3", "kind": "word", "text": "one", "translation": "un", "accept": ["1"], "emoji": "1️⃣" },
+            { "id": "en-two", "audio": "audio/en-two.mp3", "kind": "word", "text": "two", "translation": "deux", "accept": ["2"], "emoji": "2️⃣" },
+            { "id": "en-three", "audio": "audio/en-three.mp3", "kind": "word", "text": "three", "translation": "trois", "accept": ["3"], "emoji": "3️⃣" },
+            { "id": "en-four", "audio": "audio/en-four.mp3", "kind": "word", "text": "four", "translation": "quatre", "accept": ["4"], "emoji": "4️⃣" },
+            { "id": "en-five", "audio": "audio/en-five.mp3", "kind": "word", "text": "five", "translation": "cinq", "accept": ["5"], "emoji": "5️⃣" },
+            { "id": "en-six", "audio": "audio/en-six.mp3", "kind": "word", "text": "six", "translation": "six", "accept": ["6"], "emoji": "6️⃣" }
           ]
         },
         {
@@ -83,12 +83,12 @@
           "title": "De 7 à 12",
           "emoji": "🔟",
           "items": [
-            { "id": "en-seven", "kind": "word", "text": "seven", "translation": "sept", "accept": ["7"], "emoji": "7️⃣" },
-            { "id": "en-eight", "kind": "word", "text": "eight", "translation": "huit", "accept": ["8"], "emoji": "8️⃣" },
-            { "id": "en-nine", "kind": "word", "text": "nine", "translation": "neuf", "accept": ["9"], "emoji": "9️⃣" },
-            { "id": "en-ten", "kind": "word", "text": "ten", "translation": "dix", "accept": ["10"], "emoji": "🔟" },
-            { "id": "en-eleven", "kind": "word", "text": "eleven", "translation": "onze", "accept": ["11"], "emoji": "⚽" },
-            { "id": "en-twelve", "kind": "word", "text": "twelve", "translation": "douze", "accept": ["12"], "emoji": "🕛" }
+            { "id": "en-seven", "audio": "audio/en-seven.mp3", "kind": "word", "text": "seven", "translation": "sept", "accept": ["7"], "emoji": "7️⃣" },
+            { "id": "en-eight", "audio": "audio/en-eight.mp3", "kind": "word", "text": "eight", "translation": "huit", "accept": ["8"], "emoji": "8️⃣" },
+            { "id": "en-nine", "audio": "audio/en-nine.mp3", "kind": "word", "text": "nine", "translation": "neuf", "accept": ["9"], "emoji": "9️⃣" },
+            { "id": "en-ten", "audio": "audio/en-ten.mp3", "kind": "word", "text": "ten", "translation": "dix", "accept": ["10"], "emoji": "🔟" },
+            { "id": "en-eleven", "audio": "audio/en-eleven.mp3", "kind": "word", "text": "eleven", "translation": "onze", "accept": ["11"], "emoji": "⚽" },
+            { "id": "en-twelve", "audio": "audio/en-twelve.mp3", "kind": "word", "text": "twelve", "translation": "douze", "accept": ["12"], "emoji": "🕛" }
           ]
         }
       ]
@@ -103,11 +103,11 @@
           "title": "Boire et manger",
           "emoji": "☕",
           "items": [
-            { "id": "en-water", "kind": "word", "text": "water", "translation": "eau", "accept": ["de l'eau", "l'eau"], "emoji": "💧" },
-            { "id": "en-coffee", "kind": "word", "text": "coffee", "translation": "café", "accept": ["un café"], "emoji": "☕" },
-            { "id": "en-tea", "kind": "word", "text": "tea", "translation": "thé", "accept": ["un thé"], "emoji": "🍵" },
-            { "id": "en-bread", "kind": "word", "text": "bread", "translation": "pain", "accept": ["du pain", "le pain"], "emoji": "🍞" },
-            { "id": "en-apple", "kind": "word", "text": "apple", "translation": "pomme", "accept": ["une pomme"], "emoji": "🍎" },
+            { "id": "en-water", "audio": "audio/en-water.mp3", "kind": "word", "text": "water", "translation": "eau", "accept": ["de l'eau", "l'eau"], "emoji": "💧" },
+            { "id": "en-coffee", "audio": "audio/en-coffee.mp3", "kind": "word", "text": "coffee", "translation": "café", "accept": ["un café"], "emoji": "☕" },
+            { "id": "en-tea", "audio": "audio/en-tea.mp3", "kind": "word", "text": "tea", "translation": "thé", "accept": ["un thé"], "emoji": "🍵" },
+            { "id": "en-bread", "audio": "audio/en-bread.mp3", "kind": "word", "text": "bread", "translation": "pain", "accept": ["du pain", "le pain"], "emoji": "🍞" },
+            { "id": "en-apple", "audio": "audio/en-apple.mp3", "kind": "word", "text": "apple", "translation": "pomme", "accept": ["une pomme"], "emoji": "🍎" },
             { "id": "en-i-would-like", "kind": "phrase", "text": "I would like…", "translation": "je voudrais…", "accept": ["j'aimerais…"], "emoji": "🙋" }
           ]
         },
@@ -119,9 +119,9 @@
             { "id": "en-the-menu", "kind": "phrase", "text": "the menu", "translation": "la carte", "accept": ["le menu"], "emoji": "📜" },
             { "id": "en-the-bill", "kind": "phrase", "text": "the bill", "translation": "l'addition", "emoji": "🧾" },
             { "id": "en-how-much", "kind": "phrase", "text": "how much is it?", "translation": "combien ça coûte ?", "accept": ["c'est combien ?", "combien est-ce ?"], "emoji": "💶" },
-            { "id": "en-delicious", "kind": "word", "text": "delicious", "translation": "délicieux", "accept": ["délicieuse"], "emoji": "😋" },
-            { "id": "en-hot", "kind": "word", "text": "hot", "translation": "chaud", "accept": ["chaude"], "emoji": "🔥" },
-            { "id": "en-cold", "kind": "word", "text": "cold", "translation": "froid", "accept": ["froide"], "emoji": "🧊" }
+            { "id": "en-delicious", "audio": "audio/en-delicious.mp3", "kind": "word", "text": "delicious", "translation": "délicieux", "accept": ["délicieuse"], "emoji": "😋" },
+            { "id": "en-hot", "audio": "audio/en-hot.mp3", "kind": "word", "text": "hot", "translation": "chaud", "accept": ["chaude"], "emoji": "🔥" },
+            { "id": "en-cold", "audio": "audio/en-cold.mp3", "kind": "word", "text": "cold", "translation": "froid", "accept": ["froide"], "emoji": "🧊" }
           ]
         }
       ]
