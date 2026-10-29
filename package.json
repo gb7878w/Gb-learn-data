@@ -6,7 +6,9 @@
   "type": "module",
   "scripts": {
     "validate": "node scripts/validate.mjs",
-    "stats": "node scripts/validate.mjs --stats"
+    "stats": "node scripts/validate.mjs --stats",
+    "audio": "node scripts/generate-audio.mjs",
+    "recordings": "node scripts/fetch-recordings.mjs"
   },
   "devDependencies": {
     "ajv": "^8.17.1"

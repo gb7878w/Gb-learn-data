@@ -20,7 +20,7 @@ Cours ─┬─ Unité (thème, niveau CECR)
 | `accept` | non | Autres réponses acceptées en saisie (synonymes, féminin, chiffres). |
 | `emoji` | non | Illustration façon Drops. |
 | `note` | non | Remarque affichée après la réponse (prononciation, exception). |
-| `audio` | non | Fichier audio enregistré ; à défaut l'app utilise la synthèse vocale (`ttsLang`). |
+| `audio` | non | Enregistrement de la prononciation, relatif au fichier du cours (`audio/ru-privet.mp3`). Rempli par `npm run audio` ; à défaut l'app utilise la synthèse vocale du téléphone (`ttsLang`). |
 
 ## Règles par écriture
 
@@ -33,3 +33,9 @@ Cours ─┬─ Unité (thème, niveau CECR)
 - 6 éléments par leçon : assez pour un QCM à 4 choix, assez peu pour être mémorisés en une séance.
 - Introduire d'abord les éléments simples (lettres, mots), puis les phrases qui les réutilisent.
 - Monter `version` du cours à chaque changement publié.
+
+## Voix
+
+Les prononciations sont enregistrées avec les voix neuronales de Google Cloud Text-to-Speech par le workflow « Enregistrer les voix » (secret `GOOGLE_TTS_API_KEY`). Il ne traite que les éléments sans audio, donc un nouvel élément ou un nouveau cours est enregistré automatiquement à son arrivée sur main. La voix de chaque cours est notée dans `courses/voices.json` ; pour en changer, modifier ce fichier puis lancer le workflow avec « Tout réenregistrer ».
+
+Un enregistrement humain peut remplacer un fichier généré : garder le même nom de fichier (`courses/<cours>/audio/<élément>.mp3`).

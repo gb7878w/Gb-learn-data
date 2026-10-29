@@ -1,6 +1,6 @@
 // Valide chaque cours contre le schéma JSON et vérifie les règles que le schéma
 // ne peut pas exprimer (identifiants uniques, préfixes, écriture cohérente).
-import { readFileSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import Ajv2020 from "ajv/dist/2020.js";
@@ -53,6 +53,7 @@ for (const entry of index.courses ?? []) {
         if (!item.id.startsWith(`${course.id}-`)) errors.push(`${file}: élément ${item.id} doit commencer par « ${course.id}- »`);
         if (!SCRIPT_RANGES[course.script].test(item.text)) errors.push(`${file}: ${item.id} ne contient aucun caractère ${course.script}`);
         if (course.script !== "Latn" && !item.romanization) errors.push(`${file}: ${item.id} n'a pas de ${course.romanization?.name ?? "romanisation"}`);
+        if (item.audio && !existsSync(join(root, dirname(file), item.audio))) errors.push(`${file}: fichier audio absent pour ${item.id} (${item.audio})`);
       }
     }
   }
