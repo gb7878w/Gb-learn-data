@@ -36,6 +36,9 @@ Cours ─┬─ Unité (thème, niveau CECR)
 
 ## Voix
 
-Les prononciations sont enregistrées avec les voix neuronales de Google Cloud Text-to-Speech par le workflow « Enregistrer les voix » (secret `GOOGLE_TTS_API_KEY`). Il ne traite que les éléments sans audio, donc un nouvel élément ou un nouveau cours est enregistré automatiquement à son arrivée sur main. La voix de chaque cours est notée dans `courses/voices.json` ; pour en changer, modifier ce fichier puis lancer le workflow avec « Tout réenregistrer ».
+Le workflow « Enregistrer les voix » prépare la prononciation de chaque élément, sans service payant ni clé :
 
-Un enregistrement humain peut remplacer un fichier généré : garder le même nom de fichier (`courses/<cours>/audio/<élément>.mp3`).
+1. **Vrais locuteurs** (`npm run recordings`) : enregistrements de Lingua Libre, puis du Wiktionnaire, sur Wikimedia Commons (licences libres, auteur et licence notés dans `courses/<cours>/audio/sources.json` et affichés dans l'app).
+2. **Piper** (`npm run audio`) : voix neuronale libre, calculée hors ligne, pour les éléments restants (lettres seules, phrases). La voix de chaque cours est dans `courses/voices.json` ; pour en changer, modifier ce fichier puis lancer le workflow avec « Réenregistrer toutes les voix Piper ».
+
+Seuls les éléments sans audio sont traités : un nouvel élément ou un nouveau cours est enregistré automatiquement à son arrivée sur main. Un enregistrement humain n'est jamais remplacé par une voix de synthèse ; pour en déposer un à la main, garder le même nom de fichier (`courses/<cours>/audio/<élément>.mp3`) et noter sa source dans `sources.json`.

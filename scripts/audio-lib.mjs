@@ -1,6 +1,7 @@
 // Outils communs aux scripts d'enregistrement : parcours des cours, champ « audio »
 // et registre des sources (courses/<cours>/audio/sources.json), qui garde pour chaque
 // fichier son origine et, pour un enregistrement humain, son auteur et sa licence.
+import { execFileSync } from 'node:child_process';
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -56,4 +57,15 @@ export function saveCourse(entry) {
 export function spokenText(item) {
   if (item.kind === 'letter') return item.text.split(/\s+/).pop();
   return item.text.replace(/…/g, '').trim();
+}
+
+/** Sources enregistrées par de vrais locuteurs, jamais remplacées par une voix de synthèse. */
+export const HUMAN = new Set(['lingualibre', 'commons']);
+
+/** Fichier audio → MP3 mono, silences de début et de fin retirés, volume normalisé (ffmpeg). */
+export function normalizeToMp3(input) {
+  const output = `${input}.mp3`;
+  const trim = 'silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.05';
+  execFileSync('ffmpeg', ['-y', '-loglevel', 'error', '-i', input, '-af', `${trim},areverse,${trim},areverse,loudnorm=I=-16:TP=-1.5`, '-ac', '1', '-ar', '24000', '-b:a', '64k', output]);
+  return readFileSync(output);
 }

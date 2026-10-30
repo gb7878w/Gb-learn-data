@@ -1,76 +1,46 @@
-// Complète les prononciations manquantes avec les voix neuronales de Google Cloud
-// Text-to-Speech. Les enregistrements de vrais locuteurs (Lingua Libre) ne sont
-// jamais remplacés.
+// Complète les prononciations manquantes avec Piper, une synthèse vocale neuronale
+// libre qui tourne hors ligne (https://github.com/OHF-Voice/piper1-gpl). Les
+// enregistrements de vrais locuteurs ne sont jamais remplacés.
 //
-//   GOOGLE_TTS_API_KEY=… npm run audio            → éléments sans audio
-//   GOOGLE_TTS_API_KEY=… npm run audio -- --force → réenregistrer toutes les voix Google
+//   npm run audio            → éléments sans audio
+//   npm run audio -- --force → réenregistrer toutes les voix Piper (après un changement de voix)
 //
-// La voix de chaque cours est notée dans courses/voices.json : la modifier pour en changer.
-import { existsSync, readFileSync, writeFileSync } from 'node:fs';
+// Prérequis : python3 -m pip install piper-tts, et ffmpeg. La voix de chaque cours est
+// dans courses/voices.json (liste : https://huggingface.co/rhasspy/piper-voices).
+import { execFileSync } from 'node:child_process';
+import { existsSync, mkdtempSync, readFileSync, rmSync } from 'node:fs';
+import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 
-import { audioPath, itemsOf, loadCourses, root, saveAudio, saveCourse, spokenText } from './audio-lib.mjs';
+import { HUMAN, audioPath, itemsOf, loadCourses, normalizeToMp3, root, saveAudio, saveCourse, spokenText } from './audio-lib.mjs';
 
-const key = process.env.GOOGLE_TTS_API_KEY;
 const force = process.argv.includes('--force');
-const API = 'https://texttospeech.googleapis.com/v1';
+const voices = JSON.parse(readFileSync(join(root, 'courses', 'voices.json'), 'utf8'));
+const tmp = mkdtempSync(join(tmpdir(), 'piper-'));
 
-if (!key) {
-  console.error('GOOGLE_TTS_API_KEY manque (clé d’API Google Cloud avec Text-to-Speech activé).');
-  process.exit(1);
-}
-
-// Codes de langue de Google : le mandarin est « cmn-CN », l'arabe standard « ar-XA ».
-const GOOGLE_LANG = { 'en-GB': 'en-GB', 'ru-RU': 'ru-RU', 'zh-CN': 'cmn-CN', 'ar-SA': 'ar-XA', 'es-ES': 'es-ES' };
-// Du plus naturel au plus basique.
-const QUALITY = ['Chirp3-HD', 'Chirp-HD', 'Studio', 'Neural2', 'Wavenet', 'Standard'];
-
-async function call(path, init) {
-  const res = await fetch(`${API}/${path}${path.includes('?') ? '&' : '?'}key=${key}`, init);
-  if (!res.ok) throw new Error(`${path.split('?')[0]} : ${res.status} ${await res.text()}`);
-  return res.json();
-}
-
-async function bestVoice(languageCode) {
-  const { voices = [] } = await call(`voices?languageCode=${languageCode}`);
-  const ranked = voices
-    .filter((v) => v.languageCodes.includes(languageCode))
-    .map((v) => ({ v, rank: QUALITY.findIndex((q) => v.name.includes(q)) }))
-    .filter((x) => x.rank >= 0)
-    .sort((a, b) => a.rank - b.rank || (a.v.ssmlGender === 'FEMALE' ? -1 : 1) || a.v.name.localeCompare(b.v.name));
-  if (!ranked.length) throw new Error(`Aucune voix Google pour ${languageCode}`);
-  return ranked[0].v.name;
-}
-
-const voicesPath = join(root, 'courses', 'voices.json');
-const voices = existsSync(voicesPath) ? JSON.parse(readFileSync(voicesPath, 'utf8')) : {};
-let made = 0;
-
-for (const entry of loadCourses()) {
-  const languageCode = GOOGLE_LANG[entry.course.ttsLang] ?? entry.course.ttsLang;
-  voices[entry.id] ??= await bestVoice(languageCode);
-  const name = voices[entry.id];
-
+const entries = loadCourses();
+const jobs = [];
+for (const entry of entries) {
+  const voice = voices[entry.id];
+  if (!voice) {
+    console.warn(`${entry.id} : pas de voix Piper dans courses/voices.json`);
+    continue;
+  }
   for (const item of itemsOf(entry.course)) {
     const source = entry.sources[item.id]?.source;
-    if (source === 'lingualibre') continue;
-    if (source === 'google' && !force && existsSync(join(entry.dir, audioPath(item)))) continue;
-    const { audioContent } = await call('text:synthesize', {
-      method: 'POST',
-      headers: { 'content-type': 'application/json' },
-      body: JSON.stringify({
-        input: { text: spokenText(item) },
-        voice: { languageCode, name },
-        // Débit un peu ralenti, plus confortable pour un débutant.
-        audioConfig: { audioEncoding: 'MP3', speakingRate: 0.9, sampleRateHertz: 24000 },
-      }),
-    });
-    saveAudio(entry, item, Buffer.from(audioContent, 'base64'), { source: 'google', voice: name });
-    made++;
+    if (HUMAN.has(source)) continue;
+    if (source === 'piper' && !force && existsSync(join(entry.dir, audioPath(item)))) continue;
+    jobs.push({ entry, item, voice, text: spokenText(item), out: join(tmp, `${item.id}.wav`) });
   }
-  saveCourse(entry);
-  console.log(`${entry.id} : voix ${name}`);
 }
 
-writeFileSync(voicesPath, JSON.stringify(voices, null, 2) + '\n');
-console.log(`✓ ${made} voix Google enregistrée(s).`);
+if (jobs.length) {
+  const input = JSON.stringify({ jobs: jobs.map(({ voice, text, out }) => ({ voice, text, out })) });
+  execFileSync('python3', [join(root, 'scripts', 'piper_tts.py')], { input, stdio: ['pipe', 'inherit', 'inherit'] });
+  for (const { entry, item, voice, out } of jobs) {
+    saveAudio(entry, item, normalizeToMp3(out), { source: 'piper', voice });
+  }
+  for (const entry of entries) saveCourse(entry);
+}
+rmSync(tmp, { recursive: true, force: true });
+console.log(`✓ ${jobs.length} voix Piper enregistrée(s).`);

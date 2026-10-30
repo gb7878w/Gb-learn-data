@@ -1,20 +1,23 @@
-// Récupère des prononciations enregistrées par de vrais locuteurs sur Lingua Libre
-// (fichiers « LL-Q… (code)-locuteur-mot.wav » de Wikimedia Commons, CC BY-SA),
-// les convertit en MP3 court et normalisé (ffmpeg) et les note dans sources.json.
+// Récupère des prononciations enregistrées par de vrais locuteurs sur Wikimedia Commons :
+// d'abord Lingua Libre (« LL-Q… (code)-locuteur-mot.wav »), puis les fichiers du
+// Wiktionnaire (« En-uk-mot.ogg », « Ru-mot.ogg », « Zh-pinyin.ogg »…). Ils sont
+// convertis en MP3 court et normalisé (ffmpeg), avec auteur et licence dans sources.json.
 // Un enregistrement humain remplace toujours une voix de synthèse.
 //
 //   npm run recordings
-import { execFileSync } from 'node:child_process';
-import { mkdtempSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
+import { mkdtempSync, rmSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 
-import { itemsOf, loadCourses, saveAudio, saveCourse, spokenText } from './audio-lib.mjs';
+import { HUMAN, itemsOf, loadCourses, normalizeToMp3, saveAudio, saveCourse, spokenText } from './audio-lib.mjs';
 
 const API = 'https://commons.wikimedia.org/w/api.php';
 const HEADERS = { 'user-agent': 'GB-Learn/0.1 (https://github.com/gb7878w/gb-learn-data)' };
 // Code ISO 639-3 utilisé dans les noms de fichiers Lingua Libre.
 const ISO3 = { en: 'eng', ru: 'rus', zh: 'cmn', ar: 'ara', es: 'spa' };
+// Préfixe des fichiers du Wiktionnaire, et variantes régionales préférées (l'anglais
+// britannique d'abord, comme la voix du cours).
+const WIKTIONARY = { en: { prefix: 'En', prefer: ['uk', 'gb', 'au', 'us'] }, ru: { prefix: 'Ru' }, zh: { prefix: 'Zh' }, ar: { prefix: 'Ar' }, es: { prefix: 'Es' } };
 
 const HARAKAT = /[\u064B-\u065F\u0670\u0640]/g;
 
@@ -68,10 +71,41 @@ async function findRecording(iso3, word) {
     .filter((r) => r.m && key(r.m[2]) === key(word))
     .sort((a, b) => a.title.localeCompare(b.title));
   if (!matches.length) return null;
+  const rec = await fileInfo(matches[0].title, matches[0].m[1]);
+  return rec && { source: 'lingualibre', ...rec };
+}
 
+/** Prononciation du Wiktionnaire : « Ru-метро.ogg », « En-uk-thank you.ogg », « Zh-zàijiàn.ogg ». */
+async function findWiktionary(lang, word) {
+  const { prefix, prefer = [] } = WIKTIONARY[lang];
+  const results = [];
+  for (const q of new Set([word, lang === 'zh' ? word.replace(/\s+/g, '') : word])) {
+    const { query } = await api({
+      action: 'query',
+      list: 'search',
+      srnamespace: '6',
+      srlimit: '50',
+      srsearch: `intitle:"${prefix}" intitle:"${q.replace(HARAKAT, '')}"`,
+    });
+    results.push(...(query?.search ?? []));
+  }
+  // Le pinyin s'écrit avec ou sans espaces selon les fichiers (« zài jiàn », « zàijiàn »).
+  const same = lang === 'zh' ? (a, b) => key(a).replace(/ /g, '') === key(b).replace(/ /g, '') : (a, b) => key(a) === key(b);
+  const pattern = new RegExp(`^File:${prefix}(?:-([a-z]{2,3}))?-(.+)\\.(ogg|oga|wav|flac|mp3)$`, 'i');
+  const rank = (region) => (region && prefer.includes(region.toLowerCase()) ? prefer.indexOf(region.toLowerCase()) : prefer.length);
+  const matches = results
+    .map((r) => ({ title: r.title, m: pattern.exec(r.title) }))
+    .filter((r) => r.m && same(r.m[2], word))
+    .sort((a, b) => rank(a.m[1]) - rank(b.m[1]) || a.title.localeCompare(b.title));
+  if (!matches.length) return null;
+  const rec = await fileInfo(matches[0].title);
+  return rec && { source: 'commons', ...rec };
+}
+
+async function fileInfo(title, speaker) {
   const { query: info } = await api({
     action: 'query',
-    titles: matches[0].title,
+    titles: title,
     prop: 'imageinfo',
     iiprop: 'url|extmetadata',
   });
@@ -79,26 +113,22 @@ async function findRecording(iso3, word) {
   const ii = page.imageinfo?.[0];
   if (!ii) return null;
   const meta = ii.extmetadata ?? {};
-  const strip = (html) => (html ?? '').replace(/<[^>]+>/g, '').trim();
+  const strip = (html) => (html ?? '').replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
   return {
     title: page.title,
     url: ii.url,
     page: ii.descriptionurl,
-    speaker: matches[0].m[1],
-    author: strip(meta.Artist?.value) || matches[0].m[1],
+    ...(speaker ? { speaker } : {}),
+    author: strip(meta.Artist?.value) || speaker || 'Wikimedia Commons',
     license: strip(meta.LicenseShortName?.value) || 'CC BY-SA 4.0',
   };
 }
 
-/** WAV → MP3 mono, silences de début et de fin retirés, volume normalisé. */
 async function toMp3(url) {
   const res = await get(url);
   const input = join(tmp, 'in');
-  const output = join(tmp, 'out.mp3');
   writeFileSync(input, Buffer.from(await res.arrayBuffer()));
-  const trim = 'silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.05';
-  execFileSync('ffmpeg', ['-y', '-loglevel', 'error', '-i', input, '-af', `${trim},areverse,${trim},areverse,loudnorm=I=-16:TP=-1.5`, '-ac', '1', '-ar', '24000', '-b:a', '64k', output]);
-  return readFileSync(output);
+  return normalizeToMp3(input);
 }
 
 let found = 0;
@@ -109,15 +139,19 @@ for (const entry of loadCourses()) {
   for (const item of itemsOf(entry.course)) {
     // Les lettres seules et les débuts de phrase (« je m'appelle… ») n'ont pas d'enregistrement utile.
     if (item.kind === 'letter' || item.text.includes('…')) continue;
-    if (entry.sources[item.id]?.source === 'lingualibre') continue;
+    if (HUMAN.has(entry.sources[item.id]?.source)) continue;
     const word = spokenText(item);
     try {
-      const rec = await findRecording(iso3, word);
+      // Les fichiers chinois du Wiktionnaire sont nommés en pinyin.
+      const rec =
+        (await findRecording(iso3, word)) ??
+        (WIKTIONARY[entry.id] ? await findWiktionary(entry.id, entry.id === 'zh' ? (item.romanization ?? word) : word) : null);
       if (!rec) {
         missing++;
         continue;
       }
-      saveAudio(entry, item, await toMp3(rec.url), { source: 'lingualibre', ...rec });
+      const { url, ...source } = rec;
+      saveAudio(entry, item, await toMp3(url), source);
       found++;
       console.log(`${item.id} ← ${rec.title}`);
     } catch (err) {
@@ -127,4 +161,4 @@ for (const entry of loadCourses()) {
   saveCourse(entry);
 }
 rmSync(tmp, { recursive: true, force: true });
-console.log(`✓ ${found} enregistrement(s) Lingua Libre ajouté(s), ${missing} élément(s) sans enregistrement.`);
+console.log(`✓ ${found} enregistrement(s) de vrais locuteurs ajouté(s), ${missing} élément(s) sans enregistrement.`);
