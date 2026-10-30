@@ -141,16 +141,16 @@
             "setting": "Vous êtes à une soirée chez des amis, à Londres. Une femme vient vers vous.",
             "speakers": { "A": {"name": "Emma", "voice": "female"}, "B": {"name": "Vous", "voice": "male", "learner": true} },
             "lines": [
-              { "id": "en-s01-1", "speaker": "A", "text": "Hi! I'm Emma. What's your name?", "translation": "Salut ! Je suis Emma. Comment tu t'appelles ?" },
-              { "id": "en-s01-2", "speaker": "B", "text": "Hello, Emma. My name is Paul.", "translation": "Bonjour, Emma. Je m'appelle Paul." },
-              { "id": "en-s01-3", "speaker": "A", "text": "Nice to meet you, Paul.", "translation": "Enchantée, Paul." },
-              { "id": "en-s01-4", "speaker": "B", "text": "Nice to meet you too.", "translation": "Enchanté aussi." },
-              { "id": "en-s01-5", "speaker": "A", "text": "Are you a friend of Tom?", "translation": "Tu es un ami de Tom ?" },
-              { "id": "en-s01-6", "speaker": "B", "text": "Yes, I am. We work together.", "translation": "Oui. Nous travaillons ensemble." },
-              { "id": "en-s01-7", "speaker": "A", "text": "Oh, great! Are you English?", "translation": "Oh, super ! Tu es anglais ?" },
-              { "id": "en-s01-8", "speaker": "B", "text": "No, I'm not. I'm French.", "translation": "Non. Je suis français." },
-              { "id": "en-s01-9", "speaker": "A", "text": "Your English is very good!", "translation": "Ton anglais est très bon !" },
-              { "id": "en-s01-10", "speaker": "B", "text": "Thank you. You are very kind.", "translation": "Merci. Tu es très gentille." }
+              { "id": "en-s01-1", "audio": "audio/en-s01-1.mp3", "speaker": "A", "text": "Hi! I'm Emma. What's your name?", "translation": "Salut ! Je suis Emma. Comment tu t'appelles ?" },
+              { "id": "en-s01-2", "audio": "audio/en-s01-2.mp3", "speaker": "B", "text": "Hello, Emma. My name is Paul.", "translation": "Bonjour, Emma. Je m'appelle Paul." },
+              { "id": "en-s01-3", "audio": "audio/en-s01-3.mp3", "speaker": "A", "text": "Nice to meet you, Paul.", "translation": "Enchantée, Paul." },
+              { "id": "en-s01-4", "audio": "audio/en-s01-4.mp3", "speaker": "B", "text": "Nice to meet you too.", "translation": "Enchanté aussi." },
+              { "id": "en-s01-5", "audio": "audio/en-s01-5.mp3", "speaker": "A", "text": "Are you a friend of Tom?", "translation": "Tu es un ami de Tom ?" },
+              { "id": "en-s01-6", "audio": "audio/en-s01-6.mp3", "speaker": "B", "text": "Yes, I am. We work together.", "translation": "Oui. Nous travaillons ensemble." },
+              { "id": "en-s01-7", "audio": "audio/en-s01-7.mp3", "speaker": "A", "text": "Oh, great! Are you English?", "translation": "Oh, super ! Tu es anglais ?" },
+              { "id": "en-s01-8", "audio": "audio/en-s01-8.mp3", "speaker": "B", "text": "No, I'm not. I'm French.", "translation": "Non. Je suis français." },
+              { "id": "en-s01-9", "audio": "audio/en-s01-9.mp3", "speaker": "A", "text": "Your English is very good!", "translation": "Ton anglais est très bon !" },
+              { "id": "en-s01-10", "audio": "audio/en-s01-10.mp3", "speaker": "B", "text": "Thank you. You are very kind.", "translation": "Merci. Tu es très gentille." }
             ],
             "questions": [
               { "question": "Comment s'appelle la femme ?", "options": ["Emma", "Tom", "Anna"], "answer": 0 },
@@ -192,12 +192,12 @@
             }
           },
           "items": [
-            { "id": "en-whats-your-name", "kind": "sentence", "text": "what's your name?", "translation": "comment tu t'appelles ?", "accept": ["comment vous appelez-vous ?", "quel est ton nom ?"], "emoji": "🏷️" },
-            { "id": "en-nice-to-meet-you-too", "kind": "phrase", "text": "nice to meet you too", "translation": "enchanté aussi", "accept": ["moi aussi"], "emoji": "🤝" },
-            { "id": "en-together", "kind": "word", "text": "together", "translation": "ensemble", "emoji": "👫" },
-            { "id": "en-work", "kind": "word", "text": "to work", "translation": "travailler", "accept": ["work"], "emoji": "💼" },
-            { "id": "en-english", "kind": "word", "text": "English", "translation": "anglais", "accept": ["anglaise"], "emoji": "🇬🇧" },
-            { "id": "en-kind", "kind": "word", "text": "kind", "translation": "gentil", "accept": ["gentille", "aimable"], "emoji": "💗" }
+            { "id": "en-whats-your-name", "audio": "audio/en-whats-your-name.mp3", "kind": "sentence", "text": "what's your name?", "translation": "comment tu t'appelles ?", "accept": ["comment vous appelez-vous ?", "quel est ton nom ?"], "emoji": "🏷️" },
+            { "id": "en-nice-to-meet-you-too", "audio": "audio/en-nice-to-meet-you-too.mp3", "kind": "phrase", "text": "nice to meet you too", "translation": "enchanté aussi", "accept": ["moi aussi"], "emoji": "🤝" },
+            { "id": "en-together", "audio": "audio/en-together.mp3", "kind": "word", "text": "together", "translation": "ensemble", "emoji": "👫" },
+            { "id": "en-work", "audio": "audio/en-work.mp3", "kind": "word", "text": "to work", "translation": "travailler", "accept": ["work"], "emoji": "💼" },
+            { "id": "en-english", "audio": "audio/en-english.mp3", "kind": "word", "text": "English", "translation": "anglais", "accept": ["anglaise"], "emoji": "🇬🇧" },
+            { "id": "en-kind", "audio": "audio/en-kind.mp3", "kind": "word", "text": "kind", "translation": "gentil", "accept": ["gentille", "aimable"], "emoji": "💗" }
           ]
         },
         {
@@ -209,15 +209,15 @@
             "setting": "Dans le train pour Édimbourg, un homme assis en face de vous engage la conversation.",
             "speakers": { "A": {"name": "James", "voice": "male"}, "B": {"name": "Vous", "voice": "female", "learner": true} },
             "lines": [
-              { "id": "en-s02-1", "speaker": "A", "text": "Excuse me, is this seat free?", "translation": "Excusez-moi, cette place est libre ?" },
-              { "id": "en-s02-2", "speaker": "B", "text": "Yes, it is. Please sit down.", "translation": "Oui. Asseyez-vous, je vous en prie." },
-              { "id": "en-s02-3", "speaker": "A", "text": "Thanks. Where are you from?", "translation": "Merci. D'où venez-vous ?" },
-              { "id": "en-s02-4", "speaker": "B", "text": "I'm from France. I live in Lyon.", "translation": "Je viens de France. J'habite à Lyon." },
-              { "id": "en-s02-5", "speaker": "A", "text": "Lyon! I love French food.", "translation": "Lyon ! J'adore la cuisine française." },
-              { "id": "en-s02-6", "speaker": "B", "text": "And you? Where do you live?", "translation": "Et vous ? Où habitez-vous ?" },
-              { "id": "en-s02-7", "speaker": "A", "text": "I live in Edinburgh, but I'm from Ireland.", "translation": "J'habite à Édimbourg, mais je viens d'Irlande." },
-              { "id": "en-s02-8", "speaker": "B", "text": "Is Edinburgh a big city?", "translation": "Édimbourg est une grande ville ?" },
-              { "id": "en-s02-9", "speaker": "A", "text": "No, it isn't very big, but it's beautiful.", "translation": "Non, elle n'est pas très grande, mais elle est belle." }
+              { "id": "en-s02-1", "audio": "audio/en-s02-1.mp3", "speaker": "A", "text": "Excuse me, is this seat free?", "translation": "Excusez-moi, cette place est libre ?" },
+              { "id": "en-s02-2", "audio": "audio/en-s02-2.mp3", "speaker": "B", "text": "Yes, it is. Please sit down.", "translation": "Oui. Asseyez-vous, je vous en prie." },
+              { "id": "en-s02-3", "audio": "audio/en-s02-3.mp3", "speaker": "A", "text": "Thanks. Where are you from?", "translation": "Merci. D'où venez-vous ?" },
+              { "id": "en-s02-4", "audio": "audio/en-s02-4.mp3", "speaker": "B", "text": "I'm from France. I live in Lyon.", "translation": "Je viens de France. J'habite à Lyon." },
+              { "id": "en-s02-5", "audio": "audio/en-s02-5.mp3", "speaker": "A", "text": "Lyon! I love French food.", "translation": "Lyon ! J'adore la cuisine française." },
+              { "id": "en-s02-6", "audio": "audio/en-s02-6.mp3", "speaker": "B", "text": "And you? Where do you live?", "translation": "Et vous ? Où habitez-vous ?" },
+              { "id": "en-s02-7", "audio": "audio/en-s02-7.mp3", "speaker": "A", "text": "I live in Edinburgh, but I'm from Ireland.", "translation": "J'habite à Édimbourg, mais je viens d'Irlande." },
+              { "id": "en-s02-8", "audio": "audio/en-s02-8.mp3", "speaker": "B", "text": "Is Edinburgh a big city?", "translation": "Édimbourg est une grande ville ?" },
+              { "id": "en-s02-9", "audio": "audio/en-s02-9.mp3", "speaker": "A", "text": "No, it isn't very big, but it's beautiful.", "translation": "Non, elle n'est pas très grande, mais elle est belle." }
             ],
             "questions": [
               { "question": "Où habite la voyageuse française ?", "options": ["À Paris", "À Lyon", "À Édimbourg"], "answer": 1 },
@@ -254,12 +254,12 @@
             }
           },
           "items": [
-            { "id": "en-where-are-you-from", "kind": "sentence", "text": "where are you from?", "translation": "d'où viens-tu ?", "accept": ["d'où venez-vous ?", "tu viens d'où ?"], "emoji": "🌍" },
-            { "id": "en-i-live-in", "kind": "phrase", "text": "I live in…", "translation": "j'habite à…", "accept": ["je vis à…"], "emoji": "🏠" },
-            { "id": "en-seat", "kind": "word", "text": "seat", "translation": "place assise", "accept": ["siège", "place"], "emoji": "💺" },
-            { "id": "en-city", "kind": "word", "text": "city", "translation": "ville", "accept": ["grande ville"], "emoji": "🏙️" },
-            { "id": "en-beautiful", "kind": "word", "text": "beautiful", "translation": "beau", "accept": ["belle", "magnifique"], "emoji": "✨" },
-            { "id": "en-big", "kind": "word", "text": "big", "translation": "grand", "accept": ["gros", "grande"], "emoji": "🐘" }
+            { "id": "en-where-are-you-from", "audio": "audio/en-where-are-you-from.mp3", "kind": "sentence", "text": "where are you from?", "translation": "d'où viens-tu ?", "accept": ["d'où venez-vous ?", "tu viens d'où ?"], "emoji": "🌍" },
+            { "id": "en-i-live-in", "audio": "audio/en-i-live-in.mp3", "kind": "phrase", "text": "I live in…", "translation": "j'habite à…", "accept": ["je vis à…"], "emoji": "🏠" },
+            { "id": "en-seat", "audio": "audio/en-seat.mp3", "kind": "word", "text": "seat", "translation": "place assise", "accept": ["siège", "place"], "emoji": "💺" },
+            { "id": "en-city", "audio": "audio/en-city.mp3", "kind": "word", "text": "city", "translation": "ville", "accept": ["grande ville"], "emoji": "🏙️" },
+            { "id": "en-beautiful", "audio": "audio/en-beautiful.mp3", "kind": "word", "text": "beautiful", "translation": "beau", "accept": ["belle", "magnifique"], "emoji": "✨" },
+            { "id": "en-big", "audio": "audio/en-big.mp3", "kind": "word", "text": "big", "translation": "grand", "accept": ["gros", "grande"], "emoji": "🐘" }
           ]
         },
         {
@@ -271,15 +271,15 @@
             "setting": "Une collègue vous montre une photo sur son téléphone pendant la pause café.",
             "speakers": { "A": {"name": "Sarah", "voice": "female"}, "B": {"name": "Vous", "voice": "male", "learner": true} },
             "lines": [
-              { "id": "en-s03-1", "speaker": "A", "text": "Look, this is my family.", "translation": "Regarde, c'est ma famille." },
-              { "id": "en-s03-2", "speaker": "B", "text": "Oh, nice! Who is this?", "translation": "Oh, sympa ! C'est qui ?" },
-              { "id": "en-s03-3", "speaker": "A", "text": "That's my husband, Mark. And these are my children.", "translation": "C'est mon mari, Mark. Et voici mes enfants." },
-              { "id": "en-s03-4", "speaker": "B", "text": "How old are they?", "translation": "Quel âge ont-ils ?" },
-              { "id": "en-s03-5", "speaker": "A", "text": "My son is ten and my daughter is seven.", "translation": "Mon fils a dix ans et ma fille sept." },
-              { "id": "en-s03-6", "speaker": "A", "text": "Have you got any children?", "translation": "Tu as des enfants ?" },
-              { "id": "en-s03-7", "speaker": "B", "text": "No, I haven't. But I've got two sisters.", "translation": "Non. Mais j'ai deux sœurs." },
-              { "id": "en-s03-8", "speaker": "A", "text": "Are they older or younger?", "translation": "Elles sont plus âgées ou plus jeunes ?" },
-              { "id": "en-s03-9", "speaker": "B", "text": "They're both younger than me.", "translation": "Elles sont toutes les deux plus jeunes que moi." }
+              { "id": "en-s03-1", "audio": "audio/en-s03-1.mp3", "speaker": "A", "text": "Look, this is my family.", "translation": "Regarde, c'est ma famille." },
+              { "id": "en-s03-2", "audio": "audio/en-s03-2.mp3", "speaker": "B", "text": "Oh, nice! Who is this?", "translation": "Oh, sympa ! C'est qui ?" },
+              { "id": "en-s03-3", "audio": "audio/en-s03-3.mp3", "speaker": "A", "text": "That's my husband, Mark. And these are my children.", "translation": "C'est mon mari, Mark. Et voici mes enfants." },
+              { "id": "en-s03-4", "audio": "audio/en-s03-4.mp3", "speaker": "B", "text": "How old are they?", "translation": "Quel âge ont-ils ?" },
+              { "id": "en-s03-5", "audio": "audio/en-s03-5.mp3", "speaker": "A", "text": "My son is ten and my daughter is seven.", "translation": "Mon fils a dix ans et ma fille sept." },
+              { "id": "en-s03-6", "audio": "audio/en-s03-6.mp3", "speaker": "A", "text": "Have you got any children?", "translation": "Tu as des enfants ?" },
+              { "id": "en-s03-7", "audio": "audio/en-s03-7.mp3", "speaker": "B", "text": "No, I haven't. But I've got two sisters.", "translation": "Non. Mais j'ai deux sœurs." },
+              { "id": "en-s03-8", "audio": "audio/en-s03-8.mp3", "speaker": "A", "text": "Are they older or younger?", "translation": "Elles sont plus âgées ou plus jeunes ?" },
+              { "id": "en-s03-9", "audio": "audio/en-s03-9.mp3", "speaker": "B", "text": "They're both younger than me.", "translation": "Elles sont toutes les deux plus jeunes que moi." }
             ],
             "questions": [
               { "question": "Comment s'appelle le mari de Sarah ?", "options": ["Tom", "Mark", "Paul"], "answer": 1 },
@@ -327,12 +327,12 @@
             }
           },
           "items": [
-            { "id": "en-family", "kind": "word", "text": "family", "translation": "famille", "emoji": "👨‍👩‍👧" },
-            { "id": "en-husband", "kind": "word", "text": "husband", "translation": "mari", "accept": ["époux"], "emoji": "🤵" },
-            { "id": "en-son", "kind": "word", "text": "son", "translation": "fils", "emoji": "👦" },
-            { "id": "en-daughter", "kind": "word", "text": "daughter", "translation": "fille", "emoji": "👧" },
-            { "id": "en-sister", "kind": "word", "text": "sister", "translation": "sœur", "emoji": "👭" },
-            { "id": "en-how-old", "kind": "sentence", "text": "how old are you?", "translation": "quel âge as-tu ?", "accept": ["quel âge avez-vous ?"], "emoji": "🎂" }
+            { "id": "en-family", "audio": "audio/en-family.mp3", "kind": "word", "text": "family", "translation": "famille", "emoji": "👨‍👩‍👧" },
+            { "id": "en-husband", "audio": "audio/en-husband.mp3", "kind": "word", "text": "husband", "translation": "mari", "accept": ["époux"], "emoji": "🤵" },
+            { "id": "en-son", "audio": "audio/en-son.mp3", "kind": "word", "text": "son", "translation": "fils", "emoji": "👦" },
+            { "id": "en-daughter", "audio": "audio/en-daughter.mp3", "kind": "word", "text": "daughter", "translation": "fille", "emoji": "👧" },
+            { "id": "en-sister", "audio": "audio/en-sister.mp3", "kind": "word", "text": "sister", "translation": "sœur", "emoji": "👭" },
+            { "id": "en-how-old", "audio": "audio/en-how-old.mp3", "kind": "sentence", "text": "how old are you?", "translation": "quel âge as-tu ?", "accept": ["quel âge avez-vous ?"], "emoji": "🎂" }
           ]
         },
         {
@@ -344,15 +344,15 @@
             "setting": "Lors d'un salon professionnel à Manchester, vous discutez avec un visiteur.",
             "speakers": { "A": {"name": "David", "voice": "male"}, "B": {"name": "Vous", "voice": "female", "learner": true} },
             "lines": [
-              { "id": "en-s04-1", "speaker": "A", "text": "What do you do?", "translation": "Que faites-vous dans la vie ?" },
-              { "id": "en-s04-2", "speaker": "B", "text": "I'm an engineer. I work for a car company.", "translation": "Je suis ingénieure. Je travaille pour un constructeur automobile." },
-              { "id": "en-s04-3", "speaker": "A", "text": "Interesting! Do you like your job?", "translation": "Intéressant ! Vous aimez votre travail ?" },
-              { "id": "en-s04-4", "speaker": "B", "text": "Yes, I do. And what about you?", "translation": "Oui. Et vous ?" },
-              { "id": "en-s04-5", "speaker": "A", "text": "I'm a teacher. I teach maths in a school.", "translation": "Je suis professeur. J'enseigne les maths dans une école." },
-              { "id": "en-s04-6", "speaker": "B", "text": "Do you work every day?", "translation": "Vous travaillez tous les jours ?" },
-              { "id": "en-s04-7", "speaker": "A", "text": "From Monday to Friday. I start at eight.", "translation": "Du lundi au vendredi. Je commence à huit heures." },
-              { "id": "en-s04-8", "speaker": "B", "text": "That's early!", "translation": "C'est tôt !" },
-              { "id": "en-s04-9", "speaker": "A", "text": "Yes, but I finish at four.", "translation": "Oui, mais je finis à seize heures." }
+              { "id": "en-s04-1", "audio": "audio/en-s04-1.mp3", "speaker": "A", "text": "What do you do?", "translation": "Que faites-vous dans la vie ?" },
+              { "id": "en-s04-2", "audio": "audio/en-s04-2.mp3", "speaker": "B", "text": "I'm an engineer. I work for a car company.", "translation": "Je suis ingénieure. Je travaille pour un constructeur automobile." },
+              { "id": "en-s04-3", "audio": "audio/en-s04-3.mp3", "speaker": "A", "text": "Interesting! Do you like your job?", "translation": "Intéressant ! Vous aimez votre travail ?" },
+              { "id": "en-s04-4", "audio": "audio/en-s04-4.mp3", "speaker": "B", "text": "Yes, I do. And what about you?", "translation": "Oui. Et vous ?" },
+              { "id": "en-s04-5", "audio": "audio/en-s04-5.mp3", "speaker": "A", "text": "I'm a teacher. I teach maths in a school.", "translation": "Je suis professeur. J'enseigne les maths dans une école." },
+              { "id": "en-s04-6", "audio": "audio/en-s04-6.mp3", "speaker": "B", "text": "Do you work every day?", "translation": "Vous travaillez tous les jours ?" },
+              { "id": "en-s04-7", "audio": "audio/en-s04-7.mp3", "speaker": "A", "text": "From Monday to Friday. I start at eight.", "translation": "Du lundi au vendredi. Je commence à huit heures." },
+              { "id": "en-s04-8", "audio": "audio/en-s04-8.mp3", "speaker": "B", "text": "That's early!", "translation": "C'est tôt !" },
+              { "id": "en-s04-9", "audio": "audio/en-s04-9.mp3", "speaker": "A", "text": "Yes, but I finish at four.", "translation": "Oui, mais je finis à seize heures." }
             ],
             "questions": [
               {
@@ -402,12 +402,12 @@
             }
           },
           "items": [
-            { "id": "en-what-do-you-do", "kind": "sentence", "text": "what do you do?", "translation": "que fais-tu dans la vie ?", "accept": ["quel est ton métier ?", "que faites-vous dans la vie ?"], "emoji": "❓" },
-            { "id": "en-job", "kind": "word", "text": "job", "translation": "travail", "accept": ["métier", "emploi", "boulot"], "emoji": "💼" },
-            { "id": "en-teacher", "kind": "word", "text": "teacher", "translation": "professeur", "accept": ["enseignant", "prof"], "emoji": "👩‍🏫" },
-            { "id": "en-engineer", "kind": "word", "text": "engineer", "translation": "ingénieur", "accept": ["ingénieure"], "emoji": "👷" },
-            { "id": "en-company", "kind": "word", "text": "company", "translation": "entreprise", "accept": ["société"], "emoji": "🏢" },
-            { "id": "en-early", "kind": "word", "text": "early", "translation": "tôt", "accept": ["en avance"], "emoji": "⏰" }
+            { "id": "en-what-do-you-do", "audio": "audio/en-what-do-you-do.mp3", "kind": "sentence", "text": "what do you do?", "translation": "que fais-tu dans la vie ?", "accept": ["quel est ton métier ?", "que faites-vous dans la vie ?"], "emoji": "❓" },
+            { "id": "en-job", "audio": "audio/en-job.mp3", "kind": "word", "text": "job", "translation": "travail", "accept": ["métier", "emploi", "boulot"], "emoji": "💼" },
+            { "id": "en-teacher", "audio": "audio/en-teacher.mp3", "kind": "word", "text": "teacher", "translation": "professeur", "accept": ["enseignant", "prof"], "emoji": "👩‍🏫" },
+            { "id": "en-engineer", "audio": "audio/en-engineer.mp3", "kind": "word", "text": "engineer", "translation": "ingénieur", "accept": ["ingénieure"], "emoji": "👷" },
+            { "id": "en-company", "audio": "audio/en-company.mp3", "kind": "word", "text": "company", "translation": "entreprise", "accept": ["société"], "emoji": "🏢" },
+            { "id": "en-early", "audio": "audio/en-early.mp3", "kind": "word", "text": "early", "translation": "tôt", "accept": ["en avance"], "emoji": "⏰" }
           ]
         },
         {
@@ -419,15 +419,15 @@
             "setting": "Vous faites connaissance avec votre nouvelle voisine dans l'escalier.",
             "speakers": { "A": {"name": "Lucy", "voice": "female"}, "B": {"name": "Vous", "voice": "male", "learner": true} },
             "lines": [
-              { "id": "en-s05-1", "speaker": "A", "text": "What do you do at the weekend?", "translation": "Que fais-tu le week-end ?" },
-              { "id": "en-s05-2", "speaker": "B", "text": "I like playing tennis and reading.", "translation": "J'aime jouer au tennis et lire." },
-              { "id": "en-s05-3", "speaker": "A", "text": "Me too! I play tennis on Saturdays.", "translation": "Moi aussi ! Je joue au tennis le samedi." },
-              { "id": "en-s05-4", "speaker": "B", "text": "Really? Where do you play?", "translation": "Vraiment ? Où joues-tu ?" },
-              { "id": "en-s05-5", "speaker": "A", "text": "In the park near the station.", "translation": "Au parc près de la gare." },
-              { "id": "en-s05-6", "speaker": "A", "text": "Do you want to play with us?", "translation": "Tu veux jouer avec nous ?" },
-              { "id": "en-s05-7", "speaker": "B", "text": "Yes, I'd love to!", "translation": "Oui, avec plaisir !" },
-              { "id": "en-s05-8", "speaker": "A", "text": "Do you like cooking?", "translation": "Tu aimes cuisiner ?" },
-              { "id": "en-s05-9", "speaker": "B", "text": "Not really. I hate cooking!", "translation": "Pas vraiment. Je déteste cuisiner !" }
+              { "id": "en-s05-1", "audio": "audio/en-s05-1.mp3", "speaker": "A", "text": "What do you do at the weekend?", "translation": "Que fais-tu le week-end ?" },
+              { "id": "en-s05-2", "audio": "audio/en-s05-2.mp3", "speaker": "B", "text": "I like playing tennis and reading.", "translation": "J'aime jouer au tennis et lire." },
+              { "id": "en-s05-3", "audio": "audio/en-s05-3.mp3", "speaker": "A", "text": "Me too! I play tennis on Saturdays.", "translation": "Moi aussi ! Je joue au tennis le samedi." },
+              { "id": "en-s05-4", "audio": "audio/en-s05-4.mp3", "speaker": "B", "text": "Really? Where do you play?", "translation": "Vraiment ? Où joues-tu ?" },
+              { "id": "en-s05-5", "audio": "audio/en-s05-5.mp3", "speaker": "A", "text": "In the park near the station.", "translation": "Au parc près de la gare." },
+              { "id": "en-s05-6", "audio": "audio/en-s05-6.mp3", "speaker": "A", "text": "Do you want to play with us?", "translation": "Tu veux jouer avec nous ?" },
+              { "id": "en-s05-7", "audio": "audio/en-s05-7.mp3", "speaker": "B", "text": "Yes, I'd love to!", "translation": "Oui, avec plaisir !" },
+              { "id": "en-s05-8", "audio": "audio/en-s05-8.mp3", "speaker": "A", "text": "Do you like cooking?", "translation": "Tu aimes cuisiner ?" },
+              { "id": "en-s05-9", "audio": "audio/en-s05-9.mp3", "speaker": "B", "text": "Not really. I hate cooking!", "translation": "Pas vraiment. Je déteste cuisiner !" }
             ],
             "questions": [
               {
@@ -478,12 +478,12 @@
             }
           },
           "items": [
-            { "id": "en-weekend", "kind": "word", "text": "weekend", "translation": "week-end", "accept": ["fin de semaine"], "emoji": "📅" },
-            { "id": "en-reading", "kind": "word", "text": "reading", "translation": "la lecture", "accept": ["lire"], "emoji": "📖" },
-            { "id": "en-park", "kind": "word", "text": "park", "translation": "parc", "emoji": "🌳" },
-            { "id": "en-cooking", "kind": "word", "text": "cooking", "translation": "la cuisine", "accept": ["cuisiner"], "emoji": "🍳" },
-            { "id": "en-id-love-to", "kind": "phrase", "text": "I'd love to", "translation": "avec plaisir", "accept": ["j'adorerais"], "emoji": "😊" },
-            { "id": "en-me-too", "kind": "phrase", "text": "me too", "translation": "moi aussi", "emoji": "🙋" }
+            { "id": "en-weekend", "audio": "audio/en-weekend.mp3", "kind": "word", "text": "weekend", "translation": "week-end", "accept": ["fin de semaine"], "emoji": "📅" },
+            { "id": "en-reading", "audio": "audio/en-reading.mp3", "kind": "word", "text": "reading", "translation": "la lecture", "accept": ["lire"], "emoji": "📖" },
+            { "id": "en-park", "audio": "audio/en-park.mp3", "kind": "word", "text": "park", "translation": "parc", "emoji": "🌳" },
+            { "id": "en-cooking", "audio": "audio/en-cooking.mp3", "kind": "word", "text": "cooking", "translation": "la cuisine", "accept": ["cuisiner"], "emoji": "🍳" },
+            { "id": "en-id-love-to", "audio": "audio/en-id-love-to.mp3", "kind": "phrase", "text": "I'd love to", "translation": "avec plaisir", "accept": ["j'adorerais"], "emoji": "😊" },
+            { "id": "en-me-too", "audio": "audio/en-me-too.mp3", "kind": "phrase", "text": "me too", "translation": "moi aussi", "emoji": "🙋" }
           ]
         }
       ]
@@ -503,15 +503,15 @@
             "setting": "Vous cherchez le British Museum. Vous arrêtez une passante.",
             "speakers": { "A": {"name": "Une passante", "voice": "female"}, "B": {"name": "Vous", "voice": "male", "learner": true} },
             "lines": [
-              { "id": "en-s06-1", "speaker": "B", "text": "Excuse me, where is the British Museum, please?", "translation": "Excusez-moi, où est le British Museum, s'il vous plaît ?" },
-              { "id": "en-s06-2", "speaker": "A", "text": "Go straight on and turn left at the bank.", "translation": "Allez tout droit et tournez à gauche à la banque." },
-              { "id": "en-s06-3", "speaker": "B", "text": "Turn left at the bank. Is it far?", "translation": "À gauche à la banque. C'est loin ?" },
-              { "id": "en-s06-4", "speaker": "A", "text": "No, it's about five minutes on foot.", "translation": "Non, c'est à environ cinq minutes à pied." },
-              { "id": "en-s06-5", "speaker": "A", "text": "It's next to a big bookshop.", "translation": "C'est à côté d'une grande librairie." },
-              { "id": "en-s06-6", "speaker": "B", "text": "Is there a café near the museum?", "translation": "Il y a un café près du musée ?" },
-              { "id": "en-s06-7", "speaker": "A", "text": "Yes, there's one opposite the entrance.", "translation": "Oui, il y en a un en face de l'entrée." },
-              { "id": "en-s06-8", "speaker": "B", "text": "Thank you very much!", "translation": "Merci beaucoup !" },
-              { "id": "en-s06-9", "speaker": "A", "text": "You're welcome. Enjoy your visit!", "translation": "Je vous en prie. Bonne visite !" }
+              { "id": "en-s06-1", "audio": "audio/en-s06-1.mp3", "speaker": "B", "text": "Excuse me, where is the British Museum, please?", "translation": "Excusez-moi, où est le British Museum, s'il vous plaît ?" },
+              { "id": "en-s06-2", "audio": "audio/en-s06-2.mp3", "speaker": "A", "text": "Go straight on and turn left at the bank.", "translation": "Allez tout droit et tournez à gauche à la banque." },
+              { "id": "en-s06-3", "audio": "audio/en-s06-3.mp3", "speaker": "B", "text": "Turn left at the bank. Is it far?", "translation": "À gauche à la banque. C'est loin ?" },
+              { "id": "en-s06-4", "audio": "audio/en-s06-4.mp3", "speaker": "A", "text": "No, it's about five minutes on foot.", "translation": "Non, c'est à environ cinq minutes à pied." },
+              { "id": "en-s06-5", "audio": "audio/en-s06-5.mp3", "speaker": "A", "text": "It's next to a big bookshop.", "translation": "C'est à côté d'une grande librairie." },
+              { "id": "en-s06-6", "audio": "audio/en-s06-6.mp3", "speaker": "B", "text": "Is there a café near the museum?", "translation": "Il y a un café près du musée ?" },
+              { "id": "en-s06-7", "audio": "audio/en-s06-7.mp3", "speaker": "A", "text": "Yes, there's one opposite the entrance.", "translation": "Oui, il y en a un en face de l'entrée." },
+              { "id": "en-s06-8", "audio": "audio/en-s06-8.mp3", "speaker": "B", "text": "Thank you very much!", "translation": "Merci beaucoup !" },
+              { "id": "en-s06-9", "audio": "audio/en-s06-9.mp3", "speaker": "A", "text": "You're welcome. Enjoy your visit!", "translation": "Je vous en prie. Bonne visite !" }
             ],
             "questions": [
               { "question": "Où faut-il tourner à gauche ?", "options": ["À la poste", "À la banque", "Au feu"], "answer": 1 },
@@ -567,12 +567,12 @@
             }
           },
           "items": [
-            { "id": "en-go-straight-on", "kind": "phrase", "text": "go straight on", "translation": "allez tout droit", "accept": ["va tout droit", "tout droit"], "emoji": "⬆️" },
-            { "id": "en-turn-left", "kind": "phrase", "text": "turn left", "translation": "tournez à gauche", "accept": ["tourne à gauche", "à gauche"], "emoji": "⬅️" },
-            { "id": "en-turn-right", "kind": "phrase", "text": "turn right", "translation": "tournez à droite", "accept": ["tourne à droite", "à droite"], "emoji": "➡️" },
-            { "id": "en-far", "kind": "word", "text": "far", "translation": "loin", "emoji": "🛣️" },
-            { "id": "en-next-to", "kind": "phrase", "text": "next to", "translation": "à côté de", "emoji": "↔️" },
-            { "id": "en-opposite", "kind": "word", "text": "opposite", "translation": "en face de", "accept": ["en face"], "emoji": "🔄" }
+            { "id": "en-go-straight-on", "audio": "audio/en-go-straight-on.mp3", "kind": "phrase", "text": "go straight on", "translation": "allez tout droit", "accept": ["va tout droit", "tout droit"], "emoji": "⬆️" },
+            { "id": "en-turn-left", "audio": "audio/en-turn-left.mp3", "kind": "phrase", "text": "turn left", "translation": "tournez à gauche", "accept": ["tourne à gauche", "à gauche"], "emoji": "⬅️" },
+            { "id": "en-turn-right", "audio": "audio/en-turn-right.mp3", "kind": "phrase", "text": "turn right", "translation": "tournez à droite", "accept": ["tourne à droite", "à droite"], "emoji": "➡️" },
+            { "id": "en-far", "audio": "audio/en-far.mp3", "kind": "word", "text": "far", "translation": "loin", "emoji": "🛣️" },
+            { "id": "en-next-to", "audio": "audio/en-next-to.mp3", "kind": "phrase", "text": "next to", "translation": "à côté de", "emoji": "↔️" },
+            { "id": "en-opposite", "audio": "audio/en-opposite.mp3", "kind": "word", "text": "opposite", "translation": "en face de", "accept": ["en face"], "emoji": "🔄" }
           ]
         },
         {
@@ -584,15 +584,15 @@
             "setting": "Vous montez dans un bus à Bristol et parlez au chauffeur.",
             "speakers": { "A": {"name": "Le chauffeur", "voice": "male"}, "B": {"name": "Vous", "voice": "female", "learner": true} },
             "lines": [
-              { "id": "en-s07-1", "speaker": "B", "text": "Hello. Does this bus go to the airport?", "translation": "Bonjour. Ce bus va à l'aéroport ?" },
-              { "id": "en-s07-2", "speaker": "A", "text": "Yes, it does. Single or return?", "translation": "Oui. Aller simple ou aller-retour ?" },
-              { "id": "en-s07-3", "speaker": "B", "text": "A return ticket, please. How much is it?", "translation": "Un aller-retour, s'il vous plaît. C'est combien ?" },
-              { "id": "en-s07-4", "speaker": "A", "text": "That's six pounds fifty.", "translation": "Ça fait six livres cinquante." },
-              { "id": "en-s07-5", "speaker": "B", "text": "Can I pay by card?", "translation": "Je peux payer par carte ?" },
-              { "id": "en-s07-6", "speaker": "A", "text": "Of course. Just touch here.", "translation": "Bien sûr. Posez-la ici." },
-              { "id": "en-s07-7", "speaker": "B", "text": "How long does it take?", "translation": "Combien de temps dure le trajet ?" },
-              { "id": "en-s07-8", "speaker": "A", "text": "About forty minutes. I'll tell you when we arrive.", "translation": "Environ quarante minutes. Je vous dirai quand on arrive." },
-              { "id": "en-s07-9", "speaker": "B", "text": "Thanks, that's very kind.", "translation": "Merci, c'est très gentil." }
+              { "id": "en-s07-1", "audio": "audio/en-s07-1.mp3", "speaker": "B", "text": "Hello. Does this bus go to the airport?", "translation": "Bonjour. Ce bus va à l'aéroport ?" },
+              { "id": "en-s07-2", "audio": "audio/en-s07-2.mp3", "speaker": "A", "text": "Yes, it does. Single or return?", "translation": "Oui. Aller simple ou aller-retour ?" },
+              { "id": "en-s07-3", "audio": "audio/en-s07-3.mp3", "speaker": "B", "text": "A return ticket, please. How much is it?", "translation": "Un aller-retour, s'il vous plaît. C'est combien ?" },
+              { "id": "en-s07-4", "audio": "audio/en-s07-4.mp3", "speaker": "A", "text": "That's six pounds fifty.", "translation": "Ça fait six livres cinquante." },
+              { "id": "en-s07-5", "audio": "audio/en-s07-5.mp3", "speaker": "B", "text": "Can I pay by card?", "translation": "Je peux payer par carte ?" },
+              { "id": "en-s07-6", "audio": "audio/en-s07-6.mp3", "speaker": "A", "text": "Of course. Just touch here.", "translation": "Bien sûr. Posez-la ici." },
+              { "id": "en-s07-7", "audio": "audio/en-s07-7.mp3", "speaker": "B", "text": "How long does it take?", "translation": "Combien de temps dure le trajet ?" },
+              { "id": "en-s07-8", "audio": "audio/en-s07-8.mp3", "speaker": "A", "text": "About forty minutes. I'll tell you when we arrive.", "translation": "Environ quarante minutes. Je vous dirai quand on arrive." },
+              { "id": "en-s07-9", "audio": "audio/en-s07-9.mp3", "speaker": "B", "text": "Thanks, that's very kind.", "translation": "Merci, c'est très gentil." }
             ],
             "questions": [
               { "question": "Où va la voyageuse ?", "options": ["À la gare", "À l'aéroport", "Au centre-ville"], "answer": 1 },
@@ -648,12 +648,12 @@
             }
           },
           "items": [
-            { "id": "en-bus", "kind": "word", "text": "bus", "translation": "bus", "accept": ["autobus", "car"], "emoji": "🚌" },
-            { "id": "en-airport", "kind": "word", "text": "airport", "translation": "aéroport", "emoji": "✈️" },
-            { "id": "en-ticket", "kind": "word", "text": "ticket", "translation": "billet", "accept": ["ticket"], "emoji": "🎫" },
-            { "id": "en-return-ticket", "kind": "phrase", "text": "a return ticket", "translation": "un aller-retour", "accept": ["aller-retour", "un billet aller-retour"], "emoji": "🔁" },
-            { "id": "en-pay-by-card", "kind": "phrase", "text": "to pay by card", "translation": "payer par carte", "accept": ["pay by card"], "emoji": "💳" },
-            { "id": "en-how-long", "kind": "sentence", "text": "how long does it take?", "translation": "combien de temps ça prend ?", "accept": ["ça dure combien de temps ?"], "emoji": "⏱️" }
+            { "id": "en-bus", "audio": "audio/en-bus.mp3", "kind": "word", "text": "bus", "translation": "bus", "accept": ["autobus", "car"], "emoji": "🚌" },
+            { "id": "en-airport", "audio": "audio/en-airport.mp3", "kind": "word", "text": "airport", "translation": "aéroport", "emoji": "✈️" },
+            { "id": "en-ticket", "audio": "audio/en-ticket.mp3", "kind": "word", "text": "ticket", "translation": "billet", "accept": ["ticket"], "emoji": "🎫" },
+            { "id": "en-return-ticket", "audio": "audio/en-return-ticket.mp3", "kind": "phrase", "text": "a return ticket", "translation": "un aller-retour", "accept": ["aller-retour", "un billet aller-retour"], "emoji": "🔁" },
+            { "id": "en-pay-by-card", "audio": "audio/en-pay-by-card.mp3", "kind": "phrase", "text": "to pay by card", "translation": "payer par carte", "accept": ["pay by card"], "emoji": "💳" },
+            { "id": "en-how-long", "audio": "audio/en-how-long.mp3", "kind": "sentence", "text": "how long does it take?", "translation": "combien de temps ça prend ?", "accept": ["ça dure combien de temps ?"], "emoji": "⏱️" }
           ]
         },
         {
@@ -665,15 +665,15 @@
             "setting": "Vous arrivez à la réception d'un hôtel à York, le soir.",
             "speakers": { "A": {"name": "La réceptionniste", "voice": "female"}, "B": {"name": "Vous", "voice": "male", "learner": true} },
             "lines": [
-              { "id": "en-s08-1", "speaker": "A", "text": "Good evening. Can I help you?", "translation": "Bonsoir. Je peux vous aider ?" },
-              { "id": "en-s08-2", "speaker": "B", "text": "Good evening. I have a reservation. My name is Martin.", "translation": "Bonsoir. J'ai une réservation. Je m'appelle Martin." },
-              { "id": "en-s08-3", "speaker": "A", "text": "Yes, Mr Martin. A double room for two nights.", "translation": "Oui, monsieur Martin. Une chambre double pour deux nuits." },
-              { "id": "en-s08-4", "speaker": "B", "text": "That's right. Is breakfast included?", "translation": "C'est ça. Le petit-déjeuner est compris ?" },
-              { "id": "en-s08-5", "speaker": "A", "text": "Yes, it's from seven to ten in the restaurant.", "translation": "Oui, de sept à dix heures au restaurant." },
-              { "id": "en-s08-6", "speaker": "B", "text": "Can I have the Wi-Fi password, please?", "translation": "Je peux avoir le mot de passe du wifi, s'il vous plaît ?" },
-              { "id": "en-s08-7", "speaker": "A", "text": "Here you are. Your room is on the third floor.", "translation": "Voici. Votre chambre est au troisième étage." },
-              { "id": "en-s08-8", "speaker": "B", "text": "Is there a lift?", "translation": "Il y a un ascenseur ?" },
-              { "id": "en-s08-9", "speaker": "A", "text": "Yes, just behind you. Have a nice stay!", "translation": "Oui, juste derrière vous. Bon séjour !" }
+              { "id": "en-s08-1", "audio": "audio/en-s08-1.mp3", "speaker": "A", "text": "Good evening. Can I help you?", "translation": "Bonsoir. Je peux vous aider ?" },
+              { "id": "en-s08-2", "audio": "audio/en-s08-2.mp3", "speaker": "B", "text": "Good evening. I have a reservation. My name is Martin.", "translation": "Bonsoir. J'ai une réservation. Je m'appelle Martin." },
+              { "id": "en-s08-3", "audio": "audio/en-s08-3.mp3", "speaker": "A", "text": "Yes, Mr Martin. A double room for two nights.", "translation": "Oui, monsieur Martin. Une chambre double pour deux nuits." },
+              { "id": "en-s08-4", "audio": "audio/en-s08-4.mp3", "speaker": "B", "text": "That's right. Is breakfast included?", "translation": "C'est ça. Le petit-déjeuner est compris ?" },
+              { "id": "en-s08-5", "audio": "audio/en-s08-5.mp3", "speaker": "A", "text": "Yes, it's from seven to ten in the restaurant.", "translation": "Oui, de sept à dix heures au restaurant." },
+              { "id": "en-s08-6", "audio": "audio/en-s08-6.mp3", "speaker": "B", "text": "Can I have the Wi-Fi password, please?", "translation": "Je peux avoir le mot de passe du wifi, s'il vous plaît ?" },
+              { "id": "en-s08-7", "audio": "audio/en-s08-7.mp3", "speaker": "A", "text": "Here you are. Your room is on the third floor.", "translation": "Voici. Votre chambre est au troisième étage." },
+              { "id": "en-s08-8", "audio": "audio/en-s08-8.mp3", "speaker": "B", "text": "Is there a lift?", "translation": "Il y a un ascenseur ?" },
+              { "id": "en-s08-9", "audio": "audio/en-s08-9.mp3", "speaker": "A", "text": "Yes, just behind you. Have a nice stay!", "translation": "Oui, juste derrière vous. Bon séjour !" }
             ],
             "questions": [
               {
@@ -728,12 +728,12 @@
             }
           },
           "items": [
-            { "id": "en-reservation", "kind": "word", "text": "reservation", "translation": "réservation", "emoji": "📋" },
-            { "id": "en-double-room", "kind": "phrase", "text": "a double room", "translation": "une chambre double", "accept": ["chambre double"], "emoji": "🛏️" },
-            { "id": "en-breakfast", "kind": "word", "text": "breakfast", "translation": "petit-déjeuner", "accept": ["petit déjeuner"], "emoji": "🥐" },
-            { "id": "en-password", "kind": "word", "text": "password", "translation": "mot de passe", "emoji": "🔑" },
-            { "id": "en-floor", "kind": "word", "text": "floor", "translation": "étage", "accept": ["sol"], "emoji": "🏢" },
-            { "id": "en-lift", "kind": "word", "text": "lift", "translation": "ascenseur", "accept": ["elevator"], "emoji": "🛗" }
+            { "id": "en-reservation", "audio": "audio/en-reservation.mp3", "kind": "word", "text": "reservation", "translation": "réservation", "emoji": "📋" },
+            { "id": "en-double-room", "audio": "audio/en-double-room.mp3", "kind": "phrase", "text": "a double room", "translation": "une chambre double", "accept": ["chambre double"], "emoji": "🛏️" },
+            { "id": "en-breakfast", "audio": "audio/en-breakfast.mp3", "kind": "word", "text": "breakfast", "translation": "petit-déjeuner", "accept": ["petit déjeuner"], "emoji": "🥐" },
+            { "id": "en-password", "audio": "audio/en-password.mp3", "kind": "word", "text": "password", "translation": "mot de passe", "emoji": "🔑" },
+            { "id": "en-floor", "audio": "audio/en-floor.mp3", "kind": "word", "text": "floor", "translation": "étage", "accept": ["sol"], "emoji": "🏢" },
+            { "id": "en-lift", "audio": "audio/en-lift.mp3", "kind": "word", "text": "lift", "translation": "ascenseur", "accept": ["elevator"], "emoji": "🛗" }
           ]
         },
         {
@@ -745,16 +745,16 @@
             "setting": "Vous cherchez un pull dans un magasin de vêtements à Oxford Street.",
             "speakers": { "A": {"name": "Le vendeur", "voice": "male"}, "B": {"name": "Vous", "voice": "female", "learner": true} },
             "lines": [
-              { "id": "en-s09-1", "speaker": "A", "text": "Hello, are you looking for something?", "translation": "Bonjour, vous cherchez quelque chose ?" },
-              { "id": "en-s09-2", "speaker": "B", "text": "Yes, I'm looking for a jumper.", "translation": "Oui, je cherche un pull." },
-              { "id": "en-s09-3", "speaker": "A", "text": "What size are you?", "translation": "Quelle est votre taille ?" },
-              { "id": "en-s09-4", "speaker": "B", "text": "Medium, I think. How much is this blue one?", "translation": "M, je crois. Combien coûte ce bleu ?" },
-              { "id": "en-s09-5", "speaker": "A", "text": "It's thirty-five pounds.", "translation": "Il coûte trente-cinq livres." },
-              { "id": "en-s09-6", "speaker": "B", "text": "Can I try it on?", "translation": "Je peux l'essayer ?" },
-              { "id": "en-s09-7", "speaker": "A", "text": "Of course. The changing rooms are over there.", "translation": "Bien sûr. Les cabines sont là-bas." },
-              { "id": "en-s09-8", "speaker": "B", "text": "It's perfect. I'll take it.", "translation": "Il est parfait. Je le prends." },
-              { "id": "en-s09-9", "speaker": "A", "text": "Great. Would you like a bag?", "translation": "Très bien. Vous voulez un sac ?" },
-              { "id": "en-s09-10", "speaker": "B", "text": "No, thanks. I've got one.", "translation": "Non merci. J'en ai un." }
+              { "id": "en-s09-1", "audio": "audio/en-s09-1.mp3", "speaker": "A", "text": "Hello, are you looking for something?", "translation": "Bonjour, vous cherchez quelque chose ?" },
+              { "id": "en-s09-2", "audio": "audio/en-s09-2.mp3", "speaker": "B", "text": "Yes, I'm looking for a jumper.", "translation": "Oui, je cherche un pull." },
+              { "id": "en-s09-3", "audio": "audio/en-s09-3.mp3", "speaker": "A", "text": "What size are you?", "translation": "Quelle est votre taille ?" },
+              { "id": "en-s09-4", "audio": "audio/en-s09-4.mp3", "speaker": "B", "text": "Medium, I think. How much is this blue one?", "translation": "M, je crois. Combien coûte ce bleu ?" },
+              { "id": "en-s09-5", "audio": "audio/en-s09-5.mp3", "speaker": "A", "text": "It's thirty-five pounds.", "translation": "Il coûte trente-cinq livres." },
+              { "id": "en-s09-6", "audio": "audio/en-s09-6.mp3", "speaker": "B", "text": "Can I try it on?", "translation": "Je peux l'essayer ?" },
+              { "id": "en-s09-7", "audio": "audio/en-s09-7.mp3", "speaker": "A", "text": "Of course. The changing rooms are over there.", "translation": "Bien sûr. Les cabines sont là-bas." },
+              { "id": "en-s09-8", "audio": "audio/en-s09-8.mp3", "speaker": "B", "text": "It's perfect. I'll take it.", "translation": "Il est parfait. Je le prends." },
+              { "id": "en-s09-9", "audio": "audio/en-s09-9.mp3", "speaker": "A", "text": "Great. Would you like a bag?", "translation": "Très bien. Vous voulez un sac ?" },
+              { "id": "en-s09-10", "audio": "audio/en-s09-10.mp3", "speaker": "B", "text": "No, thanks. I've got one.", "translation": "Non merci. J'en ai un." }
             ],
             "questions": [
               { "question": "Que cherche la cliente ?", "options": ["Un manteau", "Un pull", "Des chaussures"], "answer": 1 },
@@ -806,12 +806,12 @@
             }
           },
           "items": [
-            { "id": "en-jumper", "kind": "word", "text": "jumper", "translation": "pull", "accept": ["pull-over", "sweater"], "emoji": "🧶" },
-            { "id": "en-size", "kind": "word", "text": "size", "translation": "taille", "accept": ["pointure"], "emoji": "📏" },
-            { "id": "en-try-on", "kind": "phrase", "text": "to try on", "translation": "essayer (un vêtement)", "accept": ["essayer", "try on"], "emoji": "👗" },
-            { "id": "en-changing-room", "kind": "phrase", "text": "changing room", "translation": "cabine d'essayage", "accept": ["cabine"], "emoji": "🚪" },
-            { "id": "en-ill-take-it", "kind": "sentence", "text": "I'll take it", "translation": "je le prends", "accept": ["je la prends"], "emoji": "✅" },
-            { "id": "en-bag", "kind": "word", "text": "bag", "translation": "sac", "emoji": "🛍️" }
+            { "id": "en-jumper", "audio": "audio/en-jumper.mp3", "kind": "word", "text": "jumper", "translation": "pull", "accept": ["pull-over", "sweater"], "emoji": "🧶" },
+            { "id": "en-size", "audio": "audio/en-size.mp3", "kind": "word", "text": "size", "translation": "taille", "accept": ["pointure"], "emoji": "📏" },
+            { "id": "en-try-on", "audio": "audio/en-try-on.mp3", "kind": "phrase", "text": "to try on", "translation": "essayer (un vêtement)", "accept": ["essayer", "try on"], "emoji": "👗" },
+            { "id": "en-changing-room", "audio": "audio/en-changing-room.mp3", "kind": "phrase", "text": "changing room", "translation": "cabine d'essayage", "accept": ["cabine"], "emoji": "🚪" },
+            { "id": "en-ill-take-it", "audio": "audio/en-ill-take-it.mp3", "kind": "sentence", "text": "I'll take it", "translation": "je le prends", "accept": ["je la prends"], "emoji": "✅" },
+            { "id": "en-bag", "audio": "audio/en-bag.mp3", "kind": "word", "text": "bag", "translation": "sac", "emoji": "🛍️" }
           ]
         },
         {
@@ -823,15 +823,15 @@
             "setting": "Vous entrez dans un café de Brighton pour prendre un petit-déjeuner.",
             "speakers": { "A": {"name": "La serveuse", "voice": "female"}, "B": {"name": "Vous", "voice": "male", "learner": true} },
             "lines": [
-              { "id": "en-s10-1", "speaker": "A", "text": "Hi there! What can I get you?", "translation": "Bonjour ! Qu'est-ce que je vous sers ?" },
-              { "id": "en-s10-2", "speaker": "B", "text": "I'd like a cappuccino, please.", "translation": "Je voudrais un cappuccino, s'il vous plaît." },
-              { "id": "en-s10-3", "speaker": "A", "text": "Small, medium or large?", "translation": "Petit, moyen ou grand ?" },
-              { "id": "en-s10-4", "speaker": "B", "text": "Large, please. And could I have a croissant?", "translation": "Grand, s'il vous plaît. Et je pourrais avoir un croissant ?" },
-              { "id": "en-s10-5", "speaker": "A", "text": "Sorry, we haven't got any croissants left. We've got muffins.", "translation": "Désolée, il n'y a plus de croissants. Nous avons des muffins." },
-              { "id": "en-s10-6", "speaker": "B", "text": "OK, a chocolate muffin, then.", "translation": "D'accord, un muffin au chocolat alors." },
-              { "id": "en-s10-7", "speaker": "A", "text": "To eat in or take away?", "translation": "Sur place ou à emporter ?" },
-              { "id": "en-s10-8", "speaker": "B", "text": "To eat in. How much is that?", "translation": "Sur place. Ça fait combien ?" },
-              { "id": "en-s10-9", "speaker": "A", "text": "That's seven pounds twenty, please.", "translation": "Ça fait sept livres vingt, s'il vous plaît." }
+              { "id": "en-s10-1", "audio": "audio/en-s10-1.mp3", "speaker": "A", "text": "Hi there! What can I get you?", "translation": "Bonjour ! Qu'est-ce que je vous sers ?" },
+              { "id": "en-s10-2", "audio": "audio/en-s10-2.mp3", "speaker": "B", "text": "I'd like a cappuccino, please.", "translation": "Je voudrais un cappuccino, s'il vous plaît." },
+              { "id": "en-s10-3", "audio": "audio/en-s10-3.mp3", "speaker": "A", "text": "Small, medium or large?", "translation": "Petit, moyen ou grand ?" },
+              { "id": "en-s10-4", "audio": "audio/en-s10-4.mp3", "speaker": "B", "text": "Large, please. And could I have a croissant?", "translation": "Grand, s'il vous plaît. Et je pourrais avoir un croissant ?" },
+              { "id": "en-s10-5", "audio": "audio/en-s10-5.mp3", "speaker": "A", "text": "Sorry, we haven't got any croissants left. We've got muffins.", "translation": "Désolée, il n'y a plus de croissants. Nous avons des muffins." },
+              { "id": "en-s10-6", "audio": "audio/en-s10-6.mp3", "speaker": "B", "text": "OK, a chocolate muffin, then.", "translation": "D'accord, un muffin au chocolat alors." },
+              { "id": "en-s10-7", "audio": "audio/en-s10-7.mp3", "speaker": "A", "text": "To eat in or take away?", "translation": "Sur place ou à emporter ?" },
+              { "id": "en-s10-8", "audio": "audio/en-s10-8.mp3", "speaker": "B", "text": "To eat in. How much is that?", "translation": "Sur place. Ça fait combien ?" },
+              { "id": "en-s10-9", "audio": "audio/en-s10-9.mp3", "speaker": "A", "text": "That's seven pounds twenty, please.", "translation": "Ça fait sept livres vingt, s'il vous plaît." }
             ],
             "questions": [
               { "question": "Quelle taille de cappuccino commande-t-il ?", "options": ["Petit", "Moyen", "Grand"], "answer": 2 },
@@ -883,12 +883,12 @@
             }
           },
           "items": [
-            { "id": "en-id-like", "kind": "phrase", "text": "I'd like", "translation": "je voudrais", "accept": ["j'aimerais"], "emoji": "🙋" },
-            { "id": "en-large", "kind": "word", "text": "large", "translation": "grand", "accept": ["grande"], "emoji": "🥤" },
-            { "id": "en-small", "kind": "word", "text": "small", "translation": "petit", "accept": ["petite"], "emoji": "🥛" },
-            { "id": "en-take-away", "kind": "phrase", "text": "take away", "translation": "à emporter", "emoji": "🥡" },
-            { "id": "en-eat-in", "kind": "phrase", "text": "eat in", "translation": "sur place", "accept": ["manger sur place"], "emoji": "🍽️" },
-            { "id": "en-chocolate", "kind": "word", "text": "chocolate", "translation": "chocolat", "emoji": "🍫" }
+            { "id": "en-id-like", "audio": "audio/en-id-like.mp3", "kind": "phrase", "text": "I'd like", "translation": "je voudrais", "accept": ["j'aimerais"], "emoji": "🙋" },
+            { "id": "en-large", "audio": "audio/en-large.mp3", "kind": "word", "text": "large", "translation": "grand", "accept": ["grande"], "emoji": "🥤" },
+            { "id": "en-small", "audio": "audio/en-small.mp3", "kind": "word", "text": "small", "translation": "petit", "accept": ["petite"], "emoji": "🥛" },
+            { "id": "en-take-away", "audio": "audio/en-take-away.mp3", "kind": "phrase", "text": "take away", "translation": "à emporter", "emoji": "🥡" },
+            { "id": "en-eat-in", "audio": "audio/en-eat-in.mp3", "kind": "phrase", "text": "eat in", "translation": "sur place", "accept": ["manger sur place"], "emoji": "🍽️" },
+            { "id": "en-chocolate", "audio": "audio/en-chocolate.mp3", "kind": "word", "text": "chocolate", "translation": "chocolat", "emoji": "🍫" }
           ]
         }
       ]
@@ -908,15 +908,15 @@
             "setting": "Un ami anglais vous demande comment se passe votre nouvelle vie.",
             "speakers": { "A": {"name": "Oliver", "voice": "male"}, "B": {"name": "Vous", "voice": "female", "learner": true} },
             "lines": [
-              { "id": "en-s11-1", "speaker": "A", "text": "So, what's a normal day for you?", "translation": "Alors, c'est quoi une journée normale pour toi ?" },
-              { "id": "en-s11-2", "speaker": "B", "text": "I get up at seven and I have a shower.", "translation": "Je me lève à sept heures et je prends une douche." },
-              { "id": "en-s11-3", "speaker": "A", "text": "Do you have breakfast at home?", "translation": "Tu prends le petit-déjeuner à la maison ?" },
-              { "id": "en-s11-4", "speaker": "B", "text": "No, I usually have a coffee at work.", "translation": "Non, je prends en général un café au travail." },
-              { "id": "en-s11-5", "speaker": "A", "text": "How do you go to work?", "translation": "Comment vas-tu au travail ?" },
-              { "id": "en-s11-6", "speaker": "B", "text": "I go by bike. It takes twenty minutes.", "translation": "J'y vais à vélo. Ça prend vingt minutes." },
-              { "id": "en-s11-7", "speaker": "A", "text": "And in the evening?", "translation": "Et le soir ?" },
-              { "id": "en-s11-8", "speaker": "B", "text": "I cook dinner and I watch TV. My husband reads.", "translation": "Je prépare le dîner et je regarde la télé. Mon mari lit." },
-              { "id": "en-s11-9", "speaker": "A", "text": "Sounds nice and quiet!", "translation": "Ça a l'air agréable et calme !" }
+              { "id": "en-s11-1", "audio": "audio/en-s11-1.mp3", "speaker": "A", "text": "So, what's a normal day for you?", "translation": "Alors, c'est quoi une journée normale pour toi ?" },
+              { "id": "en-s11-2", "audio": "audio/en-s11-2.mp3", "speaker": "B", "text": "I get up at seven and I have a shower.", "translation": "Je me lève à sept heures et je prends une douche." },
+              { "id": "en-s11-3", "audio": "audio/en-s11-3.mp3", "speaker": "A", "text": "Do you have breakfast at home?", "translation": "Tu prends le petit-déjeuner à la maison ?" },
+              { "id": "en-s11-4", "audio": "audio/en-s11-4.mp3", "speaker": "B", "text": "No, I usually have a coffee at work.", "translation": "Non, je prends en général un café au travail." },
+              { "id": "en-s11-5", "audio": "audio/en-s11-5.mp3", "speaker": "A", "text": "How do you go to work?", "translation": "Comment vas-tu au travail ?" },
+              { "id": "en-s11-6", "audio": "audio/en-s11-6.mp3", "speaker": "B", "text": "I go by bike. It takes twenty minutes.", "translation": "J'y vais à vélo. Ça prend vingt minutes." },
+              { "id": "en-s11-7", "audio": "audio/en-s11-7.mp3", "speaker": "A", "text": "And in the evening?", "translation": "Et le soir ?" },
+              { "id": "en-s11-8", "audio": "audio/en-s11-8.mp3", "speaker": "B", "text": "I cook dinner and I watch TV. My husband reads.", "translation": "Je prépare le dîner et je regarde la télé. Mon mari lit." },
+              { "id": "en-s11-9", "audio": "audio/en-s11-9.mp3", "speaker": "A", "text": "Sounds nice and quiet!", "translation": "Ça a l'air agréable et calme !" }
             ],
             "questions": [
               {
@@ -972,12 +972,12 @@
             }
           },
           "items": [
-            { "id": "en-get-up", "kind": "phrase", "text": "to get up", "translation": "se lever", "accept": ["get up"], "emoji": "⏰" },
-            { "id": "en-have-a-shower", "kind": "phrase", "text": "to have a shower", "translation": "prendre une douche", "accept": ["have a shower"], "emoji": "🚿" },
-            { "id": "en-usually", "kind": "word", "text": "usually", "translation": "d'habitude", "accept": ["généralement", "en général"], "emoji": "🔁" },
-            { "id": "en-by-bike", "kind": "phrase", "text": "by bike", "translation": "à vélo", "accept": ["en vélo"], "emoji": "🚲" },
-            { "id": "en-dinner", "kind": "word", "text": "dinner", "translation": "dîner", "accept": ["repas du soir"], "emoji": "🍝" },
-            { "id": "en-evening", "kind": "word", "text": "evening", "translation": "soir", "accept": ["soirée"], "emoji": "🌆" }
+            { "id": "en-get-up", "audio": "audio/en-get-up.mp3", "kind": "phrase", "text": "to get up", "translation": "se lever", "accept": ["get up"], "emoji": "⏰" },
+            { "id": "en-have-a-shower", "audio": "audio/en-have-a-shower.mp3", "kind": "phrase", "text": "to have a shower", "translation": "prendre une douche", "accept": ["have a shower"], "emoji": "🚿" },
+            { "id": "en-usually", "audio": "audio/en-usually.mp3", "kind": "word", "text": "usually", "translation": "d'habitude", "accept": ["généralement", "en général"], "emoji": "🔁" },
+            { "id": "en-by-bike", "audio": "audio/en-by-bike.mp3", "kind": "phrase", "text": "by bike", "translation": "à vélo", "accept": ["en vélo"], "emoji": "🚲" },
+            { "id": "en-dinner", "audio": "audio/en-dinner.mp3", "kind": "word", "text": "dinner", "translation": "dîner", "accept": ["repas du soir"], "emoji": "🍝" },
+            { "id": "en-evening", "audio": "audio/en-evening.mp3", "kind": "word", "text": "evening", "translation": "soir", "accept": ["soirée"], "emoji": "🌆" }
           ]
         },
         {
@@ -989,14 +989,14 @@
             "setting": "Vous appelez une collègue pour organiser une réunion.",
             "speakers": { "A": {"name": "Rachel", "voice": "female"}, "B": {"name": "Vous", "voice": "male", "learner": true} },
             "lines": [
-              { "id": "en-s12-1", "speaker": "B", "text": "Hi Rachel, can we meet next week?", "translation": "Salut Rachel, on peut se voir la semaine prochaine ?" },
-              { "id": "en-s12-2", "speaker": "A", "text": "Sure. Are you free on Tuesday?", "translation": "Bien sûr. Tu es libre mardi ?" },
-              { "id": "en-s12-3", "speaker": "B", "text": "Sorry, I'm busy on Tuesday. What about Wednesday?", "translation": "Désolé, je suis pris mardi. Et mercredi ?" },
-              { "id": "en-s12-4", "speaker": "A", "text": "Wednesday is fine. What time?", "translation": "Mercredi, ça va. À quelle heure ?" },
-              { "id": "en-s12-5", "speaker": "B", "text": "At half past ten?", "translation": "À dix heures et demie ?" },
-              { "id": "en-s12-6", "speaker": "A", "text": "Perfect. Where shall we meet?", "translation": "Parfait. On se retrouve où ?" },
-              { "id": "en-s12-7", "speaker": "B", "text": "In my office, on the second floor.", "translation": "Dans mon bureau, au deuxième étage." },
-              { "id": "en-s12-8", "speaker": "A", "text": "Great. See you on Wednesday!", "translation": "Super. À mercredi !" }
+              { "id": "en-s12-1", "audio": "audio/en-s12-1.mp3", "speaker": "B", "text": "Hi Rachel, can we meet next week?", "translation": "Salut Rachel, on peut se voir la semaine prochaine ?" },
+              { "id": "en-s12-2", "audio": "audio/en-s12-2.mp3", "speaker": "A", "text": "Sure. Are you free on Tuesday?", "translation": "Bien sûr. Tu es libre mardi ?" },
+              { "id": "en-s12-3", "audio": "audio/en-s12-3.mp3", "speaker": "B", "text": "Sorry, I'm busy on Tuesday. What about Wednesday?", "translation": "Désolé, je suis pris mardi. Et mercredi ?" },
+              { "id": "en-s12-4", "audio": "audio/en-s12-4.mp3", "speaker": "A", "text": "Wednesday is fine. What time?", "translation": "Mercredi, ça va. À quelle heure ?" },
+              { "id": "en-s12-5", "audio": "audio/en-s12-5.mp3", "speaker": "B", "text": "At half past ten?", "translation": "À dix heures et demie ?" },
+              { "id": "en-s12-6", "audio": "audio/en-s12-6.mp3", "speaker": "A", "text": "Perfect. Where shall we meet?", "translation": "Parfait. On se retrouve où ?" },
+              { "id": "en-s12-7", "audio": "audio/en-s12-7.mp3", "speaker": "B", "text": "In my office, on the second floor.", "translation": "Dans mon bureau, au deuxième étage." },
+              { "id": "en-s12-8", "audio": "audio/en-s12-8.mp3", "speaker": "A", "text": "Great. See you on Wednesday!", "translation": "Super. À mercredi !" }
             ],
             "questions": [
               {
@@ -1048,12 +1048,12 @@
             }
           },
           "items": [
-            { "id": "en-next-week", "kind": "phrase", "text": "next week", "translation": "la semaine prochaine", "emoji": "📆" },
-            { "id": "en-free", "kind": "word", "text": "free", "translation": "libre", "accept": ["gratuit", "disponible"], "emoji": "🟢" },
-            { "id": "en-busy", "kind": "word", "text": "busy", "translation": "occupé", "accept": ["pris", "occupée"], "emoji": "🔴" },
-            { "id": "en-what-time", "kind": "sentence", "text": "what time?", "translation": "à quelle heure ?", "accept": ["quelle heure ?"], "emoji": "🕙" },
-            { "id": "en-half-past", "kind": "phrase", "text": "half past ten", "translation": "dix heures et demie", "accept": ["10 h 30", "10h30"], "emoji": "🕥" },
-            { "id": "en-see-you", "kind": "phrase", "text": "see you!", "translation": "à plus tard !", "accept": ["à bientôt", "à plus"], "emoji": "👋" }
+            { "id": "en-next-week", "audio": "audio/en-next-week.mp3", "kind": "phrase", "text": "next week", "translation": "la semaine prochaine", "emoji": "📆" },
+            { "id": "en-free", "audio": "audio/en-free.mp3", "kind": "word", "text": "free", "translation": "libre", "accept": ["gratuit", "disponible"], "emoji": "🟢" },
+            { "id": "en-busy", "audio": "audio/en-busy.mp3", "kind": "word", "text": "busy", "translation": "occupé", "accept": ["pris", "occupée"], "emoji": "🔴" },
+            { "id": "en-what-time", "audio": "audio/en-what-time.mp3", "kind": "sentence", "text": "what time?", "translation": "à quelle heure ?", "accept": ["quelle heure ?"], "emoji": "🕙" },
+            { "id": "en-half-past", "audio": "audio/en-half-past.mp3", "kind": "phrase", "text": "half past ten", "translation": "dix heures et demie", "accept": ["10 h 30", "10h30"], "emoji": "🕥" },
+            { "id": "en-see-you", "audio": "audio/en-see-you.mp3", "kind": "phrase", "text": "see you!", "translation": "à plus tard !", "accept": ["à bientôt", "à plus"], "emoji": "👋" }
           ]
         },
         {
@@ -1065,14 +1065,14 @@
             "setting": "Le lundi matin, un collègue vous demande comment était votre week-end.",
             "speakers": { "A": {"name": "Ben", "voice": "male"}, "B": {"name": "Vous", "voice": "female", "learner": true} },
             "lines": [
-              { "id": "en-s13-1", "speaker": "A", "text": "Hi! How was your weekend?", "translation": "Salut ! C'était comment, ton week-end ?" },
-              { "id": "en-s13-2", "speaker": "B", "text": "It was great, thanks. I was in Cambridge.", "translation": "C'était génial, merci. J'étais à Cambridge." },
-              { "id": "en-s13-3", "speaker": "A", "text": "Cambridge! Were you with friends?", "translation": "Cambridge ! Tu étais avec des amis ?" },
-              { "id": "en-s13-4", "speaker": "B", "text": "Yes, we were three. The weather was lovely.", "translation": "Oui, nous étions trois. Il faisait un temps magnifique." },
-              { "id": "en-s13-5", "speaker": "A", "text": "Was it expensive?", "translation": "C'était cher ?" },
-              { "id": "en-s13-6", "speaker": "B", "text": "No, it wasn't. The hotel was cheap.", "translation": "Non. L'hôtel n'était pas cher." },
-              { "id": "en-s13-7", "speaker": "B", "text": "And you? What about your weekend?", "translation": "Et toi ? Ton week-end ?" },
-              { "id": "en-s13-8", "speaker": "A", "text": "It was quiet. I was at home all weekend.", "translation": "Calme. J'étais à la maison tout le week-end." }
+              { "id": "en-s13-1", "audio": "audio/en-s13-1.mp3", "speaker": "A", "text": "Hi! How was your weekend?", "translation": "Salut ! C'était comment, ton week-end ?" },
+              { "id": "en-s13-2", "audio": "audio/en-s13-2.mp3", "speaker": "B", "text": "It was great, thanks. I was in Cambridge.", "translation": "C'était génial, merci. J'étais à Cambridge." },
+              { "id": "en-s13-3", "audio": "audio/en-s13-3.mp3", "speaker": "A", "text": "Cambridge! Were you with friends?", "translation": "Cambridge ! Tu étais avec des amis ?" },
+              { "id": "en-s13-4", "audio": "audio/en-s13-4.mp3", "speaker": "B", "text": "Yes, we were three. The weather was lovely.", "translation": "Oui, nous étions trois. Il faisait un temps magnifique." },
+              { "id": "en-s13-5", "audio": "audio/en-s13-5.mp3", "speaker": "A", "text": "Was it expensive?", "translation": "C'était cher ?" },
+              { "id": "en-s13-6", "audio": "audio/en-s13-6.mp3", "speaker": "B", "text": "No, it wasn't. The hotel was cheap.", "translation": "Non. L'hôtel n'était pas cher." },
+              { "id": "en-s13-7", "audio": "audio/en-s13-7.mp3", "speaker": "B", "text": "And you? What about your weekend?", "translation": "Et toi ? Ton week-end ?" },
+              { "id": "en-s13-8", "audio": "audio/en-s13-8.mp3", "speaker": "A", "text": "It was quiet. I was at home all weekend.", "translation": "Calme. J'étais à la maison tout le week-end." }
             ],
             "questions": [
               {
@@ -1123,12 +1123,12 @@
             }
           },
           "items": [
-            { "id": "en-how-was", "kind": "sentence", "text": "how was your weekend?", "translation": "comment s'est passé ton week-end ?", "accept": ["c'était comment ton week-end ?"], "emoji": "🏖️" },
-            { "id": "en-weather", "kind": "word", "text": "weather", "translation": "le temps (météo)", "accept": ["météo", "temps"], "emoji": "⛅" },
-            { "id": "en-lovely", "kind": "word", "text": "lovely", "translation": "charmant", "accept": ["très agréable", "magnifique", "adorable"], "emoji": "🌸" },
-            { "id": "en-expensive", "kind": "word", "text": "expensive", "translation": "cher", "accept": ["chère", "coûteux"], "emoji": "💸" },
-            { "id": "en-cheap", "kind": "word", "text": "cheap", "translation": "bon marché", "accept": ["pas cher"], "emoji": "🏷️" },
-            { "id": "en-quiet", "kind": "word", "text": "quiet", "translation": "calme", "accept": ["tranquille"], "emoji": "🤫" }
+            { "id": "en-how-was", "audio": "audio/en-how-was.mp3", "kind": "sentence", "text": "how was your weekend?", "translation": "comment s'est passé ton week-end ?", "accept": ["c'était comment ton week-end ?"], "emoji": "🏖️" },
+            { "id": "en-weather", "audio": "audio/en-weather.mp3", "kind": "word", "text": "weather", "translation": "le temps (météo)", "accept": ["météo", "temps"], "emoji": "⛅" },
+            { "id": "en-lovely", "audio": "audio/en-lovely.mp3", "kind": "word", "text": "lovely", "translation": "charmant", "accept": ["très agréable", "magnifique", "adorable"], "emoji": "🌸" },
+            { "id": "en-expensive", "audio": "audio/en-expensive.mp3", "kind": "word", "text": "expensive", "translation": "cher", "accept": ["chère", "coûteux"], "emoji": "💸" },
+            { "id": "en-cheap", "audio": "audio/en-cheap.mp3", "kind": "word", "text": "cheap", "translation": "bon marché", "accept": ["pas cher"], "emoji": "🏷️" },
+            { "id": "en-quiet", "audio": "audio/en-quiet.mp3", "kind": "word", "text": "quiet", "translation": "calme", "accept": ["tranquille"], "emoji": "🤫" }
           ]
         },
         {
@@ -1140,14 +1140,14 @@
             "setting": "Vous attendez le bus à côté d'une voisine âgée, sous un ciel gris.",
             "speakers": { "A": {"name": "Mrs Brown", "voice": "female"}, "B": {"name": "Vous", "voice": "male", "learner": true} },
             "lines": [
-              { "id": "en-s14-1", "speaker": "A", "text": "Terrible weather today, isn't it?", "translation": "Quel temps affreux aujourd'hui, n'est-ce pas ?" },
-              { "id": "en-s14-2", "speaker": "B", "text": "Yes, it's very cold. And it's raining again.", "translation": "Oui, il fait très froid. Et il pleut encore." },
-              { "id": "en-s14-3", "speaker": "A", "text": "What's the weather like in France now?", "translation": "Quel temps fait-il en France en ce moment ?" },
-              { "id": "en-s14-4", "speaker": "B", "text": "In the south it's sunny and warm.", "translation": "Dans le sud, il fait beau et chaud." },
-              { "id": "en-s14-5", "speaker": "A", "text": "Lucky you! Is it often sunny in Lyon?", "translation": "Quelle chance ! Il fait souvent beau à Lyon ?" },
-              { "id": "en-s14-6", "speaker": "B", "text": "In summer, yes. But winter is cold.", "translation": "En été, oui. Mais l'hiver est froid." },
-              { "id": "en-s14-7", "speaker": "A", "text": "Look, the sun is coming out!", "translation": "Regardez, le soleil se montre !" },
-              { "id": "en-s14-8", "speaker": "B", "text": "Finally! I haven't got an umbrella.", "translation": "Enfin ! Je n'ai pas de parapluie." }
+              { "id": "en-s14-1", "audio": "audio/en-s14-1.mp3", "speaker": "A", "text": "Terrible weather today, isn't it?", "translation": "Quel temps affreux aujourd'hui, n'est-ce pas ?" },
+              { "id": "en-s14-2", "audio": "audio/en-s14-2.mp3", "speaker": "B", "text": "Yes, it's very cold. And it's raining again.", "translation": "Oui, il fait très froid. Et il pleut encore." },
+              { "id": "en-s14-3", "audio": "audio/en-s14-3.mp3", "speaker": "A", "text": "What's the weather like in France now?", "translation": "Quel temps fait-il en France en ce moment ?" },
+              { "id": "en-s14-4", "audio": "audio/en-s14-4.mp3", "speaker": "B", "text": "In the south it's sunny and warm.", "translation": "Dans le sud, il fait beau et chaud." },
+              { "id": "en-s14-5", "audio": "audio/en-s14-5.mp3", "speaker": "A", "text": "Lucky you! Is it often sunny in Lyon?", "translation": "Quelle chance ! Il fait souvent beau à Lyon ?" },
+              { "id": "en-s14-6", "audio": "audio/en-s14-6.mp3", "speaker": "B", "text": "In summer, yes. But winter is cold.", "translation": "En été, oui. Mais l'hiver est froid." },
+              { "id": "en-s14-7", "audio": "audio/en-s14-7.mp3", "speaker": "A", "text": "Look, the sun is coming out!", "translation": "Regardez, le soleil se montre !" },
+              { "id": "en-s14-8", "audio": "audio/en-s14-8.mp3", "speaker": "B", "text": "Finally! I haven't got an umbrella.", "translation": "Enfin ! Je n'ai pas de parapluie." }
             ],
             "questions": [
               {
@@ -1207,12 +1207,12 @@
             }
           },
           "items": [
-            { "id": "en-its-raining", "kind": "sentence", "text": "it's raining", "translation": "il pleut", "emoji": "🌧️" },
-            { "id": "en-sunny", "kind": "word", "text": "sunny", "translation": "ensoleillé", "accept": ["il fait beau", "ensoleillée"], "emoji": "☀️" },
-            { "id": "en-warm", "kind": "word", "text": "warm", "translation": "chaud", "accept": ["doux", "chaude"], "emoji": "🌡️" },
-            { "id": "en-umbrella", "kind": "word", "text": "umbrella", "translation": "parapluie", "emoji": "☂️" },
-            { "id": "en-summer", "kind": "word", "text": "summer", "translation": "été", "accept": ["l'été"], "emoji": "🏝️" },
-            { "id": "en-winter", "kind": "word", "text": "winter", "translation": "hiver", "accept": ["l'hiver"], "emoji": "❄️" }
+            { "id": "en-its-raining", "audio": "audio/en-its-raining.mp3", "kind": "sentence", "text": "it's raining", "translation": "il pleut", "emoji": "🌧️" },
+            { "id": "en-sunny", "audio": "audio/en-sunny.mp3", "kind": "word", "text": "sunny", "translation": "ensoleillé", "accept": ["il fait beau", "ensoleillée"], "emoji": "☀️" },
+            { "id": "en-warm", "audio": "audio/en-warm.mp3", "kind": "word", "text": "warm", "translation": "chaud", "accept": ["doux", "chaude"], "emoji": "🌡️" },
+            { "id": "en-umbrella", "audio": "audio/en-umbrella.mp3", "kind": "word", "text": "umbrella", "translation": "parapluie", "emoji": "☂️" },
+            { "id": "en-summer", "audio": "audio/en-summer.mp3", "kind": "word", "text": "summer", "translation": "été", "accept": ["l'été"], "emoji": "🏝️" },
+            { "id": "en-winter", "audio": "audio/en-winter.mp3", "kind": "word", "text": "winter", "translation": "hiver", "accept": ["l'hiver"], "emoji": "❄️" }
           ]
         },
         {
@@ -1224,15 +1224,15 @@
             "setting": "Vous appelez une entreprise pour parler à M. Wilson.",
             "speakers": { "A": {"name": "La secrétaire", "voice": "female"}, "B": {"name": "Vous", "voice": "male", "learner": true} },
             "lines": [
-              { "id": "en-s15-1", "speaker": "A", "text": "Good morning, Smith and Partners. How can I help you?", "translation": "Bonjour, Smith and Partners. Que puis-je pour vous ?" },
-              { "id": "en-s15-2", "speaker": "B", "text": "Hello, this is Paul Martin. Can I speak to Mr Wilson, please?", "translation": "Bonjour, Paul Martin à l'appareil. Puis-je parler à M. Wilson ?" },
-              { "id": "en-s15-3", "speaker": "A", "text": "I'm sorry, he's in a meeting at the moment.", "translation": "Je suis désolée, il est en réunion en ce moment." },
-              { "id": "en-s15-4", "speaker": "B", "text": "When is he free?", "translation": "Quand est-il disponible ?" },
-              { "id": "en-s15-5", "speaker": "A", "text": "This afternoon, after three. Can I take a message?", "translation": "Cet après-midi, après quinze heures. Je peux prendre un message ?" },
-              { "id": "en-s15-6", "speaker": "B", "text": "Yes, please. Can he call me back?", "translation": "Oui, s'il vous plaît. Peut-il me rappeler ?" },
-              { "id": "en-s15-7", "speaker": "A", "text": "Of course. What's your number?", "translation": "Bien sûr. Quel est votre numéro ?" },
-              { "id": "en-s15-8", "speaker": "B", "text": "It's 07700 900 461.", "translation": "C'est le 07700 900 461." },
-              { "id": "en-s15-9", "speaker": "A", "text": "Thank you, Mr Martin. Goodbye.", "translation": "Merci, monsieur Martin. Au revoir." }
+              { "id": "en-s15-1", "audio": "audio/en-s15-1.mp3", "speaker": "A", "text": "Good morning, Smith and Partners. How can I help you?", "translation": "Bonjour, Smith and Partners. Que puis-je pour vous ?" },
+              { "id": "en-s15-2", "audio": "audio/en-s15-2.mp3", "speaker": "B", "text": "Hello, this is Paul Martin. Can I speak to Mr Wilson, please?", "translation": "Bonjour, Paul Martin à l'appareil. Puis-je parler à M. Wilson ?" },
+              { "id": "en-s15-3", "audio": "audio/en-s15-3.mp3", "speaker": "A", "text": "I'm sorry, he's in a meeting at the moment.", "translation": "Je suis désolée, il est en réunion en ce moment." },
+              { "id": "en-s15-4", "audio": "audio/en-s15-4.mp3", "speaker": "B", "text": "When is he free?", "translation": "Quand est-il disponible ?" },
+              { "id": "en-s15-5", "audio": "audio/en-s15-5.mp3", "speaker": "A", "text": "This afternoon, after three. Can I take a message?", "translation": "Cet après-midi, après quinze heures. Je peux prendre un message ?" },
+              { "id": "en-s15-6", "audio": "audio/en-s15-6.mp3", "speaker": "B", "text": "Yes, please. Can he call me back?", "translation": "Oui, s'il vous plaît. Peut-il me rappeler ?" },
+              { "id": "en-s15-7", "audio": "audio/en-s15-7.mp3", "speaker": "A", "text": "Of course. What's your number?", "translation": "Bien sûr. Quel est votre numéro ?" },
+              { "id": "en-s15-8", "audio": "audio/en-s15-8.mp3", "speaker": "B", "text": "It's 07700 900 461.", "translation": "C'est le 07700 900 461." },
+              { "id": "en-s15-9", "audio": "audio/en-s15-9.mp3", "speaker": "A", "text": "Thank you, Mr Martin. Goodbye.", "translation": "Merci, monsieur Martin. Au revoir." }
             ],
             "questions": [
               {
@@ -1292,12 +1292,12 @@
             }
           },
           "items": [
-            { "id": "en-meeting", "kind": "word", "text": "meeting", "translation": "réunion", "emoji": "👥" },
-            { "id": "en-message", "kind": "word", "text": "message", "translation": "message", "emoji": "✉️" },
-            { "id": "en-call-back", "kind": "phrase", "text": "to call back", "translation": "rappeler", "accept": ["call back"], "emoji": "📲" },
-            { "id": "en-number", "kind": "word", "text": "number", "translation": "numéro", "accept": ["nombre"], "emoji": "🔢" },
-            { "id": "en-afternoon", "kind": "word", "text": "afternoon", "translation": "après-midi", "emoji": "🌇" },
-            { "id": "en-at-the-moment", "kind": "phrase", "text": "at the moment", "translation": "en ce moment", "accept": ["actuellement"], "emoji": "⏳" }
+            { "id": "en-meeting", "audio": "audio/en-meeting.mp3", "kind": "word", "text": "meeting", "translation": "réunion", "emoji": "👥" },
+            { "id": "en-message", "audio": "audio/en-message.mp3", "kind": "word", "text": "message", "translation": "message", "emoji": "✉️" },
+            { "id": "en-call-back", "audio": "audio/en-call-back.mp3", "kind": "phrase", "text": "to call back", "translation": "rappeler", "accept": ["call back"], "emoji": "📲" },
+            { "id": "en-number", "audio": "audio/en-number.mp3", "kind": "word", "text": "number", "translation": "numéro", "accept": ["nombre"], "emoji": "🔢" },
+            { "id": "en-afternoon", "audio": "audio/en-afternoon.mp3", "kind": "word", "text": "afternoon", "translation": "après-midi", "emoji": "🌇" },
+            { "id": "en-at-the-moment", "audio": "audio/en-at-the-moment.mp3", "kind": "phrase", "text": "at the moment", "translation": "en ce moment", "accept": ["actuellement"], "emoji": "⏳" }
           ]
         }
       ]
@@ -1317,15 +1317,15 @@
             "setting": "Vous êtes malade pendant un séjour à Liverpool et consultez une médecin.",
             "speakers": { "A": {"name": "Dr Taylor", "voice": "female"}, "B": {"name": "Vous", "voice": "male", "learner": true} },
             "lines": [
-              { "id": "en-s16-1", "speaker": "A", "text": "Hello, please sit down. What's the matter?", "translation": "Bonjour, asseyez-vous. Qu'est-ce qui ne va pas ?" },
-              { "id": "en-s16-2", "speaker": "B", "text": "I've got a headache and a sore throat.", "translation": "J'ai mal à la tête et mal à la gorge." },
-              { "id": "en-s16-3", "speaker": "A", "text": "Since when?", "translation": "Depuis quand ?" },
-              { "id": "en-s16-4", "speaker": "B", "text": "Since Monday. I'm very tired.", "translation": "Depuis lundi. Je suis très fatigué." },
-              { "id": "en-s16-5", "speaker": "A", "text": "Have you got a temperature?", "translation": "Vous avez de la fièvre ?" },
-              { "id": "en-s16-6", "speaker": "B", "text": "Yes, a little.", "translation": "Oui, un peu." },
-              { "id": "en-s16-7", "speaker": "A", "text": "It's just a cold. Drink a lot of water and rest.", "translation": "C'est juste un rhume. Buvez beaucoup d'eau et reposez-vous." },
-              { "id": "en-s16-8", "speaker": "B", "text": "Do I need any medicine?", "translation": "J'ai besoin de médicaments ?" },
-              { "id": "en-s16-9", "speaker": "A", "text": "Take these tablets twice a day.", "translation": "Prenez ces comprimés deux fois par jour." }
+              { "id": "en-s16-1", "audio": "audio/en-s16-1.mp3", "speaker": "A", "text": "Hello, please sit down. What's the matter?", "translation": "Bonjour, asseyez-vous. Qu'est-ce qui ne va pas ?" },
+              { "id": "en-s16-2", "audio": "audio/en-s16-2.mp3", "speaker": "B", "text": "I've got a headache and a sore throat.", "translation": "J'ai mal à la tête et mal à la gorge." },
+              { "id": "en-s16-3", "audio": "audio/en-s16-3.mp3", "speaker": "A", "text": "Since when?", "translation": "Depuis quand ?" },
+              { "id": "en-s16-4", "audio": "audio/en-s16-4.mp3", "speaker": "B", "text": "Since Monday. I'm very tired.", "translation": "Depuis lundi. Je suis très fatigué." },
+              { "id": "en-s16-5", "audio": "audio/en-s16-5.mp3", "speaker": "A", "text": "Have you got a temperature?", "translation": "Vous avez de la fièvre ?" },
+              { "id": "en-s16-6", "audio": "audio/en-s16-6.mp3", "speaker": "B", "text": "Yes, a little.", "translation": "Oui, un peu." },
+              { "id": "en-s16-7", "audio": "audio/en-s16-7.mp3", "speaker": "A", "text": "It's just a cold. Drink a lot of water and rest.", "translation": "C'est juste un rhume. Buvez beaucoup d'eau et reposez-vous." },
+              { "id": "en-s16-8", "audio": "audio/en-s16-8.mp3", "speaker": "B", "text": "Do I need any medicine?", "translation": "J'ai besoin de médicaments ?" },
+              { "id": "en-s16-9", "audio": "audio/en-s16-9.mp3", "speaker": "A", "text": "Take these tablets twice a day.", "translation": "Prenez ces comprimés deux fois par jour." }
             ],
             "questions": [
               {
@@ -1385,12 +1385,12 @@
             }
           },
           "items": [
-            { "id": "en-headache", "kind": "word", "text": "headache", "translation": "mal de tête", "accept": ["migraine"], "emoji": "🤕" },
-            { "id": "en-sore-throat", "kind": "phrase", "text": "a sore throat", "translation": "mal à la gorge", "accept": ["mal de gorge"], "emoji": "😷" },
-            { "id": "en-tired", "kind": "word", "text": "tired", "translation": "fatigué", "accept": ["fatiguée"], "emoji": "😴" },
-            { "id": "en-cold-illness", "kind": "phrase", "text": "a cold", "translation": "un rhume", "accept": ["rhume"], "emoji": "🤧" },
-            { "id": "en-medicine", "kind": "word", "text": "medicine", "translation": "médicament", "accept": ["médicaments", "médecine"], "emoji": "💊" },
-            { "id": "en-whats-the-matter", "kind": "sentence", "text": "what's the matter?", "translation": "qu'est-ce qui ne va pas ?", "accept": ["qu'est-ce qui se passe ?"], "emoji": "❓" }
+            { "id": "en-headache", "audio": "audio/en-headache.mp3", "kind": "word", "text": "headache", "translation": "mal de tête", "accept": ["migraine"], "emoji": "🤕" },
+            { "id": "en-sore-throat", "audio": "audio/en-sore-throat.mp3", "kind": "phrase", "text": "a sore throat", "translation": "mal à la gorge", "accept": ["mal de gorge"], "emoji": "😷" },
+            { "id": "en-tired", "audio": "audio/en-tired.mp3", "kind": "word", "text": "tired", "translation": "fatigué", "accept": ["fatiguée"], "emoji": "😴" },
+            { "id": "en-cold-illness", "audio": "audio/en-cold-illness.mp3", "kind": "phrase", "text": "a cold", "translation": "un rhume", "accept": ["rhume"], "emoji": "🤧" },
+            { "id": "en-medicine", "audio": "audio/en-medicine.mp3", "kind": "word", "text": "medicine", "translation": "médicament", "accept": ["médicaments", "médecine"], "emoji": "💊" },
+            { "id": "en-whats-the-matter", "audio": "audio/en-whats-the-matter.mp3", "kind": "sentence", "text": "what's the matter?", "translation": "qu'est-ce qui ne va pas ?", "accept": ["qu'est-ce qui se passe ?"], "emoji": "❓" }
           ]
         },
         {
@@ -1402,14 +1402,14 @@
             "setting": "Vous voulez inviter un collègue à dîner vendredi soir.",
             "speakers": { "A": {"name": "Tom", "voice": "male"}, "B": {"name": "Vous", "voice": "female", "learner": true} },
             "lines": [
-              { "id": "en-s17-1", "speaker": "B", "text": "Tom, would you like to come for dinner on Friday?", "translation": "Tom, tu voudrais venir dîner vendredi ?" },
-              { "id": "en-s17-2", "speaker": "A", "text": "I'd love to, but I'm working late on Friday.", "translation": "J'aimerais beaucoup, mais je travaille tard vendredi." },
-              { "id": "en-s17-3", "speaker": "B", "text": "Oh, what a pity. What about Saturday?", "translation": "Oh, dommage. Et samedi ?" },
-              { "id": "en-s17-4", "speaker": "A", "text": "Saturday is perfect. What time?", "translation": "Samedi, c'est parfait. À quelle heure ?" },
-              { "id": "en-s17-5", "speaker": "B", "text": "Let's say eight o'clock.", "translation": "Disons vingt heures." },
-              { "id": "en-s17-6", "speaker": "A", "text": "Great. Can I bring something?", "translation": "Super. Je peux apporter quelque chose ?" },
-              { "id": "en-s17-7", "speaker": "B", "text": "Just bring a dessert if you want.", "translation": "Apporte juste un dessert si tu veux." },
-              { "id": "en-s17-8", "speaker": "A", "text": "No problem. See you on Saturday!", "translation": "Pas de problème. À samedi !" }
+              { "id": "en-s17-1", "audio": "audio/en-s17-1.mp3", "speaker": "B", "text": "Tom, would you like to come for dinner on Friday?", "translation": "Tom, tu voudrais venir dîner vendredi ?" },
+              { "id": "en-s17-2", "audio": "audio/en-s17-2.mp3", "speaker": "A", "text": "I'd love to, but I'm working late on Friday.", "translation": "J'aimerais beaucoup, mais je travaille tard vendredi." },
+              { "id": "en-s17-3", "audio": "audio/en-s17-3.mp3", "speaker": "B", "text": "Oh, what a pity. What about Saturday?", "translation": "Oh, dommage. Et samedi ?" },
+              { "id": "en-s17-4", "audio": "audio/en-s17-4.mp3", "speaker": "A", "text": "Saturday is perfect. What time?", "translation": "Samedi, c'est parfait. À quelle heure ?" },
+              { "id": "en-s17-5", "audio": "audio/en-s17-5.mp3", "speaker": "B", "text": "Let's say eight o'clock.", "translation": "Disons vingt heures." },
+              { "id": "en-s17-6", "audio": "audio/en-s17-6.mp3", "speaker": "A", "text": "Great. Can I bring something?", "translation": "Super. Je peux apporter quelque chose ?" },
+              { "id": "en-s17-7", "audio": "audio/en-s17-7.mp3", "speaker": "B", "text": "Just bring a dessert if you want.", "translation": "Apporte juste un dessert si tu veux." },
+              { "id": "en-s17-8", "audio": "audio/en-s17-8.mp3", "speaker": "A", "text": "No problem. See you on Saturday!", "translation": "Pas de problème. À samedi !" }
             ],
             "questions": [
               {
@@ -1461,12 +1461,12 @@
             }
           },
           "items": [
-            { "id": "en-would-you-like-to", "kind": "phrase", "text": "would you like to…?", "translation": "voudrais-tu… ?", "accept": ["aimerais-tu… ?", "voulez-vous… ?"], "emoji": "💌" },
-            { "id": "en-what-a-pity", "kind": "phrase", "text": "what a pity", "translation": "dommage", "accept": ["quel dommage"], "emoji": "😕" },
-            { "id": "en-lets", "kind": "phrase", "text": "let's…", "translation": "allons… / faisons…", "accept": ["allons", "faisons"], "emoji": "👉" },
-            { "id": "en-bring", "kind": "word", "text": "to bring", "translation": "apporter", "accept": ["bring", "amener"], "emoji": "🎁" },
-            { "id": "en-dessert", "kind": "word", "text": "dessert", "translation": "dessert", "emoji": "🍰" },
-            { "id": "en-late", "kind": "word", "text": "late", "translation": "tard", "accept": ["en retard"], "emoji": "🌙" }
+            { "id": "en-would-you-like-to", "audio": "audio/en-would-you-like-to.mp3", "kind": "phrase", "text": "would you like to…?", "translation": "voudrais-tu… ?", "accept": ["aimerais-tu… ?", "voulez-vous… ?"], "emoji": "💌" },
+            { "id": "en-what-a-pity", "audio": "audio/en-what-a-pity.mp3", "kind": "phrase", "text": "what a pity", "translation": "dommage", "accept": ["quel dommage"], "emoji": "😕" },
+            { "id": "en-lets", "audio": "audio/en-lets.mp3", "kind": "phrase", "text": "let's…", "translation": "allons… / faisons…", "accept": ["allons", "faisons"], "emoji": "👉" },
+            { "id": "en-bring", "audio": "audio/en-bring.mp3", "kind": "word", "text": "to bring", "translation": "apporter", "accept": ["bring", "amener"], "emoji": "🎁" },
+            { "id": "en-dessert", "audio": "audio/en-dessert.mp3", "kind": "word", "text": "dessert", "translation": "dessert", "emoji": "🍰" },
+            { "id": "en-late", "audio": "audio/en-late.mp3", "kind": "word", "text": "late", "translation": "tard", "accept": ["en retard"], "emoji": "🌙" }
           ]
         },
         {
@@ -1478,16 +1478,16 @@
             "setting": "Vous dînez dans un pub à Bath avec une amie. Le serveur arrive.",
             "speakers": { "A": {"name": "Le serveur", "voice": "male"}, "B": {"name": "Vous", "voice": "female", "learner": true} },
             "lines": [
-              { "id": "en-s18-1", "speaker": "A", "text": "Good evening. Are you ready to order?", "translation": "Bonsoir. Vous êtes prêtes à commander ?" },
-              { "id": "en-s18-2", "speaker": "B", "text": "Yes. I'd like the fish and chips, please.", "translation": "Oui. Je voudrais le fish and chips, s'il vous plaît." },
-              { "id": "en-s18-3", "speaker": "A", "text": "Would you like a starter?", "translation": "Vous voulez une entrée ?" },
-              { "id": "en-s18-4", "speaker": "B", "text": "No, thank you. Is there any vegetarian food for my friend?", "translation": "Non, merci. Il y a un plat végétarien pour mon amie ?" },
-              { "id": "en-s18-5", "speaker": "A", "text": "Yes, there's a mushroom pie. It's very good.", "translation": "Oui, il y a une tourte aux champignons. Elle est très bonne." },
-              { "id": "en-s18-6", "speaker": "B", "text": "Great, one mushroom pie then.", "translation": "Très bien, une tourte aux champignons alors." },
-              { "id": "en-s18-7", "speaker": "A", "text": "And to drink?", "translation": "Et comme boisson ?" },
-              { "id": "en-s18-8", "speaker": "B", "text": "A bottle of water, please.", "translation": "Une bouteille d'eau, s'il vous plaît." },
-              { "id": "en-s18-9", "speaker": "B", "text": "Could we have the bill, please?", "translation": "Pourrions-nous avoir l'addition, s'il vous plaît ?" },
-              { "id": "en-s18-10", "speaker": "A", "text": "Of course. I'll bring it right away.", "translation": "Bien sûr. Je vous l'apporte tout de suite." }
+              { "id": "en-s18-1", "audio": "audio/en-s18-1.mp3", "speaker": "A", "text": "Good evening. Are you ready to order?", "translation": "Bonsoir. Vous êtes prêtes à commander ?" },
+              { "id": "en-s18-2", "audio": "audio/en-s18-2.mp3", "speaker": "B", "text": "Yes. I'd like the fish and chips, please.", "translation": "Oui. Je voudrais le fish and chips, s'il vous plaît." },
+              { "id": "en-s18-3", "audio": "audio/en-s18-3.mp3", "speaker": "A", "text": "Would you like a starter?", "translation": "Vous voulez une entrée ?" },
+              { "id": "en-s18-4", "audio": "audio/en-s18-4.mp3", "speaker": "B", "text": "No, thank you. Is there any vegetarian food for my friend?", "translation": "Non, merci. Il y a un plat végétarien pour mon amie ?" },
+              { "id": "en-s18-5", "audio": "audio/en-s18-5.mp3", "speaker": "A", "text": "Yes, there's a mushroom pie. It's very good.", "translation": "Oui, il y a une tourte aux champignons. Elle est très bonne." },
+              { "id": "en-s18-6", "audio": "audio/en-s18-6.mp3", "speaker": "B", "text": "Great, one mushroom pie then.", "translation": "Très bien, une tourte aux champignons alors." },
+              { "id": "en-s18-7", "audio": "audio/en-s18-7.mp3", "speaker": "A", "text": "And to drink?", "translation": "Et comme boisson ?" },
+              { "id": "en-s18-8", "audio": "audio/en-s18-8.mp3", "speaker": "B", "text": "A bottle of water, please.", "translation": "Une bouteille d'eau, s'il vous plaît." },
+              { "id": "en-s18-9", "audio": "audio/en-s18-9.mp3", "speaker": "B", "text": "Could we have the bill, please?", "translation": "Pourrions-nous avoir l'addition, s'il vous plaît ?" },
+              { "id": "en-s18-10", "audio": "audio/en-s18-10.mp3", "speaker": "A", "text": "Of course. I'll bring it right away.", "translation": "Bien sûr. Je vous l'apporte tout de suite." }
             ],
             "questions": [
               { "question": "Que commande-t-elle ?", "options": ["Une tourte", "Du fish and chips", "Une salade"], "answer": 1 },
@@ -1539,12 +1539,12 @@
             }
           },
           "items": [
-            { "id": "en-ready-to-order", "kind": "phrase", "text": "ready to order", "translation": "prêt à commander", "accept": ["prête à commander"], "emoji": "📝" },
-            { "id": "en-starter", "kind": "word", "text": "starter", "translation": "entrée", "emoji": "🥗" },
-            { "id": "en-vegetarian", "kind": "word", "text": "vegetarian", "translation": "végétarien", "accept": ["végétarienne"], "emoji": "🥦" },
-            { "id": "en-fish", "kind": "word", "text": "fish", "translation": "poisson", "emoji": "🐟" },
-            { "id": "en-bottle", "kind": "word", "text": "bottle", "translation": "bouteille", "emoji": "🍾" },
-            { "id": "en-could-we-have-the-bill", "kind": "sentence", "text": "could we have the bill, please?", "translation": "pourrions-nous avoir l'addition, s'il vous plaît ?", "accept": ["l'addition s'il vous plaît"], "emoji": "🧾" }
+            { "id": "en-ready-to-order", "audio": "audio/en-ready-to-order.mp3", "kind": "phrase", "text": "ready to order", "translation": "prêt à commander", "accept": ["prête à commander"], "emoji": "📝" },
+            { "id": "en-starter", "audio": "audio/en-starter.mp3", "kind": "word", "text": "starter", "translation": "entrée", "emoji": "🥗" },
+            { "id": "en-vegetarian", "audio": "audio/en-vegetarian.mp3", "kind": "word", "text": "vegetarian", "translation": "végétarien", "accept": ["végétarienne"], "emoji": "🥦" },
+            { "id": "en-fish", "audio": "audio/en-fish.mp3", "kind": "word", "text": "fish", "translation": "poisson", "emoji": "🐟" },
+            { "id": "en-bottle", "audio": "audio/en-bottle.mp3", "kind": "word", "text": "bottle", "translation": "bouteille", "emoji": "🍾" },
+            { "id": "en-could-we-have-the-bill", "audio": "audio/en-could-we-have-the-bill.mp3", "kind": "sentence", "text": "could we have the bill, please?", "translation": "pourrions-nous avoir l'addition, s'il vous plaît ?", "accept": ["l'addition s'il vous plaît"], "emoji": "🧾" }
           ]
         },
         {
@@ -1556,15 +1556,15 @@
             "setting": "Le soir, quelque chose ne marche pas dans votre chambre. Vous descendez à la réception.",
             "speakers": { "A": {"name": "Le réceptionniste", "voice": "male"}, "B": {"name": "Vous", "voice": "female", "learner": true} },
             "lines": [
-              { "id": "en-s19-1", "speaker": "B", "text": "Excuse me, I'm sorry, but there's a problem with my room.", "translation": "Excusez-moi, je suis désolée, mais il y a un problème dans ma chambre." },
-              { "id": "en-s19-2", "speaker": "A", "text": "Oh dear. What's wrong?", "translation": "Oh là là. Qu'est-ce qui ne va pas ?" },
-              { "id": "en-s19-3", "speaker": "B", "text": "The shower doesn't work and there isn't any hot water.", "translation": "La douche ne marche pas et il n'y a pas d'eau chaude." },
-              { "id": "en-s19-4", "speaker": "A", "text": "I'm very sorry. What's your room number?", "translation": "Je suis vraiment désolé. Quel est votre numéro de chambre ?" },
-              { "id": "en-s19-5", "speaker": "B", "text": "Room two hundred and twelve.", "translation": "Chambre deux cent douze." },
-              { "id": "en-s19-6", "speaker": "A", "text": "I can't send a plumber tonight. Can you change rooms?", "translation": "Je ne peux pas envoyer de plombier ce soir. Pouvez-vous changer de chambre ?" },
-              { "id": "en-s19-7", "speaker": "B", "text": "Yes, of course. That's fine.", "translation": "Oui, bien sûr. Ça me va." },
-              { "id": "en-s19-8", "speaker": "A", "text": "Here's the key for room three hundred and five.", "translation": "Voici la clé de la chambre trois cent cinq." },
-              { "id": "en-s19-9", "speaker": "B", "text": "Thank you for your help.", "translation": "Merci pour votre aide." }
+              { "id": "en-s19-1", "audio": "audio/en-s19-1.mp3", "speaker": "B", "text": "Excuse me, I'm sorry, but there's a problem with my room.", "translation": "Excusez-moi, je suis désolée, mais il y a un problème dans ma chambre." },
+              { "id": "en-s19-2", "audio": "audio/en-s19-2.mp3", "speaker": "A", "text": "Oh dear. What's wrong?", "translation": "Oh là là. Qu'est-ce qui ne va pas ?" },
+              { "id": "en-s19-3", "audio": "audio/en-s19-3.mp3", "speaker": "B", "text": "The shower doesn't work and there isn't any hot water.", "translation": "La douche ne marche pas et il n'y a pas d'eau chaude." },
+              { "id": "en-s19-4", "audio": "audio/en-s19-4.mp3", "speaker": "A", "text": "I'm very sorry. What's your room number?", "translation": "Je suis vraiment désolé. Quel est votre numéro de chambre ?" },
+              { "id": "en-s19-5", "audio": "audio/en-s19-5.mp3", "speaker": "B", "text": "Room two hundred and twelve.", "translation": "Chambre deux cent douze." },
+              { "id": "en-s19-6", "audio": "audio/en-s19-6.mp3", "speaker": "A", "text": "I can't send a plumber tonight. Can you change rooms?", "translation": "Je ne peux pas envoyer de plombier ce soir. Pouvez-vous changer de chambre ?" },
+              { "id": "en-s19-7", "audio": "audio/en-s19-7.mp3", "speaker": "B", "text": "Yes, of course. That's fine.", "translation": "Oui, bien sûr. Ça me va." },
+              { "id": "en-s19-8", "audio": "audio/en-s19-8.mp3", "speaker": "A", "text": "Here's the key for room three hundred and five.", "translation": "Voici la clé de la chambre trois cent cinq." },
+              { "id": "en-s19-9", "audio": "audio/en-s19-9.mp3", "speaker": "B", "text": "Thank you for your help.", "translation": "Merci pour votre aide." }
             ],
             "questions": [
               {
@@ -1620,12 +1620,12 @@
             }
           },
           "items": [
-            { "id": "en-problem", "kind": "word", "text": "problem", "translation": "problème", "emoji": "⚠️" },
-            { "id": "en-doesnt-work", "kind": "phrase", "text": "it doesn't work", "translation": "ça ne marche pas", "accept": ["ça ne fonctionne pas"], "emoji": "🚫" },
-            { "id": "en-hot-water", "kind": "phrase", "text": "hot water", "translation": "eau chaude", "emoji": "♨️" },
-            { "id": "en-key", "kind": "word", "text": "key", "translation": "clé", "accept": ["clef"], "emoji": "🗝️" },
-            { "id": "en-whats-wrong", "kind": "sentence", "text": "what's wrong?", "translation": "qu'est-ce qui ne va pas ?", "accept": ["quel est le problème ?"], "emoji": "🤔" },
-            { "id": "en-help", "kind": "word", "text": "help", "translation": "aide", "accept": ["aider", "au secours"], "emoji": "🆘" }
+            { "id": "en-problem", "audio": "audio/en-problem.mp3", "kind": "word", "text": "problem", "translation": "problème", "emoji": "⚠️" },
+            { "id": "en-doesnt-work", "audio": "audio/en-doesnt-work.mp3", "kind": "phrase", "text": "it doesn't work", "translation": "ça ne marche pas", "accept": ["ça ne fonctionne pas"], "emoji": "🚫" },
+            { "id": "en-hot-water", "audio": "audio/en-hot-water.mp3", "kind": "phrase", "text": "hot water", "translation": "eau chaude", "emoji": "♨️" },
+            { "id": "en-key", "audio": "audio/en-key.mp3", "kind": "word", "text": "key", "translation": "clé", "accept": ["clef"], "emoji": "🗝️" },
+            { "id": "en-whats-wrong", "audio": "audio/en-whats-wrong.mp3", "kind": "sentence", "text": "what's wrong?", "translation": "qu'est-ce qui ne va pas ?", "accept": ["quel est le problème ?"], "emoji": "🤔" },
+            { "id": "en-help", "audio": "audio/en-help.mp3", "kind": "word", "text": "help", "translation": "aide", "accept": ["aider", "au secours"], "emoji": "🆘" }
           ]
         },
         {
@@ -1637,15 +1637,15 @@
             "setting": "Juste avant les vacances, une amie vous demande vos projets.",
             "speakers": { "A": {"name": "Amy", "voice": "female"}, "B": {"name": "Vous", "voice": "male", "learner": true} },
             "lines": [
-              { "id": "en-s20-1", "speaker": "A", "text": "What are you going to do this summer?", "translation": "Qu'est-ce que tu vas faire cet été ?" },
-              { "id": "en-s20-2", "speaker": "B", "text": "I'm going to visit Scotland with my wife.", "translation": "Je vais visiter l'Écosse avec ma femme." },
-              { "id": "en-s20-3", "speaker": "A", "text": "Wonderful! How long are you going to stay?", "translation": "Génial ! Combien de temps allez-vous rester ?" },
-              { "id": "en-s20-4", "speaker": "B", "text": "Two weeks. We're going to rent a car.", "translation": "Deux semaines. Nous allons louer une voiture." },
-              { "id": "en-s20-5", "speaker": "A", "text": "Are you going to see Loch Ness?", "translation": "Vous allez voir le Loch Ness ?" },
-              { "id": "en-s20-6", "speaker": "B", "text": "Yes! And we're going to walk in the mountains.", "translation": "Oui ! Et nous allons marcher dans les montagnes." },
-              { "id": "en-s20-7", "speaker": "A", "text": "Take a warm jacket. It's often cold there.", "translation": "Prends une veste chaude. Il fait souvent froid là-bas." },
-              { "id": "en-s20-8", "speaker": "B", "text": "Good idea. And you? Any plans?", "translation": "Bonne idée. Et toi ? Des projets ?" },
-              { "id": "en-s20-9", "speaker": "A", "text": "I'm going to stay at home and relax!", "translation": "Je vais rester à la maison et me détendre !" }
+              { "id": "en-s20-1", "audio": "audio/en-s20-1.mp3", "speaker": "A", "text": "What are you going to do this summer?", "translation": "Qu'est-ce que tu vas faire cet été ?" },
+              { "id": "en-s20-2", "audio": "audio/en-s20-2.mp3", "speaker": "B", "text": "I'm going to visit Scotland with my wife.", "translation": "Je vais visiter l'Écosse avec ma femme." },
+              { "id": "en-s20-3", "audio": "audio/en-s20-3.mp3", "speaker": "A", "text": "Wonderful! How long are you going to stay?", "translation": "Génial ! Combien de temps allez-vous rester ?" },
+              { "id": "en-s20-4", "audio": "audio/en-s20-4.mp3", "speaker": "B", "text": "Two weeks. We're going to rent a car.", "translation": "Deux semaines. Nous allons louer une voiture." },
+              { "id": "en-s20-5", "audio": "audio/en-s20-5.mp3", "speaker": "A", "text": "Are you going to see Loch Ness?", "translation": "Vous allez voir le Loch Ness ?" },
+              { "id": "en-s20-6", "audio": "audio/en-s20-6.mp3", "speaker": "B", "text": "Yes! And we're going to walk in the mountains.", "translation": "Oui ! Et nous allons marcher dans les montagnes." },
+              { "id": "en-s20-7", "audio": "audio/en-s20-7.mp3", "speaker": "A", "text": "Take a warm jacket. It's often cold there.", "translation": "Prends une veste chaude. Il fait souvent froid là-bas." },
+              { "id": "en-s20-8", "audio": "audio/en-s20-8.mp3", "speaker": "B", "text": "Good idea. And you? Any plans?", "translation": "Bonne idée. Et toi ? Des projets ?" },
+              { "id": "en-s20-9", "audio": "audio/en-s20-9.mp3", "speaker": "A", "text": "I'm going to stay at home and relax!", "translation": "Je vais rester à la maison et me détendre !" }
             ],
             "questions": [
               { "question": "Où va-t-il cet été ?", "options": ["En Irlande", "En Écosse", "Au pays de Galles"], "answer": 1 },
@@ -1701,12 +1701,12 @@
             }
           },
           "items": [
-            { "id": "en-summer-plans", "kind": "sentence", "text": "what are you going to do?", "translation": "qu'est-ce que tu vas faire ?", "accept": ["que vas-tu faire ?"], "emoji": "🗓️" },
-            { "id": "en-to-visit", "kind": "word", "text": "to visit", "translation": "visiter", "accept": ["visit", "rendre visite"], "emoji": "🏰" },
-            { "id": "en-to-rent", "kind": "word", "text": "to rent", "translation": "louer", "accept": ["rent"], "emoji": "🚗" },
-            { "id": "en-mountains", "kind": "word", "text": "mountains", "translation": "montagnes", "accept": ["la montagne"], "emoji": "⛰️" },
-            { "id": "en-jacket", "kind": "word", "text": "jacket", "translation": "veste", "accept": ["blouson"], "emoji": "🧥" },
-            { "id": "en-relax", "kind": "word", "text": "to relax", "translation": "se détendre", "accept": ["relax", "se reposer"], "emoji": "🛋️" }
+            { "id": "en-summer-plans", "audio": "audio/en-summer-plans.mp3", "kind": "sentence", "text": "what are you going to do?", "translation": "qu'est-ce que tu vas faire ?", "accept": ["que vas-tu faire ?"], "emoji": "🗓️" },
+            { "id": "en-to-visit", "audio": "audio/en-to-visit.mp3", "kind": "word", "text": "to visit", "translation": "visiter", "accept": ["visit", "rendre visite"], "emoji": "🏰" },
+            { "id": "en-to-rent", "audio": "audio/en-to-rent.mp3", "kind": "word", "text": "to rent", "translation": "louer", "accept": ["rent"], "emoji": "🚗" },
+            { "id": "en-mountains", "audio": "audio/en-mountains.mp3", "kind": "word", "text": "mountains", "translation": "montagnes", "accept": ["la montagne"], "emoji": "⛰️" },
+            { "id": "en-jacket", "audio": "audio/en-jacket.mp3", "kind": "word", "text": "jacket", "translation": "veste", "accept": ["blouson"], "emoji": "🧥" },
+            { "id": "en-relax", "audio": "audio/en-relax.mp3", "kind": "word", "text": "to relax", "translation": "se détendre", "accept": ["relax", "se reposer"], "emoji": "🛋️" }
           ]
         }
       ]

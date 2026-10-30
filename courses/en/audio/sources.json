@@ -1,4 +1,20 @@
 {
+  "en-afternoon": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Back ache-Afternoon.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Back_ache-Afternoon.wav",
+    "speaker": "Back ache",
+    "author": "Speaker: Back ache Recorder: Back ache",
+    "license": "CC BY-SA 4.0"
+  },
+  "en-airport": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Back ache-airport.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Back_ache-airport.wav",
+    "speaker": "Back ache",
+    "author": "Speaker: Back ache Recorder: Back ache",
+    "license": "CC BY-SA 4.0"
+  },
   "en-apple": {
     "source": "lingualibre",
     "title": "File:LL-Q1860 (eng)-Boredcookie-apple.wav",
@@ -6,6 +22,46 @@
     "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Boredcookie-apple.wav",
     "speaker": "Boredcookie",
     "author": "Speaker: Boredcookie\nRecorder: Boredcookie",
+    "license": "CC0"
+  },
+  "en-at-the-moment": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Vealhurl-at the moment.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Vealhurl-at_the_moment.wav",
+    "speaker": "Vealhurl",
+    "author": "Speaker: Vealhurl Recorder: Vealhurl",
+    "license": "CC BY-SA 4.0"
+  },
+  "en-bag": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Dev Jadiya-bag.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Dev_Jadiya-bag.wav",
+    "speaker": "Dev Jadiya",
+    "author": "Speaker: Dev Jadiya Recorder: Dev Jadiya",
+    "license": "CC0"
+  },
+  "en-beautiful": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Back ache-beautiful.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Back_ache-beautiful.wav",
+    "speaker": "Back ache",
+    "author": "Speaker: Back ache Recorder: Back ache",
+    "license": "CC BY-SA 4.0"
+  },
+  "en-big": {
+    "source": "lingualibre",
+    "title": "File:LL-Q150 (eng)-Exilexi-big.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q150_(eng)-Exilexi-big.wav",
+    "speaker": "Exilexi",
+    "author": "Speaker: Exilexi Recorder: Exilexi",
+    "license": "CC BY-SA 4.0"
+  },
+  "en-bottle": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Arlo Barnes-bottle.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Arlo_Barnes-bottle.wav",
+    "speaker": "Arlo Barnes",
+    "author": "Speaker: Arlo Barnes Recorder: Arlo Barnes",
     "license": "CC0"
   },
   "en-bread": {
@@ -16,6 +72,79 @@
     "speaker": "Grendelkhan",
     "author": "Speaker: Grendelkhan\nRecorder: Grendelkhan",
     "license": "CC0"
+  },
+  "en-breakfast": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Back ache-Breakfast.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Back_ache-Breakfast.wav",
+    "speaker": "Back ache",
+    "author": "Speaker: Back ache Recorder: Back ache",
+    "license": "CC BY-SA 4.0"
+  },
+  "en-bring": {
+    "source": "commons",
+    "title": "File:En-uk-to bring.ogg",
+    "page": "https://commons.wikimedia.org/wiki/File:En-uk-to_bring.ogg",
+    "author": "Association Shtooka, Judith Franck",
+    "license": "CC BY 3.0 us"
+  },
+  "en-bus": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Grendelkhan-bus.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Grendelkhan-bus.wav",
+    "speaker": "Grendelkhan",
+    "author": "Speaker: Grendelkhan Recorder: Grendelkhan",
+    "license": "CC0"
+  },
+  "en-busy": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Back ache-busy.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Back_ache-busy.wav",
+    "speaker": "Back ache",
+    "author": "Speaker: Back ache Recorder: Back ache",
+    "license": "CC BY-SA 4.0"
+  },
+  "en-by-bike": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "by bike"
+  },
+  "en-call-back": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "to call back"
+  },
+  "en-changing-room": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Vealhurl-changing room.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Vealhurl-changing_room.wav",
+    "speaker": "Vealhurl",
+    "author": "Speaker: Vealhurl Recorder: Vealhurl",
+    "license": "CC BY-SA 4.0"
+  },
+  "en-cheap": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Back ache-cheap.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Back_ache-cheap.wav",
+    "speaker": "Back ache",
+    "author": "Speaker: Back ache Recorder: Back ache",
+    "license": "CC BY-SA 4.0"
+  },
+  "en-chocolate": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Ajshul-chocolate.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Ajshul-chocolate.wav",
+    "speaker": "Ajshul",
+    "author": "Speaker: Ajshul Recorder: Ajshul",
+    "license": "CC BY-SA 4.0"
+  },
+  "en-city": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Back ache-city.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Back_ache-city.wav",
+    "speaker": "Back ache",
+    "author": "Speaker: Back ache Recorder: Back ache",
+    "license": "CC BY-SA 4.0"
   },
   "en-coffee": {
     "source": "lingualibre",
@@ -35,6 +164,40 @@
     "author": "Speaker: Exilexi\nRecorder: Exilexi",
     "license": "CC BY-SA 4.0"
   },
+  "en-cold-illness": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "a cold"
+  },
+  "en-company": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Back ache-company.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Back_ache-company.wav",
+    "speaker": "Back ache",
+    "author": "Speaker: Back ache Recorder: Back ache",
+    "license": "CC BY-SA 4.0"
+  },
+  "en-cooking": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-GonFreeaks-cooking.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-GonFreeaks-cooking.wav",
+    "speaker": "GonFreeaks",
+    "author": "Speaker: GonFreeaks Recorder: GonFreeaks",
+    "license": "CC BY-SA 4.0"
+  },
+  "en-could-we-have-the-bill": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "could we have the bill, please?"
+  },
+  "en-daughter": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Back ache-daughter.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Back_ache-daughter.wav",
+    "speaker": "Back ache",
+    "author": "Speaker: Back ache Recorder: Back ache",
+    "license": "CC BY-SA 4.0"
+  },
   "en-delicious": {
     "source": "lingualibre",
     "title": "File:LL-Q1860 (eng)-Ajshul-delicious.wav",
@@ -43,6 +206,48 @@
     "speaker": "Ajshul",
     "author": "Speaker: Ajshul\nRecorder: Ajshul",
     "license": "CC BY-SA 4.0"
+  },
+  "en-dessert": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Liyah26-dessert.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Liyah26-dessert.wav",
+    "speaker": "Liyah26",
+    "author": "Speaker: Liyah26 Recorder: Liyah26",
+    "license": "CC BY 4.0"
+  },
+  "en-dinner": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Back ache-dinner.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Back_ache-dinner.wav",
+    "speaker": "Back ache",
+    "author": "Speaker: Back ache Recorder: Back ache",
+    "license": "CC BY-SA 4.0"
+  },
+  "en-doesnt-work": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "it doesn't work"
+  },
+  "en-double-room": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "a double room"
+  },
+  "en-early": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Back ache-early.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Back_ache-early.wav",
+    "speaker": "Back ache",
+    "author": "Speaker: Back ache Recorder: Back ache",
+    "license": "CC BY-SA 4.0"
+  },
+  "en-eat-in": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Flame, not lame-eat in.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Flame,_not_lame-eat_in.wav",
+    "speaker": "Flame, not lame",
+    "author": "Speaker: Flame, not lame Recorder: Flame",
+    "license": "CC0"
   },
   "en-eight": {
     "source": "lingualibre",
@@ -62,6 +267,30 @@
     "author": "Speaker: Back ache\nRecorder: Back ache",
     "license": "CC BY-SA 4.0"
   },
+  "en-engineer": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Back ache-Engineer.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Back_ache-Engineer.wav",
+    "speaker": "Back ache",
+    "author": "Speaker: Back ache Recorder: Back ache",
+    "license": "CC BY-SA 4.0"
+  },
+  "en-english": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Back ache-English.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Back_ache-English.wav",
+    "speaker": "Back ache",
+    "author": "Speaker: Back ache Recorder: Back ache",
+    "license": "CC BY-SA 4.0"
+  },
+  "en-evening": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Grendelkhan-evening.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Grendelkhan-evening.wav",
+    "speaker": "Grendelkhan",
+    "author": "Speaker: Grendelkhan Recorder: Grendelkhan",
+    "license": "CC0"
+  },
   "en-excuse-me": {
     "source": "lingualibre",
     "title": "File:LL-Q1860 (eng)-Vealhurl-excuse me.wav",
@@ -69,6 +298,38 @@
     "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Vealhurl-excuse_me.wav",
     "speaker": "Vealhurl",
     "author": "Speaker: Vealhurl\nRecorder: Vealhurl",
+    "license": "CC BY-SA 4.0"
+  },
+  "en-expensive": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Arlo Barnes-expensive.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Arlo_Barnes-expensive.wav",
+    "speaker": "Arlo Barnes",
+    "author": "Speaker: Arlo Barnes Recorder: Arlo Barnes",
+    "license": "CC0"
+  },
+  "en-family": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Back ache-family.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Back_ache-family.wav",
+    "speaker": "Back ache",
+    "author": "Speaker: Back ache Recorder: Back ache",
+    "license": "CC BY-SA 4.0"
+  },
+  "en-far": {
+    "source": "lingualibre",
+    "title": "File:LL-Q150 (eng)-Exilexi-far.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q150_(eng)-Exilexi-far.wav",
+    "speaker": "Exilexi",
+    "author": "Speaker: Exilexi Recorder: Exilexi",
+    "license": "CC BY-SA 4.0"
+  },
+  "en-fish": {
+    "source": "lingualibre",
+    "title": "File:LL-Q150 (eng)-Exilexi-fish.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q150_(eng)-Exilexi-fish.wav",
+    "speaker": "Exilexi",
+    "author": "Speaker: Exilexi Recorder: Exilexi",
     "license": "CC BY-SA 4.0"
   },
   "en-five": {
@@ -80,6 +341,14 @@
     "author": "Speaker: Exilexi\nRecorder: Exilexi",
     "license": "CC BY-SA 4.0"
   },
+  "en-floor": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Grendelkhan-floor.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Grendelkhan-floor.wav",
+    "speaker": "Grendelkhan",
+    "author": "Speaker: Grendelkhan Recorder: Grendelkhan",
+    "license": "CC0"
+  },
   "en-four": {
     "source": "lingualibre",
     "title": "File:LL-Q150 (eng)-Exilexi-four.wav",
@@ -87,6 +356,14 @@
     "page": "https://commons.wikimedia.org/wiki/File:LL-Q150_(eng)-Exilexi-four.wav",
     "speaker": "Exilexi",
     "author": "Speaker: Exilexi\nRecorder: Exilexi",
+    "license": "CC BY-SA 4.0"
+  },
+  "en-free": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Back ache-free.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Back_ache-free.wav",
+    "speaker": "Back ache",
+    "author": "Speaker: Back ache Recorder: Back ache",
     "license": "CC BY-SA 4.0"
   },
   "en-french": {
@@ -106,6 +383,16 @@
     "speaker": "Back ache",
     "author": "Speaker: Back ache\nRecorder: Back ache",
     "license": "CC BY-SA 4.0"
+  },
+  "en-get-up": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "to get up"
+  },
+  "en-go-straight-on": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "go straight on"
   },
   "en-good-morning": {
     "source": "commons",
@@ -130,6 +417,24 @@
     "author": "Speaker: Grendelkhan\nRecorder: Grendelkhan",
     "license": "CC0"
   },
+  "en-half-past": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "half past ten"
+  },
+  "en-have-a-shower": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "to have a shower"
+  },
+  "en-headache": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Grendelkhan-headache.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Grendelkhan-headache.wav",
+    "speaker": "Grendelkhan",
+    "author": "Speaker: Grendelkhan Recorder: Grendelkhan",
+    "license": "CC0"
+  },
   "en-hello": {
     "source": "lingualibre",
     "title": "File:LL-Q1860 (eng)-Back ache-hello.wav",
@@ -137,6 +442,14 @@
     "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Back_ache-hello.wav",
     "speaker": "Back ache",
     "author": "Speaker: Back ache\nRecorder: Back ache",
+    "license": "CC BY-SA 4.0"
+  },
+  "en-help": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Back ache-help.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Back_ache-help.wav",
+    "speaker": "Back ache",
+    "author": "Speaker: Back ache Recorder: Back ache",
     "license": "CC BY-SA 4.0"
   },
   "en-hi": {
@@ -157,6 +470,13 @@
     "author": "Speaker: Adélaïde Calais WMFr\nRecorder: Adélaïde Calais WMFr",
     "license": "CC BY-SA 4.0"
   },
+  "en-hot-water": {
+    "source": "commons",
+    "title": "File:En-au-hot water.ogg",
+    "page": "https://commons.wikimedia.org/wiki/File:En-au-hot_water.ogg",
+    "author": "Commander Keane",
+    "license": "CC BY-SA 4.0"
+  },
   "en-how-are-you": {
     "source": "commons",
     "title": "File:En-uk-How are you.ogg",
@@ -164,25 +484,208 @@
     "author": "Association Shtooka, Judith Franck",
     "license": "CC BY 3.0 us"
   },
+  "en-how-long": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "how long does it take?"
+  },
   "en-how-much": {
     "source": "piper",
     "voice": "en_GB-cori-high",
     "text": "how much is it?"
+  },
+  "en-how-old": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Flame, not lame-how old are you.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Flame,_not_lame-how_old_are_you.wav",
+    "speaker": "Flame, not lame",
+    "author": "Speaker: Flame, not lame Recorder: Flame, not lame",
+    "license": "CC0"
+  },
+  "en-how-was": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "how was your weekend?"
+  },
+  "en-husband": {
+    "source": "lingualibre",
+    "title": "File:LL-Q150 (eng)-Exilexi-husband.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q150_(eng)-Exilexi-husband.wav",
+    "speaker": "Exilexi",
+    "author": "Speaker: Exilexi Recorder: Exilexi",
+    "license": "CC BY-SA 4.0"
   },
   "en-i-am": {
     "source": "piper",
     "voice": "en_GB-cori-high",
     "text": "I am"
   },
+  "en-i-live-in": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "I live in"
+  },
   "en-i-would-like": {
     "source": "piper",
     "voice": "en_GB-cori-high",
     "text": "I would like"
   },
+  "en-id-like": {
+    "source": "commons",
+    "title": "File:En-uk-I'd like....ogg",
+    "page": "https://commons.wikimedia.org/wiki/File:En-uk-I%27d_like....ogg",
+    "author": "Association Shtooka, Judith Franck",
+    "license": "CC BY 3.0 us"
+  },
+  "en-id-love-to": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "I'd love to"
+  },
+  "en-ill-take-it": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "I'll take it"
+  },
+  "en-its-raining": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "it's raining"
+  },
+  "en-jacket": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Ajshul-jacket.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Ajshul-jacket.wav",
+    "speaker": "Ajshul",
+    "author": "Speaker: Ajshul Recorder: Ajshul",
+    "license": "CC BY-SA 4.0"
+  },
+  "en-job": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Back ache-job.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Back_ache-job.wav",
+    "speaker": "Back ache",
+    "author": "Speaker: Back ache Recorder: Back ache",
+    "license": "CC BY-SA 4.0"
+  },
+  "en-jumper": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Wodencafe-jumper.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Wodencafe-jumper.wav",
+    "speaker": "Wodencafe",
+    "author": "Speaker: Wodencafe Recorder: Wodencafe",
+    "license": "CC0"
+  },
+  "en-key": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Grendelkhan-key.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Grendelkhan-key.wav",
+    "speaker": "Grendelkhan",
+    "author": "Speaker: Grendelkhan Recorder: Grendelkhan",
+    "license": "CC0"
+  },
+  "en-kind": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Back ache-kind.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Back_ache-kind.wav",
+    "speaker": "Back ache",
+    "author": "Speaker: Back ache Recorder: Back ache",
+    "license": "CC BY-SA 4.0"
+  },
+  "en-large": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Back ache-large.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Back_ache-large.wav",
+    "speaker": "Back ache",
+    "author": "Speaker: Back ache Recorder: Back ache",
+    "license": "CC BY-SA 4.0"
+  },
+  "en-late": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Back ache-late.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Back_ache-late.wav",
+    "speaker": "Back ache",
+    "author": "Speaker: Back ache Recorder: Back ache",
+    "license": "CC BY-SA 4.0"
+  },
+  "en-lets": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "let's"
+  },
+  "en-lift": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Grendelkhan-lift.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Grendelkhan-lift.wav",
+    "speaker": "Grendelkhan",
+    "author": "Speaker: Grendelkhan Recorder: Grendelkhan",
+    "license": "CC0"
+  },
+  "en-lovely": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Back ache-lovely.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Back_ache-lovely.wav",
+    "speaker": "Back ache",
+    "author": "Speaker: Back ache Recorder: Back ache",
+    "license": "CC BY-SA 4.0"
+  },
+  "en-me-too": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Flame, not lame-me too.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Flame,_not_lame-me_too.wav",
+    "speaker": "Flame, not lame",
+    "author": "Speaker: Flame, not lame Recorder: Flame, not lame",
+    "license": "CC0"
+  },
+  "en-medicine": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Grendelkhan-medicine.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Grendelkhan-medicine.wav",
+    "speaker": "Grendelkhan",
+    "author": "Speaker: Grendelkhan Recorder: Grendelkhan",
+    "license": "CC0"
+  },
+  "en-meeting": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Grendelkhan-meeting.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Grendelkhan-meeting.wav",
+    "speaker": "Grendelkhan",
+    "author": "Speaker: Grendelkhan Recorder: Grendelkhan",
+    "license": "CC0"
+  },
+  "en-message": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Back ache-message.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Back_ache-message.wav",
+    "speaker": "Back ache",
+    "author": "Speaker: Back ache Recorder: Back ache",
+    "license": "CC BY-SA 4.0"
+  },
+  "en-mountains": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-GonFreeaks-mountains.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-GonFreeaks-mountains.wav",
+    "speaker": "GonFreeaks",
+    "author": "Speaker: GonFreeaks Recorder: GonFreeaks",
+    "license": "CC BY-SA 4.0"
+  },
   "en-my-name-is": {
     "source": "piper",
     "voice": "en_GB-cori-high",
     "text": "my name is"
+  },
+  "en-next-to": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Vealhurl-next to.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Vealhurl-next_to.wav",
+    "speaker": "Vealhurl",
+    "author": "Speaker: Vealhurl Recorder: Vealhurl",
+    "license": "CC BY-SA 4.0"
+  },
+  "en-next-week": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "next week"
   },
   "en-nice-to-meet-you": {
     "source": "commons",
@@ -190,6 +693,11 @@
     "page": "https://commons.wikimedia.org/wiki/File:En-uk-nice_to_meet_you.ogg",
     "author": "Association Shtooka, Judith Franck",
     "license": "CC BY 3.0 us"
+  },
+  "en-nice-to-meet-you-too": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "nice to meet you too"
   },
   "en-nine": {
     "source": "lingualibre",
@@ -209,6 +717,14 @@
     "author": "Speaker: Back ache\nRecorder: Back ache",
     "license": "CC BY-SA 4.0"
   },
+  "en-number": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Back ache-number.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Back_ache-number.wav",
+    "speaker": "Back ache",
+    "author": "Speaker: Back ache Recorder: Back ache",
+    "license": "CC BY-SA 4.0"
+  },
   "en-one": {
     "source": "lingualibre",
     "title": "File:LL-Q1860 (eng)-Back ache-One.wav",
@@ -217,6 +733,35 @@
     "speaker": "Back ache",
     "author": "Speaker: Back ache\nRecorder: Back ache",
     "license": "CC BY-SA 4.0"
+  },
+  "en-opposite": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Grendelkhan-opposite.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Grendelkhan-opposite.wav",
+    "speaker": "Grendelkhan",
+    "author": "Speaker: Grendelkhan Recorder: Grendelkhan",
+    "license": "CC0"
+  },
+  "en-park": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Grendelkhan-park.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Grendelkhan-park.wav",
+    "speaker": "Grendelkhan",
+    "author": "Speaker: Grendelkhan Recorder: Grendelkhan",
+    "license": "CC0"
+  },
+  "en-password": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Arlo Barnes-password.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Arlo_Barnes-password.wav",
+    "speaker": "Arlo Barnes",
+    "author": "Speaker: Arlo Barnes Recorder: Arlo Barnes",
+    "license": "CC0"
+  },
+  "en-pay-by-card": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "to pay by card"
   },
   "en-please": {
     "source": "lingualibre",
@@ -227,6 +772,961 @@
     "author": "Speaker: Back ache\nRecorder: Back ache",
     "license": "CC BY-SA 4.0"
   },
+  "en-problem": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Back ache-problem.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Back_ache-problem.wav",
+    "speaker": "Back ache",
+    "author": "Speaker: Back ache Recorder: Back ache",
+    "license": "CC BY-SA 4.0"
+  },
+  "en-quiet": {
+    "source": "commons",
+    "title": "File:En-us-quiet.ogg",
+    "page": "https://commons.wikimedia.org/wiki/File:En-us-quiet.ogg",
+    "author": "Dvortygirl",
+    "license": "CC BY-SA 3.0"
+  },
+  "en-reading": {
+    "source": "commons",
+    "title": "File:En-uk-Reading.ogg",
+    "page": "https://commons.wikimedia.org/wiki/File:En-uk-Reading.ogg",
+    "author": "The Voice of Hassocks",
+    "license": "Public domain"
+  },
+  "en-ready-to-order": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "ready to order"
+  },
+  "en-relax": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "to relax"
+  },
+  "en-reservation": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Vealhurl-reservation.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Vealhurl-reservation.wav",
+    "speaker": "Vealhurl",
+    "author": "Speaker: Vealhurl Recorder: Vealhurl",
+    "license": "CC BY-SA 4.0"
+  },
+  "en-return-ticket": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "a return ticket"
+  },
+  "en-s01-1": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Hi! I'm Emma. What's your name?"
+  },
+  "en-s01-10": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "Thank you. You are very kind."
+  },
+  "en-s01-2": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "Hello, Emma. My name is Paul."
+  },
+  "en-s01-3": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Nice to meet you, Paul."
+  },
+  "en-s01-4": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "Nice to meet you too."
+  },
+  "en-s01-5": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Are you a friend of Tom?"
+  },
+  "en-s01-6": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "Yes, I am. We work together."
+  },
+  "en-s01-7": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Oh, great! Are you English?"
+  },
+  "en-s01-8": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "No, I'm not. I'm French."
+  },
+  "en-s01-9": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Your English is very good!"
+  },
+  "en-s02-1": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "Excuse me, is this seat free?"
+  },
+  "en-s02-2": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Yes, it is. Please sit down."
+  },
+  "en-s02-3": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "Thanks. Where are you from?"
+  },
+  "en-s02-4": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "I'm from France. I live in Lyon."
+  },
+  "en-s02-5": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "Lyon! I love French food."
+  },
+  "en-s02-6": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "And you? Where do you live?"
+  },
+  "en-s02-7": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "I live in Edinburgh, but I'm from Ireland."
+  },
+  "en-s02-8": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Is Edinburgh a big city?"
+  },
+  "en-s02-9": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "No, it isn't very big, but it's beautiful."
+  },
+  "en-s03-1": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Look, this is my family."
+  },
+  "en-s03-2": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "Oh, nice! Who is this?"
+  },
+  "en-s03-3": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "That's my husband, Mark. And these are my children."
+  },
+  "en-s03-4": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "How old are they?"
+  },
+  "en-s03-5": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "My son is ten and my daughter is seven."
+  },
+  "en-s03-6": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Have you got any children?"
+  },
+  "en-s03-7": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "No, I haven't. But I've got two sisters."
+  },
+  "en-s03-8": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Are they older or younger?"
+  },
+  "en-s03-9": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "They're both younger than me."
+  },
+  "en-s04-1": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "What do you do?"
+  },
+  "en-s04-2": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "I'm an engineer. I work for a car company."
+  },
+  "en-s04-3": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "Interesting! Do you like your job?"
+  },
+  "en-s04-4": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Yes, I do. And what about you?"
+  },
+  "en-s04-5": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "I'm a teacher. I teach maths in a school."
+  },
+  "en-s04-6": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Do you work every day?"
+  },
+  "en-s04-7": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "From Monday to Friday. I start at eight."
+  },
+  "en-s04-8": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "That's early!"
+  },
+  "en-s04-9": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "Yes, but I finish at four."
+  },
+  "en-s05-1": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "What do you do at the weekend?"
+  },
+  "en-s05-2": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "I like playing tennis and reading."
+  },
+  "en-s05-3": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Me too! I play tennis on Saturdays."
+  },
+  "en-s05-4": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "Really? Where do you play?"
+  },
+  "en-s05-5": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "In the park near the station."
+  },
+  "en-s05-6": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Do you want to play with us?"
+  },
+  "en-s05-7": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "Yes, I'd love to!"
+  },
+  "en-s05-8": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Do you like cooking?"
+  },
+  "en-s05-9": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "Not really. I hate cooking!"
+  },
+  "en-s06-1": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "Excuse me, where is the British Museum, please?"
+  },
+  "en-s06-2": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Go straight on and turn left at the bank."
+  },
+  "en-s06-3": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "Turn left at the bank. Is it far?"
+  },
+  "en-s06-4": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "No, it's about five minutes on foot."
+  },
+  "en-s06-5": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "It's next to a big bookshop."
+  },
+  "en-s06-6": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "Is there a café near the museum?"
+  },
+  "en-s06-7": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Yes, there's one opposite the entrance."
+  },
+  "en-s06-8": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "Thank you very much!"
+  },
+  "en-s06-9": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "You're welcome. Enjoy your visit!"
+  },
+  "en-s07-1": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Hello. Does this bus go to the airport?"
+  },
+  "en-s07-2": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "Yes, it does. Single or return?"
+  },
+  "en-s07-3": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "A return ticket, please. How much is it?"
+  },
+  "en-s07-4": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "That's six pounds fifty."
+  },
+  "en-s07-5": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Can I pay by card?"
+  },
+  "en-s07-6": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "Of course. Just touch here."
+  },
+  "en-s07-7": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "How long does it take?"
+  },
+  "en-s07-8": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "About forty minutes. I'll tell you when we arrive."
+  },
+  "en-s07-9": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Thanks, that's very kind."
+  },
+  "en-s08-1": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Good evening. Can I help you?"
+  },
+  "en-s08-2": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "Good evening. I have a reservation. My name is Martin."
+  },
+  "en-s08-3": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Yes, Mr Martin. A double room for two nights."
+  },
+  "en-s08-4": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "That's right. Is breakfast included?"
+  },
+  "en-s08-5": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Yes, it's from seven to ten in the restaurant."
+  },
+  "en-s08-6": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "Can I have the Wi-Fi password, please?"
+  },
+  "en-s08-7": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Here you are. Your room is on the third floor."
+  },
+  "en-s08-8": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "Is there a lift?"
+  },
+  "en-s08-9": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Yes, just behind you. Have a nice stay!"
+  },
+  "en-s09-1": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "Hello, are you looking for something?"
+  },
+  "en-s09-10": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "No, thanks. I've got one."
+  },
+  "en-s09-2": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Yes, I'm looking for a jumper."
+  },
+  "en-s09-3": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "What size are you?"
+  },
+  "en-s09-4": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Medium, I think. How much is this blue one?"
+  },
+  "en-s09-5": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "It's thirty-five pounds."
+  },
+  "en-s09-6": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Can I try it on?"
+  },
+  "en-s09-7": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "Of course. The changing rooms are over there."
+  },
+  "en-s09-8": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "It's perfect. I'll take it."
+  },
+  "en-s09-9": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "Great. Would you like a bag?"
+  },
+  "en-s10-1": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Hi there! What can I get you?"
+  },
+  "en-s10-2": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "I'd like a cappuccino, please."
+  },
+  "en-s10-3": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Small, medium or large?"
+  },
+  "en-s10-4": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "Large, please. And could I have a croissant?"
+  },
+  "en-s10-5": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Sorry, we haven't got any croissants left. We've got muffins."
+  },
+  "en-s10-6": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "OK, a chocolate muffin, then."
+  },
+  "en-s10-7": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "To eat in or take away?"
+  },
+  "en-s10-8": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "To eat in. How much is that?"
+  },
+  "en-s10-9": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "That's seven pounds twenty, please."
+  },
+  "en-s11-1": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "So, what's a normal day for you?"
+  },
+  "en-s11-2": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "I get up at seven and I have a shower."
+  },
+  "en-s11-3": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "Do you have breakfast at home?"
+  },
+  "en-s11-4": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "No, I usually have a coffee at work."
+  },
+  "en-s11-5": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "How do you go to work?"
+  },
+  "en-s11-6": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "I go by bike. It takes twenty minutes."
+  },
+  "en-s11-7": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "And in the evening?"
+  },
+  "en-s11-8": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "I cook dinner and I watch TV. My husband reads."
+  },
+  "en-s11-9": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "Sounds nice and quiet!"
+  },
+  "en-s12-1": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "Hi Rachel, can we meet next week?"
+  },
+  "en-s12-2": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Sure. Are you free on Tuesday?"
+  },
+  "en-s12-3": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "Sorry, I'm busy on Tuesday. What about Wednesday?"
+  },
+  "en-s12-4": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Wednesday is fine. What time?"
+  },
+  "en-s12-5": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "At half past ten?"
+  },
+  "en-s12-6": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Perfect. Where shall we meet?"
+  },
+  "en-s12-7": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "In my office, on the second floor."
+  },
+  "en-s12-8": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Great. See you on Wednesday!"
+  },
+  "en-s13-1": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "Hi! How was your weekend?"
+  },
+  "en-s13-2": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "It was great, thanks. I was in Cambridge."
+  },
+  "en-s13-3": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "Cambridge! Were you with friends?"
+  },
+  "en-s13-4": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Yes, we were three. The weather was lovely."
+  },
+  "en-s13-5": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "Was it expensive?"
+  },
+  "en-s13-6": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "No, it wasn't. The hotel was cheap."
+  },
+  "en-s13-7": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "And you? What about your weekend?"
+  },
+  "en-s13-8": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "It was quiet. I was at home all weekend."
+  },
+  "en-s14-1": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Terrible weather today, isn't it?"
+  },
+  "en-s14-2": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "Yes, it's very cold. And it's raining again."
+  },
+  "en-s14-3": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "What's the weather like in France now?"
+  },
+  "en-s14-4": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "In the south it's sunny and warm."
+  },
+  "en-s14-5": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Lucky you! Is it often sunny in Lyon?"
+  },
+  "en-s14-6": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "In summer, yes. But winter is cold."
+  },
+  "en-s14-7": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Look, the sun is coming out!"
+  },
+  "en-s14-8": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "Finally! I haven't got an umbrella."
+  },
+  "en-s15-1": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Good morning, Smith and Partners. How can I help you?"
+  },
+  "en-s15-2": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "Hello, this is Paul Martin. Can I speak to Mr Wilson, please?"
+  },
+  "en-s15-3": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "I'm sorry, he's in a meeting at the moment."
+  },
+  "en-s15-4": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "When is he free?"
+  },
+  "en-s15-5": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "This afternoon, after three. Can I take a message?"
+  },
+  "en-s15-6": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "Yes, please. Can he call me back?"
+  },
+  "en-s15-7": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Of course. What's your number?"
+  },
+  "en-s15-8": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "It's 07700 900 461."
+  },
+  "en-s15-9": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Thank you, Mr Martin. Goodbye."
+  },
+  "en-s16-1": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Hello, please sit down. What's the matter?"
+  },
+  "en-s16-2": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "I've got a headache and a sore throat."
+  },
+  "en-s16-3": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Since when?"
+  },
+  "en-s16-4": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "Since Monday. I'm very tired."
+  },
+  "en-s16-5": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Have you got a temperature?"
+  },
+  "en-s16-6": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "Yes, a little."
+  },
+  "en-s16-7": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "It's just a cold. Drink a lot of water and rest."
+  },
+  "en-s16-8": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "Do I need any medicine?"
+  },
+  "en-s16-9": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Take these tablets twice a day."
+  },
+  "en-s17-1": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Tom, would you like to come for dinner on Friday?"
+  },
+  "en-s17-2": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "I'd love to, but I'm working late on Friday."
+  },
+  "en-s17-3": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Oh, what a pity. What about Saturday?"
+  },
+  "en-s17-4": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "Saturday is perfect. What time?"
+  },
+  "en-s17-5": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Let's say eight o'clock."
+  },
+  "en-s17-6": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "Great. Can I bring something?"
+  },
+  "en-s17-7": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Just bring a dessert if you want."
+  },
+  "en-s17-8": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "No problem. See you on Saturday!"
+  },
+  "en-s18-1": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "Good evening. Are you ready to order?"
+  },
+  "en-s18-10": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "Of course. I'll bring it right away."
+  },
+  "en-s18-2": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Yes. I'd like the fish and chips, please."
+  },
+  "en-s18-3": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "Would you like a starter?"
+  },
+  "en-s18-4": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "No, thank you. Is there any vegetarian food for my friend?"
+  },
+  "en-s18-5": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "Yes, there's a mushroom pie. It's very good."
+  },
+  "en-s18-6": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Great, one mushroom pie then."
+  },
+  "en-s18-7": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "And to drink?"
+  },
+  "en-s18-8": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "A bottle of water, please."
+  },
+  "en-s18-9": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Could we have the bill, please?"
+  },
+  "en-s19-1": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Excuse me, I'm sorry, but there's a problem with my room."
+  },
+  "en-s19-2": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "Oh dear. What's wrong?"
+  },
+  "en-s19-3": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "The shower doesn't work and there isn't any hot water."
+  },
+  "en-s19-4": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "I'm very sorry. What's your room number?"
+  },
+  "en-s19-5": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Room two hundred and twelve."
+  },
+  "en-s19-6": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "I can't send a plumber tonight. Can you change rooms?"
+  },
+  "en-s19-7": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Yes, of course. That's fine."
+  },
+  "en-s19-8": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "Here's the key for room three hundred and five."
+  },
+  "en-s19-9": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Thank you for your help."
+  },
+  "en-s20-1": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "What are you going to do this summer?"
+  },
+  "en-s20-2": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "I'm going to visit Scotland with my wife."
+  },
+  "en-s20-3": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Wonderful! How long are you going to stay?"
+  },
+  "en-s20-4": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "Two weeks. We're going to rent a car."
+  },
+  "en-s20-5": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Are you going to see Loch Ness?"
+  },
+  "en-s20-6": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "Yes! And we're going to walk in the mountains."
+  },
+  "en-s20-7": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "Take a warm jacket. It's often cold there."
+  },
+  "en-s20-8": {
+    "source": "piper",
+    "voice": "en_GB-alan-medium",
+    "text": "Good idea. And you? Any plans?"
+  },
+  "en-s20-9": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "I'm going to stay at home and relax!"
+  },
+  "en-seat": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Grendelkhan-seat.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Grendelkhan-seat.wav",
+    "speaker": "Grendelkhan",
+    "author": "Speaker: Grendelkhan Recorder: Grendelkhan",
+    "license": "CC0"
+  },
+  "en-see-you": {
+    "source": "commons",
+    "title": "File:En-uk-see you.ogg",
+    "page": "https://commons.wikimedia.org/wiki/File:En-uk-see_you.ogg",
+    "author": "Association Shtooka, Judith Franck",
+    "license": "CC BY 3.0 us"
+  },
   "en-seven": {
     "source": "lingualibre",
     "title": "File:LL-Q1860 (eng)-Back ache-seven.wav",
@@ -234,6 +1734,14 @@
     "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Back_ache-seven.wav",
     "speaker": "Back ache",
     "author": "Speaker: Back ache\nRecorder: Back ache",
+    "license": "CC BY-SA 4.0"
+  },
+  "en-sister": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Back ache-sister.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Back_ache-sister.wav",
+    "speaker": "Back ache",
+    "author": "Speaker: Back ache Recorder: Back ache",
     "license": "CC BY-SA 4.0"
   },
   "en-six": {
@@ -245,6 +1753,35 @@
     "author": "Speaker: Back ache\nRecorder: Back ache",
     "license": "CC BY-SA 4.0"
   },
+  "en-size": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Back ache-size.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Back_ache-size.wav",
+    "speaker": "Back ache",
+    "author": "Speaker: Back ache Recorder: Back ache",
+    "license": "CC BY-SA 4.0"
+  },
+  "en-small": {
+    "source": "lingualibre",
+    "title": "File:LL-Q150 (eng)-Exilexi-small.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q150_(eng)-Exilexi-small.wav",
+    "speaker": "Exilexi",
+    "author": "Speaker: Exilexi Recorder: Exilexi",
+    "license": "CC BY-SA 4.0"
+  },
+  "en-son": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Back ache-son.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Back_ache-son.wav",
+    "speaker": "Back ache",
+    "author": "Speaker: Back ache Recorder: Back ache",
+    "license": "CC BY-SA 4.0"
+  },
+  "en-sore-throat": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "a sore throat"
+  },
   "en-sorry": {
     "source": "lingualibre",
     "title": "File:LL-Q1860 (eng)-Arlo Barnes-sorry..wav",
@@ -254,6 +1791,41 @@
     "author": "Speaker: Arlo Barnes\nRecorder: Arlo Barnes",
     "license": "CC0"
   },
+  "en-starter": {
+    "source": "commons",
+    "title": "File:En-us-starter.ogg",
+    "page": "https://commons.wikimedia.org/wiki/File:En-us-starter.ogg",
+    "author": "Dvortygirl",
+    "license": "CC BY-SA 3.0"
+  },
+  "en-summer": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Grendelkhan-summer.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Grendelkhan-summer.wav",
+    "speaker": "Grendelkhan",
+    "author": "Speaker: Grendelkhan Recorder: Grendelkhan",
+    "license": "CC0"
+  },
+  "en-summer-plans": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "what are you going to do?"
+  },
+  "en-sunny": {
+    "source": "commons",
+    "title": "File:En-us-sunny.ogg",
+    "page": "https://commons.wikimedia.org/wiki/File:En-us-sunny.ogg",
+    "author": "Dvortygirl",
+    "license": "CC BY-SA 3.0"
+  },
+  "en-take-away": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-StuckInLagToad-take away.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-StuckInLagToad-take_away.wav",
+    "speaker": "StuckInLagToad",
+    "author": "Speaker: StuckInLagToad Recorder: StuckInLagToad",
+    "license": "CC BY-SA 4.0"
+  },
   "en-tea": {
     "source": "lingualibre",
     "title": "File:LL-Q1860 (eng)-Grendelkhan-tea.wav",
@@ -261,6 +1833,14 @@
     "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Grendelkhan-tea.wav",
     "speaker": "Grendelkhan",
     "author": "Speaker: Grendelkhan\nRecorder: Grendelkhan",
+    "license": "CC0"
+  },
+  "en-teacher": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Grendelkhan-teacher.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Grendelkhan-teacher.wav",
+    "speaker": "Grendelkhan",
+    "author": "Speaker: Grendelkhan Recorder: Grendelkhan",
     "license": "CC0"
   },
   "en-ten": {
@@ -300,6 +1880,55 @@
     "author": "Speaker: Exilexi\nRecorder: Exilexi",
     "license": "CC BY-SA 4.0"
   },
+  "en-ticket": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Grendelkhan-ticket.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Grendelkhan-ticket.wav",
+    "speaker": "Grendelkhan",
+    "author": "Speaker: Grendelkhan Recorder: Grendelkhan",
+    "license": "CC0"
+  },
+  "en-tired": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Grendelkhan-tired.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Grendelkhan-tired.wav",
+    "speaker": "Grendelkhan",
+    "author": "Speaker: Grendelkhan Recorder: Grendelkhan",
+    "license": "CC0"
+  },
+  "en-to-rent": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "to rent"
+  },
+  "en-to-visit": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "to visit"
+  },
+  "en-together": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Back ache-together.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Back_ache-together.wav",
+    "speaker": "Back ache",
+    "author": "Speaker: Back ache Recorder: Back ache",
+    "license": "CC BY-SA 4.0"
+  },
+  "en-try-on": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "to try on"
+  },
+  "en-turn-left": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "turn left"
+  },
+  "en-turn-right": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "turn right"
+  },
   "en-twelve": {
     "source": "lingualibre",
     "title": "File:LL-Q1860 (eng)-Back ache-twelve.wav",
@@ -318,6 +1947,38 @@
     "author": "Speaker: Exilexi\nRecorder: Exilexi",
     "license": "CC BY-SA 4.0"
   },
+  "en-umbrella": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Naomi Persephone Amethyst (NaomiAmethyst)-umbrella.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Naomi_Persephone_Amethyst_(NaomiAmethyst)-umbrella.wav",
+    "speaker": "Naomi Persephone Amethyst (NaomiAmethyst)",
+    "author": "Speaker: Naomi Persephone Amethyst Recorder: NaomiAmethyst",
+    "license": "CC BY-SA 4.0"
+  },
+  "en-usually": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Grendelkhan-usually.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Grendelkhan-usually.wav",
+    "speaker": "Grendelkhan",
+    "author": "Speaker: Grendelkhan Recorder: Grendelkhan",
+    "license": "CC0"
+  },
+  "en-vegetarian": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Vealhurl-vegetarian.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Vealhurl-vegetarian.wav",
+    "speaker": "Vealhurl",
+    "author": "Speaker: Vealhurl Recorder: Vealhurl",
+    "license": "CC BY-SA 4.0"
+  },
+  "en-warm": {
+    "source": "lingualibre",
+    "title": "File:LL-Q150 (eng)-Exilexi-warm.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q150_(eng)-Exilexi-warm.wav",
+    "speaker": "Exilexi",
+    "author": "Speaker: Exilexi Recorder: Exilexi",
+    "license": "CC BY-SA 4.0"
+  },
   "en-water": {
     "source": "lingualibre",
     "title": "File:LL-Q150 (eng)-Exilexi-water.wav",
@@ -326,6 +1987,84 @@
     "speaker": "Exilexi",
     "author": "Speaker: Exilexi\nRecorder: Exilexi",
     "license": "CC BY-SA 4.0"
+  },
+  "en-weather": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Back ache-weather.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Back_ache-weather.wav",
+    "speaker": "Back ache",
+    "author": "Speaker: Back ache Recorder: Back ache",
+    "license": "CC BY-SA 4.0"
+  },
+  "en-weekend": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Grendelkhan-weekend.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Grendelkhan-weekend.wav",
+    "speaker": "Grendelkhan",
+    "author": "Speaker: Grendelkhan Recorder: Grendelkhan",
+    "license": "CC0"
+  },
+  "en-what-a-pity": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Vealhurl-what a pity.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Vealhurl-what_a_pity.wav",
+    "speaker": "Vealhurl",
+    "author": "Speaker: Vealhurl Recorder: Vealhurl",
+    "license": "CC BY-SA 4.0"
+  },
+  "en-what-do-you-do": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "what do you do?"
+  },
+  "en-what-time": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "what time?"
+  },
+  "en-whats-the-matter": {
+    "source": "commons",
+    "title": "File:En-au-what's the matter.ogg",
+    "page": "https://commons.wikimedia.org/wiki/File:En-au-what%27s_the_matter.ogg",
+    "author": "Commander Keane",
+    "license": "CC BY-SA 4.0"
+  },
+  "en-whats-wrong": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "what's wrong?"
+  },
+  "en-whats-your-name": {
+    "source": "commons",
+    "title": "File:En-uk-what's your name.ogg",
+    "page": "https://commons.wikimedia.org/wiki/File:En-uk-what%27s_your_name.ogg",
+    "author": "Wikimedia Commons",
+    "license": "Public domain"
+  },
+  "en-where-are-you-from": {
+    "source": "commons",
+    "title": "File:En-uk-where are you from.ogg",
+    "page": "https://commons.wikimedia.org/wiki/File:En-uk-where_are_you_from.ogg",
+    "author": "Wikimedia Commons",
+    "license": "Public domain"
+  },
+  "en-winter": {
+    "source": "lingualibre",
+    "title": "File:LL-Q1860 (eng)-Grendelkhan-winter.wav",
+    "page": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Grendelkhan-winter.wav",
+    "speaker": "Grendelkhan",
+    "author": "Speaker: Grendelkhan Recorder: Grendelkhan",
+    "license": "CC0"
+  },
+  "en-work": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "to work"
+  },
+  "en-would-you-like-to": {
+    "source": "piper",
+    "voice": "en_GB-cori-high",
+    "text": "would you like to?"
   },
   "en-yes": {
     "source": "lingualibre",
