@@ -70,7 +70,8 @@
   },
   "ru-kak-dela": {
     "source": "piper",
-    "voice": "ru_RU-irina-medium"
+    "voice": "ru_RU-irina-medium",
+    "text": "как дела?"
   },
   "ru-kak-tebya-zovut": {
     "source": "lingualibre",
@@ -107,51 +108,63 @@
   },
   "ru-letter-a": {
     "source": "piper",
-    "voice": "ru_RU-irina-medium"
+    "voice": "ru_RU-irina-medium",
+    "text": "а"
   },
   "ru-letter-k": {
     "source": "piper",
-    "voice": "ru_RU-irina-medium"
+    "voice": "ru_RU-irina-medium",
+    "text": "ка"
   },
   "ru-letter-kh": {
     "source": "piper",
-    "voice": "ru_RU-irina-medium"
+    "voice": "ru_RU-irina-medium",
+    "text": "ха"
   },
   "ru-letter-m": {
     "source": "piper",
-    "voice": "ru_RU-irina-medium"
+    "voice": "ru_RU-irina-medium",
+    "text": "эм"
   },
   "ru-letter-n": {
     "source": "piper",
-    "voice": "ru_RU-irina-medium"
+    "voice": "ru_RU-irina-medium",
+    "text": "эн"
   },
   "ru-letter-o": {
     "source": "piper",
-    "voice": "ru_RU-irina-medium"
+    "voice": "ru_RU-irina-medium",
+    "text": "о"
   },
   "ru-letter-r": {
     "source": "piper",
-    "voice": "ru_RU-irina-medium"
+    "voice": "ru_RU-irina-medium",
+    "text": "эр"
   },
   "ru-letter-s": {
     "source": "piper",
-    "voice": "ru_RU-irina-medium"
+    "voice": "ru_RU-irina-medium",
+    "text": "эс"
   },
   "ru-letter-t": {
     "source": "piper",
-    "voice": "ru_RU-irina-medium"
+    "voice": "ru_RU-irina-medium",
+    "text": "тэ"
   },
   "ru-letter-u": {
     "source": "piper",
-    "voice": "ru_RU-irina-medium"
+    "voice": "ru_RU-irina-medium",
+    "text": "у"
   },
   "ru-letter-v": {
     "source": "piper",
-    "voice": "ru_RU-irina-medium"
+    "voice": "ru_RU-irina-medium",
+    "text": "вэ"
   },
   "ru-letter-ye": {
     "source": "piper",
-    "voice": "ru_RU-irina-medium"
+    "voice": "ru_RU-irina-medium",
+    "text": "е"
   },
   "ru-mama": {
     "source": "lingualibre",
@@ -164,7 +177,8 @@
   },
   "ru-menya-zovut": {
     "source": "piper",
-    "voice": "ru_RU-irina-medium"
+    "voice": "ru_RU-irina-medium",
+    "text": "меня зовут"
   },
   "ru-metro": {
     "source": "commons",
@@ -311,7 +325,8 @@
   },
   "ru-ya-iz-frantsii": {
     "source": "piper",
-    "voice": "ru_RU-irina-medium"
+    "voice": "ru_RU-irina-medium",
+    "text": "я из Франции"
   },
   "ru-zdravstvuyte": {
     "source": "lingualibre",

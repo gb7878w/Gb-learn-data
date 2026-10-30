@@ -166,19 +166,23 @@
   },
   "en-how-much": {
     "source": "piper",
-    "voice": "en_GB-cori-high"
+    "voice": "en_GB-cori-high",
+    "text": "how much is it?"
   },
   "en-i-am": {
     "source": "piper",
-    "voice": "en_GB-cori-high"
+    "voice": "en_GB-cori-high",
+    "text": "I am"
   },
   "en-i-would-like": {
     "source": "piper",
-    "voice": "en_GB-cori-high"
+    "voice": "en_GB-cori-high",
+    "text": "I would like"
   },
   "en-my-name-is": {
     "source": "piper",
-    "voice": "en_GB-cori-high"
+    "voice": "en_GB-cori-high",
+    "text": "my name is"
   },
   "en-nice-to-meet-you": {
     "source": "commons",
@@ -284,7 +288,8 @@
   },
   "en-the-menu": {
     "source": "piper",
-    "voice": "en_GB-cori-high"
+    "voice": "en_GB-cori-high",
+    "text": "the menu"
   },
   "en-three": {
     "source": "lingualibre",
@@ -333,6 +338,7 @@
   },
   "en-you-are": {
     "source": "piper",
-    "voice": "en_GB-cori-high"
+    "voice": "en_GB-cori-high",
+    "text": "you are"
   }
 }

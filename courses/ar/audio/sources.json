@@ -1,7 +1,8 @@
 {
   "ar-afwan": {
     "source": "piper",
-    "voice": "ar_JO-kareem-medium"
+    "voice": "ar_JO-kareem-medium",
+    "text": "عَفْوًا"
   },
   "ar-ana": {
     "source": "commons",
@@ -12,7 +13,8 @@
   },
   "ar-ana-min-faransa": {
     "source": "piper",
-    "voice": "ar_JO-kareem-medium"
+    "voice": "ar_JO-kareem-medium",
+    "text": "أَنا مِنْ فَرَنْسا"
   },
   "ar-anta": {
     "source": "lingualibre",
@@ -52,11 +54,13 @@
   },
   "ar-asif": {
     "source": "piper",
-    "voice": "ar_JO-kareem-medium"
+    "voice": "ar_JO-kareem-medium",
+    "text": "آسِف"
   },
   "ar-ismi": {
     "source": "piper",
-    "voice": "ar_JO-kareem-medium"
+    "voice": "ar_JO-kareem-medium",
+    "text": "اِسْمي"
   },
   "ar-ithnan": {
     "source": "lingualibre",
@@ -87,55 +91,68 @@
   },
   "ar-letter-alif": {
     "source": "piper",
-    "voice": "ar_JO-kareem-medium"
+    "voice": "ar_JO-kareem-medium",
+    "text": "أَلِف"
   },
   "ar-letter-ba": {
     "source": "piper",
-    "voice": "ar_JO-kareem-medium"
+    "voice": "ar_JO-kareem-medium",
+    "text": "بَاء"
   },
   "ar-letter-dal": {
     "source": "piper",
-    "voice": "ar_JO-kareem-medium"
+    "voice": "ar_JO-kareem-medium",
+    "text": "دَال"
   },
   "ar-letter-dhal": {
     "source": "piper",
-    "voice": "ar_JO-kareem-medium"
+    "voice": "ar_JO-kareem-medium",
+    "text": "ذَال"
   },
   "ar-letter-mim": {
     "source": "piper",
-    "voice": "ar_JO-kareem-medium"
+    "voice": "ar_JO-kareem-medium",
+    "text": "مِيم"
   },
   "ar-letter-nun": {
     "source": "piper",
-    "voice": "ar_JO-kareem-medium"
+    "voice": "ar_JO-kareem-medium",
+    "text": "نُون"
   },
   "ar-letter-ra": {
     "source": "piper",
-    "voice": "ar_JO-kareem-medium"
+    "voice": "ar_JO-kareem-medium",
+    "text": "رَاء"
   },
   "ar-letter-ta": {
     "source": "piper",
-    "voice": "ar_JO-kareem-medium"
+    "voice": "ar_JO-kareem-medium",
+    "text": "تَاء"
   },
   "ar-letter-tha": {
     "source": "piper",
-    "voice": "ar_JO-kareem-medium"
+    "voice": "ar_JO-kareem-medium",
+    "text": "ثَاء"
   },
   "ar-letter-waw": {
     "source": "piper",
-    "voice": "ar_JO-kareem-medium"
+    "voice": "ar_JO-kareem-medium",
+    "text": "وَاو"
   },
   "ar-letter-ya": {
     "source": "piper",
-    "voice": "ar_JO-kareem-medium"
+    "voice": "ar_JO-kareem-medium",
+    "text": "يَاء"
   },
   "ar-letter-zay": {
     "source": "piper",
-    "voice": "ar_JO-kareem-medium"
+    "voice": "ar_JO-kareem-medium",
+    "text": "زَاي"
   },
   "ar-ma-ismuka": {
     "source": "piper",
-    "voice": "ar_JO-kareem-medium"
+    "voice": "ar_JO-kareem-medium",
+    "text": "ما اسْمُكَ؟"
   },
   "ar-maa-salama": {
     "source": "lingualibre",

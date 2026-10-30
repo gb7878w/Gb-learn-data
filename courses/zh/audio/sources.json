@@ -124,7 +124,8 @@
   },
   "zh-miantiao": {
     "source": "piper",
-    "voice": "zh_CN-huayan-medium"
+    "voice": "zh_CN-huayan-medium",
+    "text": "面条"
   },
   "zh-mifan": {
     "source": "commons",
@@ -153,7 +154,8 @@
   },
   "zh-ni-jiao-shenme": {
     "source": "piper",
-    "voice": "zh_CN-huayan-medium"
+    "voice": "zh_CN-huayan-medium",
+    "text": "你叫什么名字？"
   },
   "zh-nihao": {
     "source": "lingualibre",
@@ -166,7 +168,8 @@
   },
   "zh-ninhao": {
     "source": "piper",
-    "voice": "zh_CN-huayan-medium"
+    "voice": "zh_CN-huayan-medium",
+    "text": "您好"
   },
   "zh-qi": {
     "source": "lingualibre",
@@ -249,7 +252,8 @@
   },
   "zh-wanan": {
     "source": "piper",
-    "voice": "zh_CN-huayan-medium"
+    "voice": "zh_CN-huayan-medium",
+    "text": "晚安"
   },
   "zh-wo": {
     "source": "lingualibre",
@@ -262,15 +266,18 @@
   },
   "zh-wo-jiao": {
     "source": "piper",
-    "voice": "zh_CN-huayan-medium"
+    "voice": "zh_CN-huayan-medium",
+    "text": "我叫"
   },
   "zh-wo-shi-faguoren": {
     "source": "piper",
-    "voice": "zh_CN-huayan-medium"
+    "voice": "zh_CN-huayan-medium",
+    "text": "我是法国人"
   },
   "zh-wo-yao": {
     "source": "piper",
-    "voice": "zh_CN-huayan-medium"
+    "voice": "zh_CN-huayan-medium",
+    "text": "我要"
   },
   "zh-wu": {
     "source": "lingualibre",
@@ -308,6 +315,7 @@
   },
   "zh-zaoshang-hao": {
     "source": "piper",
-    "voice": "zh_CN-huayan-medium"
+    "voice": "zh_CN-huayan-medium",
+    "text": "早上好"
   }
 }
