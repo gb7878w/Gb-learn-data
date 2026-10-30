@@ -22,6 +22,20 @@ Cours ─┬─ Unité (thème, niveau CECR)
 | `note` | non | Remarque affichée après la réponse (prononciation, exception). |
 | `audio` | non | Enregistrement de la prononciation, relatif au fichier du cours (`audio/ru-privet.mp3`). Rempli par `npm run audio` ; à défaut l'app utilise la synthèse vocale du téléphone (`ttsLang`). |
 
+## Scènes de conversation
+
+Une leçon peut porter une `scene` : un dialogue modèle autour duquel l'app construit une séance complète (écoute du dialogue, vocabulaire, compréhension, grammaire, construction de phrases, dictée, puis jeu de rôle où l'apprenant tient son personnage). Les `items` de la leçon sont le vocabulaire de la scène.
+
+| Champ | Rôle |
+|---|---|
+| `setting` | Mise en situation, en français. |
+| `speakers` | Personnages par lettre : `name`, `voice` (`female` ou `male`, voir `courses/voices.json`) ; exactement un a `learner: true`. |
+| `lines` | Répliques : `id` (unique, **ne jamais renommer**, la répétition espacée des phrases y est rattachée), `speaker`, `text`, `translation`, `romanization` si l'écriture n'est pas latine. 8 à 10 répliques courtes, dont au moins trois pour l'apprenant. |
+| `questions` | Questions de compréhension en français : `options` (2 à 4) et `answer` (index). |
+| `grammar` | `title`, `explanation` (paragraphes courts), `examples`, `drills` (phrases à un seul trou `___`, avec `options` et `answer`). |
+
+Les dictées, les phrases à reconstruire et les choix de réplique sont tirés automatiquement des répliques : rien d'autre à rédiger.
+
 ## Règles par écriture
 
 - **Russe (Cyrl)** : translittération simple et lisible (`zh`, `kh`, `ts`, `ch`, `sh`, `y`), l'apostrophe note le signe mou (`pyat'`). L'app accepte les saisies en cyrillique ou en translittération.

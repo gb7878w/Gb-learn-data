@@ -19,18 +19,11 @@
       "type": "object",
       "additionalProperties": false,
       "required": ["name"],
-      "properties": {
-        "name": { "type": "string", "description": "Nom du système, ex. pinyin, translittération" },
-        "showByDefault": { "type": "boolean" }
-      }
+      "properties": { "name": {"type": "string", "description": "Nom du système, ex. pinyin, translittération"}, "showByDefault": {"type": "boolean"} }
     },
     "ttsLang": { "type": "string", "description": "Code de voix pour la synthèse vocale, ex. ru-RU" },
     "description": { "type": "string" },
-    "units": {
-      "type": "array",
-      "minItems": 1,
-      "items": { "$ref": "#/$defs/unit" }
-    }
+    "units": { "type": "array", "minItems": 1, "items": {"$ref": "#/$defs/unit"} }
   },
   "$defs": {
     "unit": {
@@ -42,7 +35,7 @@
         "title": { "type": "string" },
         "description": { "type": "string" },
         "level": { "enum": ["A0", "A1", "A2", "B1", "B2", "C1", "C2"] },
-        "lessons": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/lesson" } }
+        "lessons": { "type": "array", "minItems": 1, "items": {"$ref": "#/$defs/lesson"} }
       }
     },
     "lesson": {
@@ -54,7 +47,8 @@
         "title": { "type": "string" },
         "emoji": { "type": "string" },
         "tip": { "type": "string", "description": "Conseil affiché avant la leçon (grammaire, prononciation, écriture)" },
-        "items": { "type": "array", "minItems": 4, "items": { "$ref": "#/$defs/item" } }
+        "items": { "type": "array", "minItems": 4, "items": {"$ref": "#/$defs/item"} },
+        "scene": { "$ref": "#/$defs/scene" }
       }
     },
     "item": {
@@ -68,14 +62,93 @@
         "say": { "type": "string", "description": "Texte à prononcer s'il diffère de text, par exemple le nom d'une lettre (« باء » pour ب)" },
         "romanization": { "type": "string", "description": "Pinyin avec tons, translittération, etc." },
         "translation": { "type": "string", "description": "Traduction principale dans la langue de l'apprenant" },
-        "accept": {
-          "type": "array",
-          "items": { "type": "string" },
-          "description": "Autres traductions acceptées en saisie"
-        },
+        "accept": { "type": "array", "items": {"type": "string"}, "description": "Autres traductions acceptées en saisie" },
         "emoji": { "type": "string" },
         "note": { "type": "string" },
         "audio": { "type": "string", "description": "Chemin relatif vers un fichier audio (optionnel, sinon synthèse vocale)" }
+      }
+    },
+    "scene": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Scène de conversation : un dialogue modèle, des questions de compréhension et un point de grammaire. Les exercices de dictée, de construction de phrases et de jeu de rôle sont tirés des répliques.",
+      "required": ["setting", "speakers", "lines", "questions"],
+      "properties": {
+        "setting": { "type": "string", "description": "Mise en situation, en français" },
+        "speakers": {
+          "type": "object",
+          "minProperties": 2,
+          "additionalProperties": { "$ref": "#/$defs/speaker" },
+          "description": "Personnages, par lettre (A, B…) ; l'un d'eux est l'apprenant"
+        },
+        "lines": { "type": "array", "minItems": 4, "items": {"$ref": "#/$defs/line"} },
+        "questions": { "type": "array", "minItems": 1, "items": {"$ref": "#/$defs/question"} },
+        "grammar": { "$ref": "#/$defs/grammar" }
+      }
+    },
+    "speaker": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "voice"],
+      "properties": {
+        "name": { "type": "string" },
+        "voice": { "enum": ["female", "male"], "description": "Voix de synthèse de ses répliques (courses/voices.json)" },
+        "learner": { "type": "boolean", "description": "Rôle tenu par l'apprenant dans le jeu de rôle" }
+      }
+    },
+    "line": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "speaker", "text", "translation"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$",
+          "description": "Unique dans le cours. Ne jamais renommer : la répétition espacée des phrases y est rattachée."
+        },
+        "audio": { "type": "string" },
+        "speaker": { "type": "string" },
+        "text": { "type": "string" },
+        "romanization": { "type": "string" },
+        "translation": { "type": "string" }
+      }
+    },
+    "question": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["question", "options", "answer"],
+      "properties": {
+        "question": { "type": "string", "description": "Question de compréhension, en français" },
+        "options": { "type": "array", "minItems": 2, "maxItems": 4, "items": {"type": "string"} },
+        "answer": { "type": "integer", "minimum": 0, "description": "Index de la bonne réponse dans options" }
+      }
+    },
+    "grammar": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "explanation", "examples", "drills"],
+      "properties": {
+        "title": { "type": "string" },
+        "explanation": { "type": "array", "minItems": 1, "items": {"type": "string"}, "description": "Paragraphes courts, en français" },
+        "examples": { "type": "array", "minItems": 1, "items": {"$ref": "#/$defs/example"} },
+        "drills": { "type": "array", "minItems": 1, "items": {"$ref": "#/$defs/drill"} }
+      }
+    },
+    "example": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["text", "translation"],
+      "properties": { "text": {"type": "string"}, "translation": {"type": "string"} }
+    },
+    "drill": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["text", "options", "answer", "translation"],
+      "properties": {
+        "text": { "type": "string", "description": "Phrase à trou, le trou noté ___" },
+        "options": { "type": "array", "minItems": 2, "maxItems": 4, "items": {"type": "string"} },
+        "answer": { "type": "integer", "minimum": 0 },
+        "translation": { "type": "string" }
       }
     }
   }

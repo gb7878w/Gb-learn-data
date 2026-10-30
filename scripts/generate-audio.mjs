@@ -5,14 +5,16 @@
 //   npm run audio            → éléments sans audio, ou dont le texte ou la voix a changé
 //   npm run audio -- --force → réenregistrer toutes les voix Piper (après un changement de voix)
 //
-// Prérequis : python3 -m pip install piper-tts, et ffmpeg. La voix de chaque cours est
-// dans courses/voices.json (liste : https://huggingface.co/rhasspy/piper-voices).
+// Prérequis : python3 -m pip install piper-tts, et ffmpeg. Les voix de chaque cours sont
+// dans courses/voices.json (liste : https://huggingface.co/rhasspy/piper-voices) : une
+// voix féminine et, si possible, une masculine pour les dialogues. Les éléments isolés
+// prennent la voix féminine, les répliques celle de leur personnage.
 import { execFileSync } from 'node:child_process';
 import { existsSync, mkdtempSync, readFileSync, rmSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 
-import { HUMAN, audioPath, itemsOf, loadCourses, normalizeToMp3, root, saveAudio, saveCourse, spokenText } from './audio-lib.mjs';
+import { HUMAN, audioPath, itemsOf, linesOf, loadCourses, normalizeToMp3, root, saveAudio, saveCourse, spokenText } from './audio-lib.mjs';
 
 const force = process.argv.includes('--force');
 const voices = JSON.parse(readFileSync(join(root, 'courses', 'voices.json'), 'utf8'));
@@ -21,12 +23,17 @@ const tmp = mkdtempSync(join(tmpdir(), 'piper-'));
 const entries = loadCourses();
 const jobs = [];
 for (const entry of entries) {
-  const voice = voices[entry.id];
-  if (!voice) {
+  const { female, male } = voices[entry.id] ?? {};
+  if (!female && !male) {
     console.warn(`${entry.id} : pas de voix Piper dans courses/voices.json`);
     continue;
   }
-  for (const item of itemsOf(entry.course)) {
+  const voiceOf = (role) => (role === 'male' ? male : female) ?? female ?? male;
+  const todo = [
+    ...itemsOf(entry.course).map((item) => ({ item, voice: voiceOf('female') })),
+    ...linesOf(entry.course).map((line) => ({ item: line, voice: voiceOf(line.voice) })),
+  ];
+  for (const { item, voice } of todo) {
     const known = entry.sources[item.id];
     const text = spokenText(item);
     if (HUMAN.has(known?.source)) continue;

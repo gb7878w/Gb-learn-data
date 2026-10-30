@@ -30,6 +30,13 @@ export function itemsOf(course) {
   return course.units.flatMap((u) => u.lessons.flatMap((l) => l.items));
 }
 
+/** Répliques des scènes de dialogue, avec la voix (female/male) de leur personnage. */
+export function linesOf(course) {
+  return course.units.flatMap((u) =>
+    u.lessons.flatMap((l) => (l.scene ? l.scene.lines.map((line) => ({ ...line, voice: l.scene.speakers[line.speaker].voice })) : [])),
+  );
+}
+
 export const audioPath = (item) => `audio/${item.id}.mp3`;
 
 /** Enregistre le fichier d'un élément et note son origine. */
