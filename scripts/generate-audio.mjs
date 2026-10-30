@@ -2,7 +2,7 @@
 // libre qui tourne hors ligne (https://github.com/OHF-Voice/piper1-gpl). Les
 // enregistrements de vrais locuteurs ne sont jamais remplacés.
 //
-//   npm run audio            → éléments sans audio
+//   npm run audio            → éléments sans audio, ou dont le texte ou la voix a changé
 //   npm run audio -- --force → réenregistrer toutes les voix Piper (après un changement de voix)
 //
 // Prérequis : python3 -m pip install piper-tts, et ffmpeg. La voix de chaque cours est
@@ -27,18 +27,21 @@ for (const entry of entries) {
     continue;
   }
   for (const item of itemsOf(entry.course)) {
-    const source = entry.sources[item.id]?.source;
-    if (HUMAN.has(source)) continue;
-    if (source === 'piper' && !force && existsSync(join(entry.dir, audioPath(item)))) continue;
-    jobs.push({ entry, item, voice, text: spokenText(item), out: join(tmp, `${item.id}.wav`) });
+    const known = entry.sources[item.id];
+    const text = spokenText(item);
+    if (HUMAN.has(known?.source)) continue;
+    // Déjà enregistré avec la même voix et le même texte : rien à refaire.
+    const upToDate = known?.source === 'piper' && known.voice === voice && known.text === text;
+    if (upToDate && !force && existsSync(join(entry.dir, audioPath(item)))) continue;
+    jobs.push({ entry, item, voice, text, out: join(tmp, `${item.id}.wav`) });
   }
 }
 
 if (jobs.length) {
   const input = JSON.stringify({ jobs: jobs.map(({ voice, text, out }) => ({ voice, text, out })) });
   execFileSync('python3', [join(root, 'scripts', 'piper_tts.py')], { input, stdio: ['pipe', 'inherit', 'inherit'] });
-  for (const { entry, item, voice, out } of jobs) {
-    saveAudio(entry, item, normalizeToMp3(out), { source: 'piper', voice });
+  for (const { entry, item, voice, text, out } of jobs) {
+    saveAudio(entry, item, normalizeToMp3(out), { source: 'piper', voice, text });
   }
   for (const entry of entries) saveCourse(entry);
 }

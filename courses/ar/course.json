@@ -24,12 +24,12 @@
           "emoji": "🔤",
           "tip": "ب, ت, ث et ن ont la même forme de base : seuls les points les distinguent.",
           "items": [
-            { "id": "ar-letter-alif", "audio": "audio/ar-letter-alif.mp3", "kind": "letter", "text": "ا", "romanization": "alif", "translation": "a long (ā)", "accept": ["a", "alif"] },
-            { "id": "ar-letter-ba", "audio": "audio/ar-letter-ba.mp3", "kind": "letter", "text": "ب", "romanization": "bāʾ", "translation": "b", "accept": ["b", "ba"] },
-            { "id": "ar-letter-ta", "audio": "audio/ar-letter-ta.mp3", "kind": "letter", "text": "ت", "romanization": "tāʾ", "translation": "t", "accept": ["t", "ta"] },
-            { "id": "ar-letter-tha", "audio": "audio/ar-letter-tha.mp3", "kind": "letter", "text": "ث", "romanization": "thāʾ", "translation": "th (comme l'anglais « think »)", "accept": ["th", "tha"] },
-            { "id": "ar-letter-nun", "audio": "audio/ar-letter-nun.mp3", "kind": "letter", "text": "ن", "romanization": "nūn", "translation": "n", "accept": ["n", "nun"] },
-            { "id": "ar-letter-ya", "audio": "audio/ar-letter-ya.mp3", "kind": "letter", "text": "ي", "romanization": "yāʾ", "translation": "y ou i long (ī)", "accept": ["y", "i", "ya"] }
+            { "id": "ar-letter-alif", "audio": "audio/ar-letter-alif.mp3", "kind": "letter", "say": "أَلِف", "text": "ا", "romanization": "alif", "translation": "a long (ā)", "accept": ["a", "alif"] },
+            { "id": "ar-letter-ba", "audio": "audio/ar-letter-ba.mp3", "kind": "letter", "say": "بَاء", "text": "ب", "romanization": "bāʾ", "translation": "b", "accept": ["b", "ba"] },
+            { "id": "ar-letter-ta", "audio": "audio/ar-letter-ta.mp3", "kind": "letter", "say": "تَاء", "text": "ت", "romanization": "tāʾ", "translation": "t", "accept": ["t", "ta"] },
+            { "id": "ar-letter-tha", "audio": "audio/ar-letter-tha.mp3", "kind": "letter", "say": "ثَاء", "text": "ث", "romanization": "thāʾ", "translation": "th (comme l'anglais « think »)", "accept": ["th", "tha"] },
+            { "id": "ar-letter-nun", "audio": "audio/ar-letter-nun.mp3", "kind": "letter", "say": "نُون", "text": "ن", "romanization": "nūn", "translation": "n", "accept": ["n", "nun"] },
+            { "id": "ar-letter-ya", "audio": "audio/ar-letter-ya.mp3", "kind": "letter", "say": "يَاء", "text": "ي", "romanization": "yāʾ", "translation": "y ou i long (ī)", "accept": ["y", "i", "ya"] }
           ]
         },
         {
@@ -38,12 +38,12 @@
           "emoji": "✍️",
           "tip": "ا, د, ذ, ر, ز et و ne se lient jamais à la lettre qui les suit (à leur gauche).",
           "items": [
-            { "id": "ar-letter-dal", "audio": "audio/ar-letter-dal.mp3", "kind": "letter", "text": "د", "romanization": "dāl", "translation": "d", "accept": ["d", "dal"] },
-            { "id": "ar-letter-dhal", "audio": "audio/ar-letter-dhal.mp3", "kind": "letter", "text": "ذ", "romanization": "dhāl", "translation": "dh (comme l'anglais « this »)", "accept": ["dh", "dhal"] },
-            { "id": "ar-letter-ra", "audio": "audio/ar-letter-ra.mp3", "kind": "letter", "text": "ر", "romanization": "rāʾ", "translation": "r (roulé)", "accept": ["r", "ra"] },
-            { "id": "ar-letter-zay", "audio": "audio/ar-letter-zay.mp3", "kind": "letter", "text": "ز", "romanization": "zāy", "translation": "z", "accept": ["z", "zay"] },
-            { "id": "ar-letter-waw", "audio": "audio/ar-letter-waw.mp3", "kind": "letter", "text": "و", "romanization": "wāw", "translation": "w ou ou long (ū)", "accept": ["w", "ou", "u", "waw"] },
-            { "id": "ar-letter-mim", "audio": "audio/ar-letter-mim.mp3", "kind": "letter", "text": "م", "romanization": "mīm", "translation": "m", "accept": ["m", "mim"] }
+            { "id": "ar-letter-dal", "audio": "audio/ar-letter-dal.mp3", "kind": "letter", "say": "دَال", "text": "د", "romanization": "dāl", "translation": "d", "accept": ["d", "dal"] },
+            { "id": "ar-letter-dhal", "audio": "audio/ar-letter-dhal.mp3", "kind": "letter", "say": "ذَال", "text": "ذ", "romanization": "dhāl", "translation": "dh (comme l'anglais « this »)", "accept": ["dh", "dhal"] },
+            { "id": "ar-letter-ra", "audio": "audio/ar-letter-ra.mp3", "kind": "letter", "say": "رَاء", "text": "ر", "romanization": "rāʾ", "translation": "r (roulé)", "accept": ["r", "ra"] },
+            { "id": "ar-letter-zay", "audio": "audio/ar-letter-zay.mp3", "kind": "letter", "say": "زَاي", "text": "ز", "romanization": "zāy", "translation": "z", "accept": ["z", "zay"] },
+            { "id": "ar-letter-waw", "audio": "audio/ar-letter-waw.mp3", "kind": "letter", "say": "وَاو", "text": "و", "romanization": "wāw", "translation": "w ou ou long (ū)", "accept": ["w", "ou", "u", "waw"] },
+            { "id": "ar-letter-mim", "audio": "audio/ar-letter-mim.mp3", "kind": "letter", "say": "مِيم", "text": "م", "romanization": "mīm", "translation": "m", "accept": ["m", "mim"] }
           ]
         }
       ]

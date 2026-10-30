@@ -24,12 +24,12 @@
           "emoji": "🔤",
           "tip": "Ces lettres ressemblent aux nôtres et se prononcent presque pareil.",
           "items": [
-            { "id": "ru-letter-a", "audio": "audio/ru-letter-a.mp3", "kind": "letter", "text": "А а", "romanization": "a", "translation": "a (comme dans « papa »)", "accept": ["a"] },
-            { "id": "ru-letter-k", "audio": "audio/ru-letter-k.mp3", "kind": "letter", "text": "К к", "romanization": "k", "translation": "k", "accept": ["k"] },
-            { "id": "ru-letter-m", "audio": "audio/ru-letter-m.mp3", "kind": "letter", "text": "М м", "romanization": "m", "translation": "m", "accept": ["m"] },
-            { "id": "ru-letter-o", "audio": "audio/ru-letter-o.mp3", "kind": "letter", "text": "О о", "romanization": "o", "translation": "o", "accept": ["o"] },
-            { "id": "ru-letter-t", "audio": "audio/ru-letter-t.mp3", "kind": "letter", "text": "Т т", "romanization": "t", "translation": "t", "accept": ["t"] },
-            { "id": "ru-letter-ye", "audio": "audio/ru-letter-ye.mp3", "kind": "letter", "text": "Е е", "romanization": "ye", "translation": "ié (comme dans « hier »)", "accept": ["ye", "ie", "e"] }
+            { "id": "ru-letter-a", "audio": "audio/ru-letter-a.mp3", "kind": "letter", "say": "а", "text": "А а", "romanization": "a", "translation": "a (comme dans « papa »)", "accept": ["a"] },
+            { "id": "ru-letter-k", "audio": "audio/ru-letter-k.mp3", "kind": "letter", "say": "ка", "text": "К к", "romanization": "k", "translation": "k", "accept": ["k"] },
+            { "id": "ru-letter-m", "audio": "audio/ru-letter-m.mp3", "kind": "letter", "say": "эм", "text": "М м", "romanization": "m", "translation": "m", "accept": ["m"] },
+            { "id": "ru-letter-o", "audio": "audio/ru-letter-o.mp3", "kind": "letter", "say": "о", "text": "О о", "romanization": "o", "translation": "o", "accept": ["o"] },
+            { "id": "ru-letter-t", "audio": "audio/ru-letter-t.mp3", "kind": "letter", "say": "тэ", "text": "Т т", "romanization": "t", "translation": "t", "accept": ["t"] },
+            { "id": "ru-letter-ye", "audio": "audio/ru-letter-ye.mp3", "kind": "letter", "say": "е", "text": "Е е", "romanization": "ye", "translation": "ié (comme dans « hier »)", "accept": ["ye", "ie", "e"] }
           ]
         },
         {
@@ -38,12 +38,12 @@
           "emoji": "🎭",
           "tip": "Attention : ces lettres ressemblent à des lettres latines mais se lisent autrement.",
           "items": [
-            { "id": "ru-letter-v", "audio": "audio/ru-letter-v.mp3", "kind": "letter", "text": "В в", "romanization": "v", "translation": "v", "accept": ["v"] },
-            { "id": "ru-letter-n", "audio": "audio/ru-letter-n.mp3", "kind": "letter", "text": "Н н", "romanization": "n", "translation": "n", "accept": ["n"] },
-            { "id": "ru-letter-r", "audio": "audio/ru-letter-r.mp3", "kind": "letter", "text": "Р р", "romanization": "r", "translation": "r (roulé)", "accept": ["r"] },
-            { "id": "ru-letter-s", "audio": "audio/ru-letter-s.mp3", "kind": "letter", "text": "С с", "romanization": "s", "translation": "s", "accept": ["s"] },
-            { "id": "ru-letter-u", "audio": "audio/ru-letter-u.mp3", "kind": "letter", "text": "У у", "romanization": "u", "translation": "ou", "accept": ["u", "ou"] },
-            { "id": "ru-letter-kh", "audio": "audio/ru-letter-kh.mp3", "kind": "letter", "text": "Х х", "romanization": "kh", "translation": "kh (comme la jota espagnole)", "accept": ["kh", "h"] }
+            { "id": "ru-letter-v", "audio": "audio/ru-letter-v.mp3", "kind": "letter", "say": "вэ", "text": "В в", "romanization": "v", "translation": "v", "accept": ["v"] },
+            { "id": "ru-letter-n", "audio": "audio/ru-letter-n.mp3", "kind": "letter", "say": "эн", "text": "Н н", "romanization": "n", "translation": "n", "accept": ["n"] },
+            { "id": "ru-letter-r", "audio": "audio/ru-letter-r.mp3", "kind": "letter", "say": "эр", "text": "Р р", "romanization": "r", "translation": "r (roulé)", "accept": ["r"] },
+            { "id": "ru-letter-s", "audio": "audio/ru-letter-s.mp3", "kind": "letter", "say": "эс", "text": "С с", "romanization": "s", "translation": "s", "accept": ["s"] },
+            { "id": "ru-letter-u", "audio": "audio/ru-letter-u.mp3", "kind": "letter", "say": "у", "text": "У у", "romanization": "u", "translation": "ou", "accept": ["u", "ou"] },
+            { "id": "ru-letter-kh", "audio": "audio/ru-letter-kh.mp3", "kind": "letter", "say": "ха", "text": "Х х", "romanization": "kh", "translation": "kh (comme la jota espagnole)", "accept": ["kh", "h"] }
           ]
         },
         {

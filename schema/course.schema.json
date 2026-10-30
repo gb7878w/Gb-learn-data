@@ -65,6 +65,7 @@
         "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
         "kind": { "enum": ["letter", "character", "word", "phrase", "sentence"] },
         "text": { "type": "string", "description": "Forme écrite dans la langue apprise" },
+        "say": { "type": "string", "description": "Texte à prononcer s'il diffère de text, par exemple le nom d'une lettre (« باء » pour ب)" },
         "romanization": { "type": "string", "description": "Pinyin avec tons, translittération, etc." },
         "translation": { "type": "string", "description": "Traduction principale dans la langue de l'apprenant" },
         "accept": {

@@ -53,8 +53,9 @@ export function saveCourse(entry) {
   }
 }
 
-/** Texte prononcé : la minuscule seule pour une lettre « А а », sans points de suspension. */
+/** Texte prononcé : « say » s'il existe, la minuscule seule pour une lettre « А а », sans points de suspension. */
 export function spokenText(item) {
+  if (item.say) return item.say;
   if (item.kind === 'letter') return item.text.split(/\s+/).pop();
   return item.text.replace(/…/g, '').trim();
 }
