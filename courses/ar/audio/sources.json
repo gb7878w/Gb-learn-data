@@ -1,4 +1,19 @@
 {
+  "ar-afwan": {
+    "source": "piper",
+    "voice": "ar_JO-kareem-medium"
+  },
+  "ar-ana": {
+    "source": "commons",
+    "title": "File:Ar-أنا.ogg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ar-%D8%A3%D9%86%D8%A7.ogg",
+    "author": "Nhaily Mustapha, Vion Nicolas",
+    "license": "CC BY 3.0 us"
+  },
+  "ar-ana-min-faransa": {
+    "source": "piper",
+    "voice": "ar_JO-kareem-medium"
+  },
   "ar-anta": {
     "source": "lingualibre",
     "title": "File:LL-Q13955 (ara)-Rashed Aljahdali-أنت.wav",
@@ -35,6 +50,14 @@
     "author": "Speaker: Ov3for\nRecorder: Ov3for",
     "license": "CC0"
   },
+  "ar-asif": {
+    "source": "piper",
+    "voice": "ar_JO-kareem-medium"
+  },
+  "ar-ismi": {
+    "source": "piper",
+    "voice": "ar_JO-kareem-medium"
+  },
   "ar-ithnan": {
     "source": "lingualibre",
     "title": "File:LL-Q13955 (ara)-Ov3for-اثنان.wav",
@@ -61,6 +84,58 @@
     "speaker": "Besma05",
     "author": "Speaker: Besma05\nRecorder: Besma05",
     "license": "CC0"
+  },
+  "ar-letter-alif": {
+    "source": "piper",
+    "voice": "ar_JO-kareem-medium"
+  },
+  "ar-letter-ba": {
+    "source": "piper",
+    "voice": "ar_JO-kareem-medium"
+  },
+  "ar-letter-dal": {
+    "source": "piper",
+    "voice": "ar_JO-kareem-medium"
+  },
+  "ar-letter-dhal": {
+    "source": "piper",
+    "voice": "ar_JO-kareem-medium"
+  },
+  "ar-letter-mim": {
+    "source": "piper",
+    "voice": "ar_JO-kareem-medium"
+  },
+  "ar-letter-nun": {
+    "source": "piper",
+    "voice": "ar_JO-kareem-medium"
+  },
+  "ar-letter-ra": {
+    "source": "piper",
+    "voice": "ar_JO-kareem-medium"
+  },
+  "ar-letter-ta": {
+    "source": "piper",
+    "voice": "ar_JO-kareem-medium"
+  },
+  "ar-letter-tha": {
+    "source": "piper",
+    "voice": "ar_JO-kareem-medium"
+  },
+  "ar-letter-waw": {
+    "source": "piper",
+    "voice": "ar_JO-kareem-medium"
+  },
+  "ar-letter-ya": {
+    "source": "piper",
+    "voice": "ar_JO-kareem-medium"
+  },
+  "ar-letter-zay": {
+    "source": "piper",
+    "voice": "ar_JO-kareem-medium"
+  },
+  "ar-ma-ismuka": {
+    "source": "piper",
+    "voice": "ar_JO-kareem-medium"
   },
   "ar-maa-salama": {
     "source": "lingualibre",
@@ -125,6 +200,13 @@
     "author": "Speaker: Fjmustak\nRecorder: Fjmustak",
     "license": "CC BY-SA 4.0"
   },
+  "ar-salam-alaykum": {
+    "source": "commons",
+    "title": "File:Ar-السلام عليكم.oga",
+    "page": "https://commons.wikimedia.org/wiki/File:Ar-%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85_%D8%B9%D9%84%D9%8A%D9%83%D9%85.oga",
+    "author": "TwoThirty at English Wikibooks",
+    "license": "CC BY-SA 3.0"
+  },
   "ar-shukran": {
     "source": "lingualibre",
     "title": "File:LL-Q13955 (ara)-AlNatiq-شكرا.wav",
@@ -169,6 +251,13 @@
     "speaker": "Ov3for",
     "author": "Speaker: Ov3for\nRecorder: Ov3for",
     "license": "CC0"
+  },
+  "ar-wa-alaykum-salam": {
+    "source": "commons",
+    "title": "File:Ar-وعليكم السلام.oga",
+    "page": "https://commons.wikimedia.org/wiki/File:Ar-%D9%88%D8%B9%D9%84%D9%8A%D9%83%D9%85_%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85.oga",
+    "author": "TwoThirty at English Wikibooks",
+    "license": "Public domain"
   },
   "ar-wahid": {
     "source": "lingualibre",

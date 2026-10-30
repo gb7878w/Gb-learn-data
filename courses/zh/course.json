@@ -24,10 +24,10 @@
           "tip": "Le mandarin a quatre tons : ā (haut et plat), á (montant), ǎ (descendant puis montant), à (descendant). Le ton change le sens du mot.",
           "items": [
             { "id": "zh-nihao", "audio": "audio/zh-nihao.mp3", "kind": "phrase", "text": "你好", "romanization": "nǐ hǎo", "translation": "bonjour", "accept": ["salut"], "emoji": "👋", "note": "Deux 3ᵉ tons de suite : le premier se prononce au 2ᵉ ton (« ní hǎo »)." },
-            { "id": "zh-ninhao", "kind": "phrase", "text": "您好", "romanization": "nín hǎo", "translation": "bonjour (poli)", "accept": ["bonjour"], "emoji": "🙇" },
-            { "id": "zh-zaijian", "kind": "phrase", "text": "再见", "romanization": "zài jiàn", "translation": "au revoir", "emoji": "🚪" },
-            { "id": "zh-zaoshang-hao", "kind": "phrase", "text": "早上好", "romanization": "zǎo shang hǎo", "translation": "bonjour (le matin)", "accept": ["bonjour"], "emoji": "🌅" },
-            { "id": "zh-wanan", "kind": "phrase", "text": "晚安", "romanization": "wǎn ān", "translation": "bonne nuit", "emoji": "🌙" },
+            { "id": "zh-ninhao", "audio": "audio/zh-ninhao.mp3", "kind": "phrase", "text": "您好", "romanization": "nín hǎo", "translation": "bonjour (poli)", "accept": ["bonjour"], "emoji": "🙇" },
+            { "id": "zh-zaijian", "audio": "audio/zh-zaijian.mp3", "kind": "phrase", "text": "再见", "romanization": "zài jiàn", "translation": "au revoir", "emoji": "🚪" },
+            { "id": "zh-zaoshang-hao", "audio": "audio/zh-zaoshang-hao.mp3", "kind": "phrase", "text": "早上好", "romanization": "zǎo shang hǎo", "translation": "bonjour (le matin)", "accept": ["bonjour"], "emoji": "🌅" },
+            { "id": "zh-wanan", "audio": "audio/zh-wanan.mp3", "kind": "phrase", "text": "晚安", "romanization": "wǎn ān", "translation": "bonne nuit", "emoji": "🌙" },
             { "id": "zh-ni-hao-ma", "audio": "audio/zh-ni-hao-ma.mp3", "kind": "sentence", "text": "你好吗？", "romanization": "nǐ hǎo ma?", "translation": "comment vas-tu ?", "accept": ["ça va ?", "comment ça va ?"], "emoji": "🤔", "note": "吗 (ma) transforme une affirmation en question." }
           ]
         },
@@ -39,7 +39,7 @@
             { "id": "zh-xiexie", "audio": "audio/zh-xiexie.mp3", "kind": "word", "text": "谢谢", "romanization": "xiè xie", "translation": "merci", "emoji": "💐" },
             { "id": "zh-bu-keqi", "audio": "audio/zh-bu-keqi.mp3", "kind": "phrase", "text": "不客气", "romanization": "bú kè qi", "translation": "de rien", "accept": ["je vous en prie"], "emoji": "😊" },
             { "id": "zh-duibuqi", "audio": "audio/zh-duibuqi.mp3", "kind": "phrase", "text": "对不起", "romanization": "duì bu qǐ", "translation": "pardon", "accept": ["désolé", "désolée"], "emoji": "😔" },
-            { "id": "zh-qing", "kind": "character", "text": "请", "romanization": "qǐng", "translation": "s'il vous plaît", "accept": ["s'il te plaît", "je vous prie"], "emoji": "🙏" },
+            { "id": "zh-qing", "audio": "audio/zh-qing.mp3", "kind": "character", "text": "请", "romanization": "qǐng", "translation": "s'il vous plaît", "accept": ["s'il te plaît", "je vous prie"], "emoji": "🙏" },
             { "id": "zh-shi", "audio": "audio/zh-shi.mp3", "kind": "character", "text": "是", "romanization": "shì", "translation": "oui (c'est ça)", "accept": ["oui", "être"], "emoji": "✅" },
             { "id": "zh-bu", "audio": "audio/zh-bu.mp3", "kind": "character", "text": "不", "romanization": "bù", "translation": "non (ne… pas)", "accept": ["non", "ne pas"], "emoji": "❌", "note": "不 devient « bú » devant un 4ᵉ ton : 不客气 bú kè qi." }
           ]
@@ -53,9 +53,9 @@
             { "id": "zh-wo", "audio": "audio/zh-wo.mp3", "kind": "character", "text": "我", "romanization": "wǒ", "translation": "je", "accept": ["moi"], "emoji": "🧑" },
             { "id": "zh-ni", "audio": "audio/zh-ni.mp3", "kind": "character", "text": "你", "romanization": "nǐ", "translation": "tu", "accept": ["toi"], "emoji": "👉" },
             { "id": "zh-ta", "audio": "audio/zh-ta.mp3", "kind": "character", "text": "他", "romanization": "tā", "translation": "il", "accept": ["lui"], "emoji": "👨" },
-            { "id": "zh-wo-jiao", "kind": "phrase", "text": "我叫…", "romanization": "wǒ jiào…", "translation": "je m'appelle…", "emoji": "📛" },
-            { "id": "zh-ni-jiao-shenme", "kind": "sentence", "text": "你叫什么名字？", "romanization": "nǐ jiào shén me míng zi?", "translation": "comment t'appelles-tu ?", "accept": ["comment tu t'appelles ?", "quel est ton nom ?"], "emoji": "❓" },
-            { "id": "zh-wo-shi-faguoren", "kind": "sentence", "text": "我是法国人", "romanization": "wǒ shì fǎ guó rén", "translation": "je suis français", "accept": ["je suis française"], "emoji": "🇫🇷" }
+            { "id": "zh-wo-jiao", "audio": "audio/zh-wo-jiao.mp3", "kind": "phrase", "text": "我叫…", "romanization": "wǒ jiào…", "translation": "je m'appelle…", "emoji": "📛" },
+            { "id": "zh-ni-jiao-shenme", "audio": "audio/zh-ni-jiao-shenme.mp3", "kind": "sentence", "text": "你叫什么名字？", "romanization": "nǐ jiào shén me míng zi?", "translation": "comment t'appelles-tu ?", "accept": ["comment tu t'appelles ?", "quel est ton nom ?"], "emoji": "❓" },
+            { "id": "zh-wo-shi-faguoren", "audio": "audio/zh-wo-shi-faguoren.mp3", "kind": "sentence", "text": "我是法国人", "romanization": "wǒ shì fǎ guó rén", "translation": "je suis français", "accept": ["je suis française"], "emoji": "🇫🇷" }
           ]
         }
       ]
@@ -85,8 +85,8 @@
           "items": [
             { "id": "zh-liu", "audio": "audio/zh-liu.mp3", "kind": "character", "text": "六", "romanization": "liù", "translation": "six", "accept": ["6"], "emoji": "6️⃣" },
             { "id": "zh-qi", "audio": "audio/zh-qi.mp3", "kind": "character", "text": "七", "romanization": "qī", "translation": "sept", "accept": ["7"], "emoji": "7️⃣" },
-            { "id": "zh-ba", "kind": "character", "text": "八", "romanization": "bā", "translation": "huit", "accept": ["8"], "emoji": "8️⃣" },
-            { "id": "zh-jiu", "kind": "character", "text": "九", "romanization": "jiǔ", "translation": "neuf", "accept": ["9"], "emoji": "9️⃣" },
+            { "id": "zh-ba", "audio": "audio/zh-ba.mp3", "kind": "character", "text": "八", "romanization": "bā", "translation": "huit", "accept": ["8"], "emoji": "8️⃣" },
+            { "id": "zh-jiu", "audio": "audio/zh-jiu.mp3", "kind": "character", "text": "九", "romanization": "jiǔ", "translation": "neuf", "accept": ["9"], "emoji": "9️⃣" },
             { "id": "zh-shi-ten", "audio": "audio/zh-shi-ten.mp3", "kind": "character", "text": "十", "romanization": "shí", "translation": "dix", "accept": ["10"], "emoji": "🔟" }
           ]
         }
@@ -104,9 +104,9 @@
           "items": [
             { "id": "zh-shui", "audio": "audio/zh-shui.mp3", "kind": "character", "text": "水", "romanization": "shuǐ", "translation": "eau", "accept": ["l'eau", "de l'eau"], "emoji": "💧" },
             { "id": "zh-cha", "audio": "audio/zh-cha.mp3", "kind": "character", "text": "茶", "romanization": "chá", "translation": "thé", "accept": ["le thé", "du thé"], "emoji": "🍵" },
-            { "id": "zh-mifan", "kind": "word", "text": "米饭", "romanization": "mǐ fàn", "translation": "riz", "accept": ["riz cuit", "du riz"], "emoji": "🍚" },
-            { "id": "zh-miantiao", "kind": "word", "text": "面条", "romanization": "miàn tiáo", "translation": "nouilles", "accept": ["des nouilles"], "emoji": "🍜" },
-            { "id": "zh-chi", "kind": "character", "text": "吃", "romanization": "chī", "translation": "manger", "emoji": "🥢" },
+            { "id": "zh-mifan", "audio": "audio/zh-mifan.mp3", "kind": "word", "text": "米饭", "romanization": "mǐ fàn", "translation": "riz", "accept": ["riz cuit", "du riz"], "emoji": "🍚" },
+            { "id": "zh-miantiao", "audio": "audio/zh-miantiao.mp3", "kind": "word", "text": "面条", "romanization": "miàn tiáo", "translation": "nouilles", "accept": ["des nouilles"], "emoji": "🍜" },
+            { "id": "zh-chi", "audio": "audio/zh-chi.mp3", "kind": "character", "text": "吃", "romanization": "chī", "translation": "manger", "emoji": "🥢" },
             { "id": "zh-he", "audio": "audio/zh-he.mp3", "kind": "character", "text": "喝", "romanization": "hē", "translation": "boire", "emoji": "🥤" }
           ]
         },
@@ -115,7 +115,7 @@
           "title": "Commander",
           "emoji": "🧾",
           "items": [
-            { "id": "zh-wo-yao", "kind": "phrase", "text": "我要…", "romanization": "wǒ yào…", "translation": "je voudrais…", "accept": ["je veux…"], "emoji": "🙋" },
+            { "id": "zh-wo-yao", "audio": "audio/zh-wo-yao.mp3", "kind": "phrase", "text": "我要…", "romanization": "wǒ yào…", "translation": "je voudrais…", "accept": ["je veux…"], "emoji": "🙋" },
             { "id": "zh-duoshao-qian", "audio": "audio/zh-duoshao-qian.mp3", "kind": "sentence", "text": "多少钱？", "romanization": "duō shao qián?", "translation": "combien ça coûte ?", "accept": ["c'est combien ?", "combien ?"], "emoji": "💴" },
             { "id": "zh-maidan", "audio": "audio/zh-maidan.mp3", "kind": "word", "text": "买单", "romanization": "mǎi dān", "translation": "l'addition", "accept": ["l'addition s'il vous plaît"], "emoji": "🧾" },
             { "id": "zh-haochi", "audio": "audio/zh-haochi.mp3", "kind": "word", "text": "好吃", "romanization": "hǎo chī", "translation": "délicieux", "accept": ["bon", "c'est bon"], "emoji": "😋" },

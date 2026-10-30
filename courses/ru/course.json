@@ -24,12 +24,12 @@
           "emoji": "🔤",
           "tip": "Ces lettres ressemblent aux nôtres et se prononcent presque pareil.",
           "items": [
-            { "id": "ru-letter-a", "kind": "letter", "text": "А а", "romanization": "a", "translation": "a (comme dans « papa »)", "accept": ["a"] },
-            { "id": "ru-letter-k", "kind": "letter", "text": "К к", "romanization": "k", "translation": "k", "accept": ["k"] },
-            { "id": "ru-letter-m", "kind": "letter", "text": "М м", "romanization": "m", "translation": "m", "accept": ["m"] },
-            { "id": "ru-letter-o", "kind": "letter", "text": "О о", "romanization": "o", "translation": "o", "accept": ["o"] },
-            { "id": "ru-letter-t", "kind": "letter", "text": "Т т", "romanization": "t", "translation": "t", "accept": ["t"] },
-            { "id": "ru-letter-ye", "kind": "letter", "text": "Е е", "romanization": "ye", "translation": "ié (comme dans « hier »)", "accept": ["ye", "ie", "e"] }
+            { "id": "ru-letter-a", "audio": "audio/ru-letter-a.mp3", "kind": "letter", "text": "А а", "romanization": "a", "translation": "a (comme dans « papa »)", "accept": ["a"] },
+            { "id": "ru-letter-k", "audio": "audio/ru-letter-k.mp3", "kind": "letter", "text": "К к", "romanization": "k", "translation": "k", "accept": ["k"] },
+            { "id": "ru-letter-m", "audio": "audio/ru-letter-m.mp3", "kind": "letter", "text": "М м", "romanization": "m", "translation": "m", "accept": ["m"] },
+            { "id": "ru-letter-o", "audio": "audio/ru-letter-o.mp3", "kind": "letter", "text": "О о", "romanization": "o", "translation": "o", "accept": ["o"] },
+            { "id": "ru-letter-t", "audio": "audio/ru-letter-t.mp3", "kind": "letter", "text": "Т т", "romanization": "t", "translation": "t", "accept": ["t"] },
+            { "id": "ru-letter-ye", "audio": "audio/ru-letter-ye.mp3", "kind": "letter", "text": "Е е", "romanization": "ye", "translation": "ié (comme dans « hier »)", "accept": ["ye", "ie", "e"] }
           ]
         },
         {
@@ -38,12 +38,12 @@
           "emoji": "🎭",
           "tip": "Attention : ces lettres ressemblent à des lettres latines mais se lisent autrement.",
           "items": [
-            { "id": "ru-letter-v", "kind": "letter", "text": "В в", "romanization": "v", "translation": "v", "accept": ["v"] },
-            { "id": "ru-letter-n", "kind": "letter", "text": "Н н", "romanization": "n", "translation": "n", "accept": ["n"] },
-            { "id": "ru-letter-r", "kind": "letter", "text": "Р р", "romanization": "r", "translation": "r (roulé)", "accept": ["r"] },
-            { "id": "ru-letter-s", "kind": "letter", "text": "С с", "romanization": "s", "translation": "s", "accept": ["s"] },
-            { "id": "ru-letter-u", "kind": "letter", "text": "У у", "romanization": "u", "translation": "ou", "accept": ["u", "ou"] },
-            { "id": "ru-letter-kh", "kind": "letter", "text": "Х х", "romanization": "kh", "translation": "kh (comme la jota espagnole)", "accept": ["kh", "h"] }
+            { "id": "ru-letter-v", "audio": "audio/ru-letter-v.mp3", "kind": "letter", "text": "В в", "romanization": "v", "translation": "v", "accept": ["v"] },
+            { "id": "ru-letter-n", "audio": "audio/ru-letter-n.mp3", "kind": "letter", "text": "Н н", "romanization": "n", "translation": "n", "accept": ["n"] },
+            { "id": "ru-letter-r", "audio": "audio/ru-letter-r.mp3", "kind": "letter", "text": "Р р", "romanization": "r", "translation": "r (roulé)", "accept": ["r"] },
+            { "id": "ru-letter-s", "audio": "audio/ru-letter-s.mp3", "kind": "letter", "text": "С с", "romanization": "s", "translation": "s", "accept": ["s"] },
+            { "id": "ru-letter-u", "audio": "audio/ru-letter-u.mp3", "kind": "letter", "text": "У у", "romanization": "u", "translation": "ou", "accept": ["u", "ou"] },
+            { "id": "ru-letter-kh", "audio": "audio/ru-letter-kh.mp3", "kind": "letter", "text": "Х х", "romanization": "kh", "translation": "kh (comme la jota espagnole)", "accept": ["kh", "h"] }
           ]
         },
         {
@@ -54,10 +54,10 @@
           "items": [
             { "id": "ru-mama", "audio": "audio/ru-mama.mp3", "kind": "word", "text": "мама", "romanization": "mama", "translation": "maman", "emoji": "👩" },
             { "id": "ru-kot", "audio": "audio/ru-kot.mp3", "kind": "word", "text": "кот", "romanization": "kot", "translation": "chat", "accept": ["le chat", "un chat"], "emoji": "🐈" },
-            { "id": "ru-metro", "kind": "word", "text": "метро", "romanization": "metro", "translation": "métro", "accept": ["le métro"], "emoji": "🚇" },
-            { "id": "ru-restoran", "kind": "word", "text": "ресторан", "romanization": "restoran", "translation": "restaurant", "accept": ["le restaurant", "un restaurant"], "emoji": "🍽️" },
-            { "id": "ru-taksi", "kind": "word", "text": "такси", "romanization": "taksi", "translation": "taxi", "accept": ["le taxi", "un taxi"], "emoji": "🚕" },
-            { "id": "ru-kofe", "kind": "word", "text": "кофе", "romanization": "kofe", "translation": "café", "accept": ["le café", "un café"], "emoji": "☕" }
+            { "id": "ru-metro", "audio": "audio/ru-metro.mp3", "kind": "word", "text": "метро", "romanization": "metro", "translation": "métro", "accept": ["le métro"], "emoji": "🚇" },
+            { "id": "ru-restoran", "audio": "audio/ru-restoran.mp3", "kind": "word", "text": "ресторан", "romanization": "restoran", "translation": "restaurant", "accept": ["le restaurant", "un restaurant"], "emoji": "🍽️" },
+            { "id": "ru-taksi", "audio": "audio/ru-taksi.mp3", "kind": "word", "text": "такси", "romanization": "taksi", "translation": "taxi", "accept": ["le taxi", "un taxi"], "emoji": "🚕" },
+            { "id": "ru-kofe", "audio": "audio/ru-kofe.mp3", "kind": "word", "text": "кофе", "romanization": "kofe", "translation": "café", "accept": ["le café", "un café"], "emoji": "☕" }
           ]
         }
       ]
@@ -76,9 +76,9 @@
             { "id": "ru-privet", "audio": "audio/ru-privet.mp3", "kind": "word", "text": "привет", "romanization": "privet", "translation": "salut", "accept": ["coucou", "bonjour"], "emoji": "👋" },
             { "id": "ru-zdravstvuyte", "audio": "audio/ru-zdravstvuyte.mp3", "kind": "word", "text": "здравствуйте", "romanization": "zdravstvuyte", "translation": "bonjour", "emoji": "🤝", "note": "Le premier « в » ne se prononce pas : « zdrastvouïtié »." },
             { "id": "ru-poka", "audio": "audio/ru-poka.mp3", "kind": "word", "text": "пока", "romanization": "poka", "translation": "salut (au revoir)", "accept": ["à plus", "salut", "au revoir"], "emoji": "👋" },
-            { "id": "ru-do-svidaniya", "kind": "phrase", "text": "до свидания", "romanization": "do svidaniya", "translation": "au revoir", "emoji": "🚪" },
+            { "id": "ru-do-svidaniya", "audio": "audio/ru-do-svidaniya.mp3", "kind": "phrase", "text": "до свидания", "romanization": "do svidaniya", "translation": "au revoir", "emoji": "🚪" },
             { "id": "ru-dobroye-utro", "audio": "audio/ru-dobroye-utro.mp3", "kind": "phrase", "text": "доброе утро", "romanization": "dobroye utro", "translation": "bonjour (le matin)", "accept": ["bonjour"], "emoji": "🌅" },
-            { "id": "ru-kak-dela", "kind": "phrase", "text": "как дела?", "romanization": "kak dela?", "translation": "comment ça va ?", "accept": ["ça va ?", "comment vas-tu ?"], "emoji": "🤔" }
+            { "id": "ru-kak-dela", "audio": "audio/ru-kak-dela.mp3", "kind": "phrase", "text": "как дела?", "romanization": "kak dela?", "translation": "comment ça va ?", "accept": ["ça va ?", "comment vas-tu ?"], "emoji": "🤔" }
           ]
         },
         {
@@ -88,10 +88,10 @@
           "items": [
             { "id": "ru-spasibo", "audio": "audio/ru-spasibo.mp3", "kind": "word", "text": "спасибо", "romanization": "spasibo", "translation": "merci", "emoji": "💐" },
             { "id": "ru-pozhaluysta", "audio": "audio/ru-pozhaluysta.mp3", "kind": "word", "text": "пожалуйста", "romanization": "pozhaluysta", "translation": "s'il te plaît", "accept": ["s'il vous plaît", "je t'en prie", "de rien"], "emoji": "🙏" },
-            { "id": "ru-da", "kind": "word", "text": "да", "romanization": "da", "translation": "oui", "emoji": "✅" },
+            { "id": "ru-da", "audio": "audio/ru-da.mp3", "kind": "word", "text": "да", "romanization": "da", "translation": "oui", "emoji": "✅" },
             { "id": "ru-net", "audio": "audio/ru-net.mp3", "kind": "word", "text": "нет", "romanization": "net", "translation": "non", "emoji": "❌" },
             { "id": "ru-izvinite", "audio": "audio/ru-izvinite.mp3", "kind": "word", "text": "извините", "romanization": "izvinite", "translation": "excusez-moi", "accept": ["pardon", "désolé"], "emoji": "✋" },
-            { "id": "ru-khorosho", "kind": "word", "text": "хорошо", "romanization": "khorosho", "translation": "bien", "accept": ["d'accord", "bon"], "emoji": "👍" }
+            { "id": "ru-khorosho", "audio": "audio/ru-khorosho.mp3", "kind": "word", "text": "хорошо", "romanization": "khorosho", "translation": "bien", "accept": ["d'accord", "bon"], "emoji": "👍" }
           ]
         },
         {
@@ -100,12 +100,12 @@
           "emoji": "🧑",
           "tip": "Le russe n'utilise pas le verbe « être » au présent : « я студент » = « je (suis) étudiant ».",
           "items": [
-            { "id": "ru-ya", "kind": "word", "text": "я", "romanization": "ya", "translation": "je", "accept": ["moi"], "emoji": "🧑" },
-            { "id": "ru-ty", "kind": "word", "text": "ты", "romanization": "ty", "translation": "tu", "accept": ["toi"], "emoji": "👉" },
-            { "id": "ru-menya-zovut", "kind": "phrase", "text": "меня зовут…", "romanization": "menya zovut…", "translation": "je m'appelle…", "emoji": "📛" },
+            { "id": "ru-ya", "audio": "audio/ru-ya.mp3", "kind": "word", "text": "я", "romanization": "ya", "translation": "je", "accept": ["moi"], "emoji": "🧑" },
+            { "id": "ru-ty", "audio": "audio/ru-ty.mp3", "kind": "word", "text": "ты", "romanization": "ty", "translation": "tu", "accept": ["toi"], "emoji": "👉" },
+            { "id": "ru-menya-zovut", "audio": "audio/ru-menya-zovut.mp3", "kind": "phrase", "text": "меня зовут…", "romanization": "menya zovut…", "translation": "je m'appelle…", "emoji": "📛" },
             { "id": "ru-kak-tebya-zovut", "audio": "audio/ru-kak-tebya-zovut.mp3", "kind": "sentence", "text": "как тебя зовут?", "romanization": "kak tebya zovut?", "translation": "comment t'appelles-tu ?", "accept": ["comment tu t'appelles ?"], "emoji": "❓" },
             { "id": "ru-ochen-priyatno", "audio": "audio/ru-ochen-priyatno.mp3", "kind": "phrase", "text": "очень приятно", "romanization": "ochen' priyatno", "translation": "enchanté", "accept": ["enchantée", "très agréable"], "emoji": "🤝" },
-            { "id": "ru-ya-iz-frantsii", "kind": "sentence", "text": "я из Франции", "romanization": "ya iz Frantsii", "translation": "je viens de France", "accept": ["je suis de france"], "emoji": "🇫🇷" }
+            { "id": "ru-ya-iz-frantsii", "audio": "audio/ru-ya-iz-frantsii.mp3", "kind": "sentence", "text": "я из Франции", "romanization": "ya iz Frantsii", "translation": "je viens de France", "accept": ["je suis de france"], "emoji": "🇫🇷" }
           ]
         }
       ]

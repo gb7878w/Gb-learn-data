@@ -24,12 +24,12 @@
           "emoji": "🔤",
           "tip": "ب, ت, ث et ن ont la même forme de base : seuls les points les distinguent.",
           "items": [
-            { "id": "ar-letter-alif", "kind": "letter", "text": "ا", "romanization": "alif", "translation": "a long (ā)", "accept": ["a", "alif"] },
-            { "id": "ar-letter-ba", "kind": "letter", "text": "ب", "romanization": "bāʾ", "translation": "b", "accept": ["b", "ba"] },
-            { "id": "ar-letter-ta", "kind": "letter", "text": "ت", "romanization": "tāʾ", "translation": "t", "accept": ["t", "ta"] },
-            { "id": "ar-letter-tha", "kind": "letter", "text": "ث", "romanization": "thāʾ", "translation": "th (comme l'anglais « think »)", "accept": ["th", "tha"] },
-            { "id": "ar-letter-nun", "kind": "letter", "text": "ن", "romanization": "nūn", "translation": "n", "accept": ["n", "nun"] },
-            { "id": "ar-letter-ya", "kind": "letter", "text": "ي", "romanization": "yāʾ", "translation": "y ou i long (ī)", "accept": ["y", "i", "ya"] }
+            { "id": "ar-letter-alif", "audio": "audio/ar-letter-alif.mp3", "kind": "letter", "text": "ا", "romanization": "alif", "translation": "a long (ā)", "accept": ["a", "alif"] },
+            { "id": "ar-letter-ba", "audio": "audio/ar-letter-ba.mp3", "kind": "letter", "text": "ب", "romanization": "bāʾ", "translation": "b", "accept": ["b", "ba"] },
+            { "id": "ar-letter-ta", "audio": "audio/ar-letter-ta.mp3", "kind": "letter", "text": "ت", "romanization": "tāʾ", "translation": "t", "accept": ["t", "ta"] },
+            { "id": "ar-letter-tha", "audio": "audio/ar-letter-tha.mp3", "kind": "letter", "text": "ث", "romanization": "thāʾ", "translation": "th (comme l'anglais « think »)", "accept": ["th", "tha"] },
+            { "id": "ar-letter-nun", "audio": "audio/ar-letter-nun.mp3", "kind": "letter", "text": "ن", "romanization": "nūn", "translation": "n", "accept": ["n", "nun"] },
+            { "id": "ar-letter-ya", "audio": "audio/ar-letter-ya.mp3", "kind": "letter", "text": "ي", "romanization": "yāʾ", "translation": "y ou i long (ī)", "accept": ["y", "i", "ya"] }
           ]
         },
         {
@@ -38,12 +38,12 @@
           "emoji": "✍️",
           "tip": "ا, د, ذ, ر, ز et و ne se lient jamais à la lettre qui les suit (à leur gauche).",
           "items": [
-            { "id": "ar-letter-dal", "kind": "letter", "text": "د", "romanization": "dāl", "translation": "d", "accept": ["d", "dal"] },
-            { "id": "ar-letter-dhal", "kind": "letter", "text": "ذ", "romanization": "dhāl", "translation": "dh (comme l'anglais « this »)", "accept": ["dh", "dhal"] },
-            { "id": "ar-letter-ra", "kind": "letter", "text": "ر", "romanization": "rāʾ", "translation": "r (roulé)", "accept": ["r", "ra"] },
-            { "id": "ar-letter-zay", "kind": "letter", "text": "ز", "romanization": "zāy", "translation": "z", "accept": ["z", "zay"] },
-            { "id": "ar-letter-waw", "kind": "letter", "text": "و", "romanization": "wāw", "translation": "w ou ou long (ū)", "accept": ["w", "ou", "u", "waw"] },
-            { "id": "ar-letter-mim", "kind": "letter", "text": "م", "romanization": "mīm", "translation": "m", "accept": ["m", "mim"] }
+            { "id": "ar-letter-dal", "audio": "audio/ar-letter-dal.mp3", "kind": "letter", "text": "د", "romanization": "dāl", "translation": "d", "accept": ["d", "dal"] },
+            { "id": "ar-letter-dhal", "audio": "audio/ar-letter-dhal.mp3", "kind": "letter", "text": "ذ", "romanization": "dhāl", "translation": "dh (comme l'anglais « this »)", "accept": ["dh", "dhal"] },
+            { "id": "ar-letter-ra", "audio": "audio/ar-letter-ra.mp3", "kind": "letter", "text": "ر", "romanization": "rāʾ", "translation": "r (roulé)", "accept": ["r", "ra"] },
+            { "id": "ar-letter-zay", "audio": "audio/ar-letter-zay.mp3", "kind": "letter", "text": "ز", "romanization": "zāy", "translation": "z", "accept": ["z", "zay"] },
+            { "id": "ar-letter-waw", "audio": "audio/ar-letter-waw.mp3", "kind": "letter", "text": "و", "romanization": "wāw", "translation": "w ou ou long (ū)", "accept": ["w", "ou", "u", "waw"] },
+            { "id": "ar-letter-mim", "audio": "audio/ar-letter-mim.mp3", "kind": "letter", "text": "م", "romanization": "mīm", "translation": "m", "accept": ["m", "mim"] }
           ]
         }
       ]
@@ -60,8 +60,8 @@
           "tip": "À « السَّلامُ عَلَيْكُم » on répond « وَعَلَيْكُمُ السَّلام ».",
           "items": [
             { "id": "ar-marhaban", "audio": "audio/ar-marhaban.mp3", "kind": "word", "text": "مَرْحَبًا", "romanization": "marḥaban", "translation": "bonjour", "accept": ["salut"], "emoji": "👋" },
-            { "id": "ar-salam-alaykum", "kind": "phrase", "text": "السَّلامُ عَلَيْكُم", "romanization": "as-salāmu ʿalaykum", "translation": "bonjour (la paix soit sur vous)", "accept": ["bonjour", "la paix soit sur vous"], "emoji": "🕊️" },
-            { "id": "ar-wa-alaykum-salam", "kind": "phrase", "text": "وَعَلَيْكُمُ السَّلام", "romanization": "wa-ʿalaykumu s-salām", "translation": "et sur vous la paix (réponse)", "accept": ["et sur vous la paix"], "emoji": "🤝" },
+            { "id": "ar-salam-alaykum", "audio": "audio/ar-salam-alaykum.mp3", "kind": "phrase", "text": "السَّلامُ عَلَيْكُم", "romanization": "as-salāmu ʿalaykum", "translation": "bonjour (la paix soit sur vous)", "accept": ["bonjour", "la paix soit sur vous"], "emoji": "🕊️" },
+            { "id": "ar-wa-alaykum-salam", "audio": "audio/ar-wa-alaykum-salam.mp3", "kind": "phrase", "text": "وَعَلَيْكُمُ السَّلام", "romanization": "wa-ʿalaykumu s-salām", "translation": "et sur vous la paix (réponse)", "accept": ["et sur vous la paix"], "emoji": "🤝" },
             { "id": "ar-sabah-al-khayr", "audio": "audio/ar-sabah-al-khayr.mp3", "kind": "phrase", "text": "صَباحُ الخَيْر", "romanization": "ṣabāḥu l-khayr", "translation": "bonjour (le matin)", "accept": ["bonjour"], "emoji": "🌅" },
             { "id": "ar-masa-al-khayr", "audio": "audio/ar-masa-al-khayr.mp3", "kind": "phrase", "text": "مَساءُ الخَيْر", "romanization": "masāʾu l-khayr", "translation": "bonsoir", "emoji": "🌇" },
             { "id": "ar-maa-salama", "audio": "audio/ar-maa-salama.mp3", "kind": "phrase", "text": "مَعَ السَّلامَة", "romanization": "maʿa s-salāma", "translation": "au revoir", "emoji": "🚪" }
@@ -73,11 +73,11 @@
           "emoji": "🙏",
           "items": [
             { "id": "ar-shukran", "audio": "audio/ar-shukran.mp3", "kind": "word", "text": "شُكْرًا", "romanization": "shukran", "translation": "merci", "emoji": "💐" },
-            { "id": "ar-afwan", "kind": "word", "text": "عَفْوًا", "romanization": "ʿafwan", "translation": "de rien", "accept": ["pardon", "je vous en prie"], "emoji": "😊" },
+            { "id": "ar-afwan", "audio": "audio/ar-afwan.mp3", "kind": "word", "text": "عَفْوًا", "romanization": "ʿafwan", "translation": "de rien", "accept": ["pardon", "je vous en prie"], "emoji": "😊" },
             { "id": "ar-min-fadlik", "audio": "audio/ar-min-fadlik.mp3", "kind": "phrase", "text": "مِنْ فَضْلِك", "romanization": "min faḍlik", "translation": "s'il te plaît", "accept": ["s'il vous plaît"], "emoji": "🙏" },
             { "id": "ar-naam", "audio": "audio/ar-naam.mp3", "kind": "word", "text": "نَعَم", "romanization": "naʿam", "translation": "oui", "emoji": "✅" },
             { "id": "ar-la", "audio": "audio/ar-la.mp3", "kind": "word", "text": "لا", "romanization": "lā", "translation": "non", "emoji": "❌" },
-            { "id": "ar-asif", "kind": "word", "text": "آسِف", "romanization": "āsif", "translation": "désolé", "accept": ["pardon"], "emoji": "😔", "note": "Au féminin : آسِفة (āsifa)." }
+            { "id": "ar-asif", "audio": "audio/ar-asif.mp3", "kind": "word", "text": "آسِف", "romanization": "āsif", "translation": "désolé", "accept": ["pardon"], "emoji": "😔", "note": "Au féminin : آسِفة (āsifa)." }
           ]
         },
         {
@@ -86,12 +86,12 @@
           "emoji": "🧑",
           "tip": "« Tu » change selon qu'on parle à un homme (أَنْتَ anta) ou à une femme (أَنْتِ anti).",
           "items": [
-            { "id": "ar-ana", "kind": "word", "text": "أَنا", "romanization": "anā", "translation": "je", "accept": ["moi"], "emoji": "🧑" },
+            { "id": "ar-ana", "audio": "audio/ar-ana.mp3", "kind": "word", "text": "أَنا", "romanization": "anā", "translation": "je", "accept": ["moi"], "emoji": "🧑" },
             { "id": "ar-anta", "audio": "audio/ar-anta.mp3", "kind": "word", "text": "أَنْتَ", "romanization": "anta", "translation": "tu (à un homme)", "accept": ["tu", "toi"], "emoji": "👨" },
             { "id": "ar-anti", "audio": "audio/ar-anti.mp3", "kind": "word", "text": "أَنْتِ", "romanization": "anti", "translation": "tu (à une femme)", "accept": ["tu", "toi"], "emoji": "👩" },
-            { "id": "ar-ismi", "kind": "phrase", "text": "اِسْمي…", "romanization": "ismī…", "translation": "je m'appelle…", "accept": ["mon nom est…"], "emoji": "📛" },
-            { "id": "ar-ma-ismuka", "kind": "sentence", "text": "ما اسْمُكَ؟", "romanization": "mā smuka?", "translation": "comment t'appelles-tu ?", "accept": ["comment tu t'appelles ?", "quel est ton nom ?"], "emoji": "❓" },
-            { "id": "ar-ana-min-faransa", "kind": "sentence", "text": "أَنا مِنْ فَرَنْسا", "romanization": "anā min faransā", "translation": "je viens de France", "accept": ["je suis de france"], "emoji": "🇫🇷" }
+            { "id": "ar-ismi", "audio": "audio/ar-ismi.mp3", "kind": "phrase", "text": "اِسْمي…", "romanization": "ismī…", "translation": "je m'appelle…", "accept": ["mon nom est…"], "emoji": "📛" },
+            { "id": "ar-ma-ismuka", "audio": "audio/ar-ma-ismuka.mp3", "kind": "sentence", "text": "ما اسْمُكَ؟", "romanization": "mā smuka?", "translation": "comment t'appelles-tu ?", "accept": ["comment tu t'appelles ?", "quel est ton nom ?"], "emoji": "❓" },
+            { "id": "ar-ana-min-faransa", "audio": "audio/ar-ana-min-faransa.mp3", "kind": "sentence", "text": "أَنا مِنْ فَرَنْسا", "romanization": "anā min faransā", "translation": "je viens de France", "accept": ["je suis de france"], "emoji": "🇫🇷" }
           ]
         }
       ]

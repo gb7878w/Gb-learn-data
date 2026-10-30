@@ -107,6 +107,20 @@
     "author": "Speaker: Back ache\nRecorder: Back ache",
     "license": "CC BY-SA 4.0"
   },
+  "en-good-morning": {
+    "source": "commons",
+    "title": "File:En-uk-good morning.ogg",
+    "page": "https://commons.wikimedia.org/wiki/File:En-uk-good_morning.ogg",
+    "author": "Association Shtooka, Judith Franck",
+    "license": "CC BY 3.0 us"
+  },
+  "en-good-night": {
+    "source": "commons",
+    "title": "File:En-uk-good night.ogg",
+    "page": "https://commons.wikimedia.org/wiki/File:En-uk-good_night.ogg",
+    "author": "Association Shtooka, Judith Franck",
+    "license": "CC BY 3.0 us"
+  },
   "en-goodbye": {
     "source": "lingualibre",
     "title": "File:LL-Q1860 (eng)-Grendelkhan-goodbye.wav",
@@ -142,6 +156,36 @@
     "speaker": "Adélaïde Calais WMFr",
     "author": "Speaker: Adélaïde Calais WMFr\nRecorder: Adélaïde Calais WMFr",
     "license": "CC BY-SA 4.0"
+  },
+  "en-how-are-you": {
+    "source": "commons",
+    "title": "File:En-uk-How are you.ogg",
+    "page": "https://commons.wikimedia.org/wiki/File:En-uk-How_are_you.ogg",
+    "author": "Association Shtooka, Judith Franck",
+    "license": "CC BY 3.0 us"
+  },
+  "en-how-much": {
+    "source": "piper",
+    "voice": "en_GB-cori-high"
+  },
+  "en-i-am": {
+    "source": "piper",
+    "voice": "en_GB-cori-high"
+  },
+  "en-i-would-like": {
+    "source": "piper",
+    "voice": "en_GB-cori-high"
+  },
+  "en-my-name-is": {
+    "source": "piper",
+    "voice": "en_GB-cori-high"
+  },
+  "en-nice-to-meet-you": {
+    "source": "commons",
+    "title": "File:En-uk-nice to meet you.ogg",
+    "page": "https://commons.wikimedia.org/wiki/File:En-uk-nice_to_meet_you.ogg",
+    "author": "Association Shtooka, Judith Franck",
+    "license": "CC BY 3.0 us"
   },
   "en-nine": {
     "source": "lingualibre",
@@ -224,6 +268,24 @@
     "author": "Speaker: ALFONSIUS26\nRecorder: ALFONSIUS26",
     "license": "CC0"
   },
+  "en-thank-you": {
+    "source": "commons",
+    "title": "File:En-uk-thank you.ogg",
+    "page": "https://commons.wikimedia.org/wiki/File:En-uk-thank_you.ogg",
+    "author": "Association Shtooka, Judith Franck",
+    "license": "CC BY 3.0 us"
+  },
+  "en-the-bill": {
+    "source": "commons",
+    "title": "File:En-uk-the bill.ogg",
+    "page": "https://commons.wikimedia.org/wiki/File:En-uk-the_bill.ogg",
+    "author": "Association Shtooka, Judith Franck",
+    "license": "CC BY 3.0 us"
+  },
+  "en-the-menu": {
+    "source": "piper",
+    "voice": "en_GB-cori-high"
+  },
   "en-three": {
     "source": "lingualibre",
     "title": "File:LL-Q150 (eng)-Exilexi-three.wav",
@@ -268,5 +330,9 @@
     "speaker": "Back ache",
     "author": "Speaker: Back ache\nRecorder: Back ache",
     "license": "CC BY-SA 4.0"
+  },
+  "en-you-are": {
+    "source": "piper",
+    "voice": "en_GB-cori-high"
   }
 }
